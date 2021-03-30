@@ -9,9 +9,10 @@
 }
 
 .intuos-button-02 {
-  background-image: url("../../../images/products/intuos/button-02.jpg");
+  padding-top: 32px;
   width: 100%;
-  height: 811px;
+  height: 700px;
+  text-align: center;
 }
 .intuos-button-03 {
   background-color: #fff;

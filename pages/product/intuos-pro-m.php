@@ -30,7 +30,7 @@
                 <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
                         <li class="hj-active"><button>인튜어스 프로</button></li>
                         <li><button>상세 페이지</button></li>
-                        <!-- <li><button>제품구성 설치방법</button></li> -->
+                        <li><button>제품 크기비교</button></li>
                         <li><button>제품 제원</button></li>
                         <!-- <li><button>분배기 or 젠더</button></li>
                         <li><button>구매 및 견적 상담</button></li> -->
@@ -40,7 +40,9 @@
                         <li class="hj-page-detail-image intuos-pro-button-01">
                             <img src="../../images/products/intuos-pro/190517_인튜어스-프로-온라인-페이지.jpg" alt="인튜어스 프로">
                         </li>
-                        <!-- <li class="hj-page-detail-image intuos-pro-button-02"></li> -->
+                        <li class="hj-page-detail-image intuos-pro-button-02">
+                            <img src="../../images/products/intuos-pro/Wacom_intuos_pro.jpg" alt="크기비교 이미지">
+                        </li>
                         <li class="hj-page-detail-image intuos-pro-button-03">
                         <table class="hj-product-spec-table">
                                 <tr>

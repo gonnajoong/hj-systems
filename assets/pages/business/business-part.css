@@ -15,6 +15,14 @@
   margin-bottom: 12px;
 }
 
+.business-part-wrap li > p.hj-text-under {
+  text-decoration: underline;
+}
+
+.business-part-wrap li > p.hj-text-under > strong {
+  font-weight: 600;
+}
+
 .business-part-wrap li .hj-business-sub-title {
   font-size: 24px;
   margin: 24px 0;
@@ -32,11 +40,11 @@
 }
 
 .business-part-01-wrap .business-part-01 {
-  height: 4700px;
+  height: 8000px;
 }
 
 .business-part-01-wrap .business-part-01-button-01 {
-  height: 3200px;
+  height: 9400px;
 }
 
 .business-part-01-wrap .business-part-01-button-05 {

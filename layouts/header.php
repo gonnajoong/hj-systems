@@ -39,8 +39,8 @@
                         <li class="hj-not-now"><a href="/admin/pages/product/one-by-wacom.php">원바이와콤</a></li>
                         <li class="hj-not-now"><a href="/admin/pages/product/intuos.php">인튜어스</a></li>
                         <li class="hj-not-now"><a href="/admin/pages/product/select-product-ip.php">인튜어스 프로</a></li>
-                        <li class="hj-not-now"><a href="/admin/pages/product/select-product-c.php">초보 액정 타블렛</a></li>
-                        <li class="hj-not-now"><a href="/admin/pages/product/select-product-cp.php">전문가 액정 타블렛</a></li>
+                        <li class="hj-not-now"><a href="/admin/pages/product/select-product-c.php">신티크</a></li>
+                        <li class="hj-not-now"><a href="/admin/pages/product/select-product-cp.php">신티크 프로</a></li>
                         <li class="hj-not-now"><a href="/admin/pages/product/mobile-studio.php">MSP (모바일)</a></li>
                     </ul>
                 </li>

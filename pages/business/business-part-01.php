@@ -29,10 +29,10 @@
                 <div class="hj-product-image">
                 <ul id="hjNonImageButton" class="hj-page-slide-button slick-dots">
                         <li class="hj-active"><button>학교 화상교육</button></li>
-                        <li><button>소프트웨어 구성</button></li>
-                        <li><button>안내</button></li>
-                        <li><button>제품 설치구성</button></li>
-                        <li><button>학과 사례</button></li>
+                        <li><button>취미생활</button></li>
+                        <li><button>번들 소프트웨어</button></li>
+                        <!-- <li><button>제품 설치구성</button></li> -->
+                        <!-- <li><button>학과 사례</button></li> -->
                     </ul>
                     <ul id="hjNonImageSlideWrap" class="hj-page-in-slide-wrap business-part-wrap business-part-01-wrap">
                         <li class="hj-page-detail-image business-part-01 hj-show">
@@ -71,8 +71,6 @@
                                     <span>펜 타블렛 와콤 인튜어스 자세히 보기</span>
                                 </button>
                             </a>
-                        </li>
-                        <li class="hj-page-detail-image business-part-01-button-01">
                             <h2>와콤 타블렛과 소프트웨어로 실시간 쌍방향 수업하기</h2>
                             <p>실시간 쌍방향 수업에 자주 사용되는 소프트웨어에는 구글 미트 (Google Meet), MS 팀즈 (Microsoft Teams), 줌 (Zoom), 구루미 (Gooroomee), 웹엑스 (Cisco Webex) 등이 있습니다. PC만 있다면 어느 곳이든지 훌륭한 온라인 교실이 되어주는 소프트웨어인데요. 이중 가장 많이 사용되는 구글 미트, MS 팀즈, 줌에서 어떻게 와콤 타블렛을 활용하면 좋을지 알아보도록 하겠습니다.</p>
                             <p class="hj-business-sub-title">1) 구글 미트( Google Meet) - PPT 공유하고 발표하기</p>
@@ -106,10 +104,59 @@
                                 </button>
                             </a>
                         </li>
+                        <li class="hj-page-detail-image business-part-01-button-01">
+                            <p class="hj-business-sub-title">집에서도 상상력과 창의력을 쑥쑥 키워줄</p>
+                            <h2>아이들과 함께 사용하기 좋은 와콤 타블렛</h2>
+                            <img src="/admin/images/business-part/business-part-01/business-12.jpg" alt="사업분야 이미지">
+                            <p>신종 코로나바이러스 감염증이 우리 일상 속으로 들어온 지 벌써 9개월, 여전히 사회적 거리두기가 계속되고, 원격 수업, 온라인 강의, 재택근무 등 집에서 지내는 시간이 많아지고 있습니다. 밖에 나가 뛰어놀 기회가 더욱 적어진 아이들은 하루종일 집안에 갇혀 답답해하고, 온종일 아이들과 시간을 보내야 하는 부모님들 역시 걱정이 이만저만이 아니죠.</p>
+                            <p>특히 원격 수업을 아이들이 잘 따라갈 수 있을지, 원격 수업 만으로 학습 효과가 있을지, 집에만 있는 아이들에게 창의력과 상상력을 키워줄 방법은 없는지 등등... 교육과 관련된 걱정이 많으실 텐데요. 이렇게 집에서 오랜 시간을 보내야 하는 아이들에게 도움이 되면서, 아이들과 함께 함께 사용하면 더욱 좋은 와콤 타블렛을 소개합니다.</P>
+                            <p class="hj-text-under"><strong>창의력 활동이 필요한 아이들</strong></p>
+                            <img src="/admin/images/business-part/business-part-01/business-13.jpg" alt="사업분야 이미지">
+                            <p>창의력이란 틀에 박힌 사고가 아닌, 색다르면서도 기발한 방식으로 생각하고 문제의 해결책을 찾아내는 능력을 말하는데요. 지속적이고 반복적인 교육과 학습을 통해 만들어지는 지식과 달리, 창의력은 누구에게나 잠재되어 있기에 이를 발견하고 키워주는 것이 중요합니다.</p>
+                            <img src="/admin/images/business-part/business-part-01/business-14.jpg" alt="사업분야 이미지">
+                            <p>아이의 창의력을 키워주기 위해서는 무엇보다 아이가 지닌 감정과 생각을 자유롭게 표현하고 행동할 수 있도록 격려하고 지지해주는 것이 필요합니다. 고정관념에서 벗어날 수 있도록 자율성을 주면 창의력은 저절로 자란다고 하죠.</p>
+                            <p>아이의 생각을 자유롭게 표현하는 것 중 하나는 그림을 그리는 것인데요. 자신이 상상하는 것을 자신만의 방법으로 그릴 수 있도록 해주는 것이 좋고, 어른의 눈과는 전혀 다른 형태와 색으로 표현하더라도 칭찬을 아끼지 않으며 지지해주는 것이 중요합니다.</p>
+                            <img src="/admin/images/business-part/business-part-01/business-15.jpg" alt="사업분야 이미지">
+                            <p>이럴 때 와콤 타블렛을 활용하면 아이의 창의력 발달에 많은 도움을 줄 수 있습니다. MS화이트보드나 뱀부 페이퍼와 같은 무료 어플을 활용해 다양한 펜, 도형 도구 등으로 자유롭게 그림을 그릴 수 있고, 클립스튜디오 페인트나 포토샵과 같은 전문 소프트웨어를 활용하면 훨씬 다양한 방법으로 표현할 수도 있습니다. 아이부터 어른까지 폭넓게 사용할 수 있죠.</p>
+                            <p>물론 두뇌 개발에 도움이 되는 글씨쓰기를 연습한다거나 수학 문제를 푼다거나, 집중력 향상과 스트레스 완화에 도움이 된다는 컬러링도 손쉽게 할 수 있습니다.</p>
+                            <img src="/admin/images/business-part/business-part-01/business-16.jpg" alt="사업분야 이미지">
+                            <p class="hj-text-under"><strong><a href="https://wacomkorea.tistory.com/1240">▶ MS 화이트보드 앱 자세히 보기</a></strong></p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkoreablog.com/1208">▶ 뱀부 페이퍼(Bamboo Paper) 앱 자세히 보기</a></strong></p>
+                            <p>또한 와콤 타블렛은 원격 수업이나 화상 회의 등에도 매우 유용하게 활용할 수 있습니다. 비대면 수업만으로 효과적인 학습을 한다는 것은 매우 어려운 일이지만, 학습에 장애가 될 필요는 없는데요. 마우스 대신 타블렛을 사용하면 필기도, 그림도, 메모도, 사진 편집이나 PPT 작성 등도 모두 빠르고 수월하게 할 수 있습니다.</p>
+                            <img src="/admin/images/business-part/business-part-01/business-17.jpg" alt="사업분야 이미지">
+                            <p>요즘은 아이들의 효과적인 학습을 위해 실시간 쌍방향 수업을 진행하는 곳도 많아지고 있는데 이럴 때도 진짜 연필처럼 자연스러운 사용이 가능해 큰 도움이 되죠.</p>
+                            <p>그렇다면 다양한 와콤 타블렛 제품 중 아이들과 함께 사용하기 좋은 타블렛에는 어떤 것들이 있을까요?</p>
+                            <img src="/admin/images/business-part/business-part-01/business-18.jpg" alt="사업분야 이미지">
+                            <P class="hj-text-under"><strong><a href="https://wacomkorea.tistory.com/1240">와콤 원 (Wacom One)</a></strong></p>
+                            <img src="/admin/images/business-part/business-part-01/business-19.jpg" alt="사업분야 이미지">
+                            <p><strong>와콤 원</strong>은 13인치 화면 위에 곧바로 필기를 하고, 드로잉을 할 수 있기에 초보자도 매우 쉽게 적응하여 사용할 수 있는 액정 타블렛인데요. 맥 OS나 윈도우 PC에 관계없이 자유롭게 사용할 수 있고 안드로이드 스마트폰(삼성 덱스모드 지원 기종)에도 연결해 사용할 수 있는 폭넓은 호환성을 보여주는 제품입니다.</p>
+                            <img src="/admin/images/business-part/business-part-01/business-20.jpg" alt="사업분야 이미지">
+                            <p>PPT, 워드, 웹화면 등을 띄워놓고 그 위에 주석을 달거나, 필기/메모 등을 할 수도 있는 것은 물론 사진/영상을 편집하거나, 웹툰, 일러스트 등을 그릴 수도 있어서 온라인 교육자, 화상 회의를 하는 회사원, 팀플을 자주 하는 대학생, 취미생활자, 창작 입문자, 아티스트 등 여러 분야의 사용자들에게 만족스러운 사용감을 보여주는데요.</p>
+                            <img src="/admin/images/business-part/business-part-01/business-21.jpg" alt="사업분야 이미지">
+                            <p>충전이 필요 없는 EMR(전자기공명) 기술의 펜을 사용해 간편하고, 종이 위에 펜으로 글씨를 쓰듯 자연스러운 필기감을 느낄 수 있어서 글씨 연습을 해야하는 어린 아이들이나 학생들이 사용하기에도 적합합니다.</p>
+                            <img src="/admin/images/business-part/business-part-01/business-01.jpg" alt="사업분야 이미지">
+                            <p>학업 노트를 작성하고, 수학 문제를 풀고, 스케치북을 사용하듯 그림을 그리고 색칠을 하는 것까지 와콤 원 하나로 모두 가능하다는 것 역시 큰 장점입니다. 언제든지 펜으로 자신이 생각하고 느끼는 것을 마음껏 표현할 수 있으니 상상력과 창의력도 쑥쑥 자라겠죠! :)</p>
+                            <p class="hj-text-under"><strong><a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=27230919&memberNo=39210295">▶ 와콤 원 자세히 보기</a></strong></p>
+                            <P class="hj-text-under"><strong>원 바이 와콤 (One by Wacom) 소형</strong></p>
+                            <img src="/admin/images/business-part/business-part-01/business-22.jpg" alt="사업분야 이미지">
+                            <p><strong>원 바이 와콤</strong>은 와콤 원과 다르게 화면이 없이 마우스 패드 형태로 되어 있어서 적응하는 시간이 조금 필요하지만, 작고 컴팩트하면서 매우 경제적인 것이 장점인 펜 타블렛입니다.</p>
+                            <p>실제 펜을 사용하듯 빠르고 자연스러운 필기와 사용감을 갖추면서 내구성이 좋고, 복잡한 기능 없이 펜 타블렛의 핵심 기능만 알차게 담아 아이들이 사용하기에도 좋은 실속형 제품이죠. 정확한 펜 터치로 정밀한 작업도 가능해 아이들이 자신의 생각과 감성을 표현하기에도 적합합니다.</p>
+                            <p>또한 A4 용지의 절반 정도밖에 되지 않는 크기에 250g의 가벼우면서도 슬림한 두께로 노트북과 함께 언제든 휴대하고 다니며 외부에서 사용할 수 있다는 것도 빼놓을 수 없겠네요! :)</p>
+                            <p class="hj-text-under"><strong><a href="https://store.wacom.kr/goods/goods_detail.asp?GOODS_SEQ=516&Val_Category=2&Val_Category_Group=27&SUB_GUBUN=#">▶ 원 바이 와콤 소형 자세히 보기</a></strong></p>
+                            <p class="hj-text-under"><strong>와콤 인튜어스 (Wacom Intuos) 소형</strong></p>
+                            <img src="/admin/images/business-part/business-part-01/business-23.jpg" alt="사업분야 이미지">
+                            <p>원 바이 와콤과 마찬가지로 화면이 없는 펜 타블렛 제품인 <strong>와콤 인튜어스</strong>는 조금 더 다양한 기능이 추가되어 훨씬 폭넓게 활용할 수 있는 제품입니다.</p>
+                            <img src="/admin/images/business-part/business-part-01/business-03.jpg" alt="사업분야 이미지">
+                            <p>특히 USB 케이블이 필요 없는 블루투스 무선 연결 모델을 선택할 수 있어서 책상 위를 깨끗하게 유지하며 사용할 수 있고, 타블렛 상단에 4개의 익스프레스 키를 제공해 평소 자주 사용하는 기능이 있다면 단축키로 지정해두고 더욱 빠르게 사용할 수 있습니다.</p>
+                            <p>원격 수업을 들을 때도, 온라인 강의를 할 때도, 마우스보다 훨씬 편하게 디지털 필기를 할 수 있고, 저 정밀하고 세밀하게 그림을 그릴 수 있습니다. 무엇보다 피스타치오 그린, 베리 핑크 등 파스텔톤의 예쁜 색상도 출시되어 있기에 자신만의 아기자기한 아이템을 좋아하는 아이들에게 좋은 매력 포인트가 될 수 있습니다.</p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkoreablog.com/942">▶ 와콤 인튜어스 자세히 보기</a></strong></p>
+                            <p>비록 마음껏 나가지 못하는 것이 답답한 요즘이지만, 오히려 아이의 호기심과 상상력을 자극하고 창의력을 마음껏 펼칠 수 있는 기회가 될 수 있는데요. 와콤 타블렛으로 자유로운 창작 활동은 물론 학습도구로도 유용하게 활용하며 이시기를 즐겁고 뜻깊게 보내보는 건 어떨까요? :)</p>
+                            <p>출처: https://wacomkoreablog.com/1277?category=837161 [Wacom Blog]</p>
+                        </li>
                         <li class="hj-page-detail-image business-part-01-button-02"></li>
                         <li class="hj-page-detail-image business-part-01-button-03"></li>
-                        <li class="hj-page-detail-image business-part-01-button-04"></li>
-                        <li class="hj-page-detail-image business-part-01-button-05"></li>
+                        <!-- <li class="hj-page-detail-image business-part-01-button-04"></li>
+                        <li class="hj-page-detail-image business-part-01-button-05"></li> -->
                     </ul>
                     <button class="hj-move-top">
                         <span>TOP</span>

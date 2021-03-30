@@ -33,7 +33,7 @@
                         <li><button>제품구성 설치방법</button></li>
                         <li><button>제품 제원</button></li>
                         <li><button>분배기 or 젠더</button></li>
-                        <li><button>구매 및 견적 상담</button></li>
+                        <!-- <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
                     <ul id="hjPageInSlideWrap" class="hj-page-in-slide-wrap product-wrap dtc-133-wrap">
                         <li class="hj-page-detail-image dtc-133 hj-show"></li>
@@ -133,7 +133,7 @@
                             </table>
                         </li>
                         <li class="hj-page-detail-image dtc-133-button-04"></li>
-                        <li class="hj-page-detail-image dtc-133-button-05"></li>
+                        <!-- <li class="hj-page-detail-image dtc-133-button-05"></li> -->
                     </ul>
                     <button class="hj-move-top">
                         <span>TOP</span>

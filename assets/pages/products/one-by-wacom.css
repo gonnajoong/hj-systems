@@ -9,16 +9,16 @@
 }
 
 .one-by-wacom-button-02 {
-  background-image: url("../../../images/products/one-by-wacom/button-02.jpg");
+  padding-top: 32px;
+  text-align: center;
   width: 100%;
-  height: 811px;
+  height: 600px;
 }
 .one-by-wacom-button-03 {
   background-color: #fff;
   width: 100%;
   text-align: center;
   padding-top: 100px;
-  height: 800px;
 }
 .one-by-wacom-button-04 {
   background-image: url("../../../images/products/one-by-wacom/button-04.jpg");

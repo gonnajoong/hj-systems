@@ -18,7 +18,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../../assets/index.css" />
 
-    <title>HJ SYSTEMS</title>
+    <title>HJ SYSTEMS | 인튜어스</title>
 </head>
 <body>
     <?php @include("../../layouts/header.php");?>
@@ -30,7 +30,7 @@
                 <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
                         <li class="hj-active"><button>인튜어스</button></li>
                         <li><button>상세 페이지</button></li>
-                        <!-- <li><button>제품구성 설치방법</button></li> -->
+                        <li><button>제품 크기비교</button></li>
                         <li><button>제품 제원</button></li>
                         <!-- <li><button>분배기 or 젠더</button></li>
                         <li><button>구매 및 견적 상담</button></li> -->
@@ -40,7 +40,9 @@
                         <li class="hj-page-detail-image intuos-button-01">
                             <img src="../../images/products/intuos/와콤 인튜어스_온라인상세페이지_20210112.jpg" alt="인튜어스">
                         </li>
-                        <!-- <li class="hj-page-detail-image intuos-button-02"></li> -->
+                        <li class="hj-page-detail-image intuos-button-02">
+                            <img src="../../images/products/intuos/Wacom_intuos.jpg" alt="크기비교 이미지">
+                        </li>
                         <li class="hj-page-detail-image intuos-button-03">
                         <table class="hj-product-spec-table">
                                 <tr class="hj-table-main-header">
