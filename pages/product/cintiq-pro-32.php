@@ -18,7 +18,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../../assets/index.css" />
 
-    <title>HJ SYSTEMS</title>
+    <title>HJ SYSTEMS | 신티크 프로 32</title>
 </head>
 <body>
     <?php @include("../../layouts/header.php");?>
@@ -28,19 +28,19 @@
             <section class="hj-product-content-wrap">
                 <div class="hj-product-image">
                 <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
-                        <li class="hj-active"><button>전문가 액정 타블렛</button></li>
+                        <li class="hj-active"><button>신티크 프로 32"</button></li>
                         <li><button>상세 페이지</button></li>
-                        <li><button>제품구성 설치방법</button></li>
+                        <!-- <li><button>제품구성 설치방법</button></li> -->
                         <li><button>제품 제원</button></li>
-                        <li><button>분배기 or 젠더</button></li>
-                        <li><button>구매 및 견적 상담</button></li>
+                        <!-- <li><button>분배기 or 젠더</button></li>
+                        <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
                     <ul id="hjPageInSlideWrap" class="hj-page-in-slide-wrap product-wrap cintiq-pro-wrap">
                         <li class="hj-page-detail-image cintiq-pro-32 hj-show"></li>
                         <li class="hj-page-detail-image cintiq-pro-button-01">
                             <img src="../../images/products/cintiq-pro/신티크프로32_수정.jpg" alt="신티크 프로">
                         </li>
-                        <li class="hj-page-detail-image cintiq-pro-button-02"></li>
+                        <!-- <li class="hj-page-detail-image cintiq-pro-button-02"></li> -->
                         <li class="hj-page-detail-image cintiq-pro-button-03">
                         <table class="hj-product-spec-table">
                                 <tr class="hj-table-main-header">
@@ -131,8 +131,8 @@
                                 </tr>
                             </table>
                         </li>
-                        <li class="hj-page-detail-image cintiq-pro-button-04"></li>
-                        <li class="hj-page-detail-image cintiq-pro-button-05"></li>
+                        <!-- <li class="hj-page-detail-image cintiq-pro-button-04"></li>
+                        <li class="hj-page-detail-image cintiq-pro-button-05"></li> -->
                         <button class="hj-move-top">
                             <span>TOP</span>
                         </button>

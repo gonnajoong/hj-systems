@@ -25,7 +25,7 @@
     <script type="text/javascript" src="../../pages/layouts/header.js"></script>
     <section class="hj-product-select-wrap">
         <article class="hj-product-select">
-          <h1>전문가 타블렛</h1>
+          <h1>인튜어스 프로</h1>
           <ul class="hj-product-select-list hj-product-list-triple">
             <li>
               <a href="/admin/pages/product/intuos-pro-s.php">

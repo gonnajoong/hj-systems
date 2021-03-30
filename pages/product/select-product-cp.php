@@ -18,20 +18,20 @@
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../../assets/index.css" />
 
-    <title>HJ SYSTEMS</title>
+    <title>HJ SYSTEMS | 와콤 신티크 프로</title>
 </head>
 <body>
     <?php @include("../../layouts/header.php");?>
     <script type="text/javascript" src="../../pages/layouts/header.js"></script>
     <section class="hj-product-select-wrap">
         <article class="hj-product-select">
-          <h1>전문가 액정 타블렛</h1>
+          <h1>와콤 신티크 프로</h1>
           <ul class="hj-product-select-list hj-product-list-triple">
             <li>
               <a href="/admin/pages/product/cintiq-pro-16.php">
                 <div class="hj-product-select-image hj-cintiq-pro-select-image-01">
                   <span>
-                    <h2>Wacom Cintiq Pro 16</h2>
+                    <h2>Wacom Cintiq Pro 16"</h2>
                     <p>
                     가장 큰 타블렛(자사 기준). 게임 개발 및 애니메이션을 위한 3D 모델링에 이상적입니다.
                     </p>
@@ -44,7 +44,7 @@
               <a href="/admin/pages/product/cintiq-pro-24.php">
                 <div class="hj-product-select-image hj-cintiq-pro-select-image-02">
                   <span>
-                    <h2>Wacom Cintiq Pro 24</h2>
+                    <h2>Wacom Cintiq Pro 24"</h2>
                     <p>
                     사진, 그래픽 및 광고 디자인 분야의 요구에 맞는 큰 작업 공간.
                     </p>
@@ -57,7 +57,7 @@
               <a href="/admin/pages/product/cintiq-pro-32.php">
                 <div class="hj-product-select-image hj-cintiq-pro-select-image-03">
                   <span>
-                    <h2>Wacom Cintiq Pro 32</h2>
+                    <h2>Wacom Cintiq Pro 32"</h2>
                     <p>
                     강력하지만 실용적인 크기. 가장 까다로운 채색 및 리터칭 작업에 이상적입니다.
                     </p>

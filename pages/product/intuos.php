@@ -28,19 +28,19 @@
             <section class="hj-product-content-wrap">
                 <div class="hj-product-image">
                 <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
-                        <li class="hj-active"><button>초보 입문자용</button></li>
+                        <li class="hj-active"><button>인튜어스</button></li>
                         <li><button>상세 페이지</button></li>
-                        <li><button>제품구성 설치방법</button></li>
+                        <!-- <li><button>제품구성 설치방법</button></li> -->
                         <li><button>제품 제원</button></li>
-                        <li><button>분배기 or 젠더</button></li>
-                        <li><button>구매 및 견적 상담</button></li>
+                        <!-- <li><button>분배기 or 젠더</button></li>
+                        <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
                     <ul id="hjPageInSlideWrap" class="hj-page-in-slide-wrap product-wrap intuos-wrap">
                         <li class="hj-page-detail-image intuos hj-show"></li>
                         <li class="hj-page-detail-image intuos-button-01">
                             <img src="../../images/products/intuos/와콤 인튜어스_온라인상세페이지_20210112.jpg" alt="인튜어스">
                         </li>
-                        <li class="hj-page-detail-image intuos-button-02"></li>
+                        <!-- <li class="hj-page-detail-image intuos-button-02"></li> -->
                         <li class="hj-page-detail-image intuos-button-03">
                         <table class="hj-product-spec-table">
                                 <tr class="hj-table-main-header">
@@ -148,8 +148,8 @@
                                 </tr>
                             </table>
                         </li>
-                        <li class="hj-page-detail-image intuos-button-04"></li>
-                        <li class="hj-page-detail-image intuos-button-05"></li>
+                        <!-- <li class="hj-page-detail-image intuos-button-04"></li>
+                        <li class="hj-page-detail-image intuos-button-05"></li> -->
                     </ul>
                     <button class="hj-move-top">
                         <span>TOP</span>

@@ -18,20 +18,20 @@
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../../assets/index.css" />
 
-    <title>HJ SYSTEMS</title>
+    <title>HJ SYSTEMS | 와콤 신티크</title>
 </head>
 <body>
     <?php @include("../../layouts/header.php");?>
     <script type="text/javascript" src="../../pages/layouts/header.js"></script>
     <section class="hj-product-select-wrap">
         <article class="hj-product-select">
-          <h1>초보 액정 타블렛</h1>
+          <h1>와콤 신티크</h1>
           <ul class="hj-product-select-list hj-product-list-triple">
             <li>
               <a href="/admin/pages/product/cintiq-16.php">
                 <div class="hj-product-select-image hj-cintiq-select-image-01">
                   <span>
-                    <h2>Wacom Cintiq 16</h2>
+                    <h2>Wacom Cintiq 16"</h2>
                     <p>
                       와콤 타블렛 기술력은 그대로<br/>
                       가격은 합리적으로
@@ -47,7 +47,7 @@
               <a href="/admin/pages/product/cintiq-22.php">
                 <div class="hj-product-select-image hj-cintiq-select-image-02">
                   <span>
-                    <h2>Wacom Cintiq 22</h2>
+                    <h2>Wacom Cintiq 22"</h2>
                     <p>
                       와콤 타블렛 기술력은 그대로<br/>
                       가격은 합리적으로

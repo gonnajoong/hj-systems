@@ -30,17 +30,17 @@
                     <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
                         <li class="hj-active"><button>원바이와콤</button></li>
                         <li><button>상세 페이지</button></li>
-                        <li><button>제품구성 설치방법</button></li>
+                        <!-- <li><button>제품구성 설치방법</button></li> -->
                         <li><button>제품 제원</button></li>
-                        <li><button>분배기 or 젠더</button></li>
-                        <li><button>구매 및 견적 상담</button></li>
+                        <!-- <li><button>분배기 or 젠더</button></li>
+                        <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
                     <ul id="hjPageInSlideWrap" class="hj-page-in-slide-wrap product-wrap one-by-wacom-wrap">
                         <li class="hj-page-detail-image one-by-wacom hj-show"></li>
                         <li class="hj-page-detail-image one-by-wacom-button-01">
                             <img src="../../images/products/one-by-wacom/OneByWacom_소형중형통합_Jan2019.jpg" alt="와콤원">
                         </li>
-                        <li class="hj-page-detail-image one-by-wacom-button-02"></li>
+                        <!-- <li class="hj-page-detail-image one-by-wacom-button-02"></li> -->
                         <li class="hj-page-detail-image one-by-wacom-button-03">
                             <table class="hj-product-spec-table">
                                 <tr class="hj-table-main-header">
@@ -120,8 +120,8 @@
                                 </tr>
                             </table>
                         </li>
-                        <li class="hj-page-detail-image dtc-133-button-04"></li>
-                        <li class="hj-page-detail-image dtc-133-button-05"></li>
+                        <!-- <li class="hj-page-detail-image dtc-133-button-04"></li>
+                        <li class="hj-page-detail-image dtc-133-button-05"></li> -->
                     </ul>
                     <button class="hj-move-top">
                         <span>TOP</span>
