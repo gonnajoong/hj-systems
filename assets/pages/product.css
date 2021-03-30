@@ -177,6 +177,10 @@
   border-left: 1px solid #ccc;
 }
 
+.hj-page-slide-button.slick-dots.slick-dots-fixed li button {
+  border-top: 0;
+}
+
 .hj-page-slide-button.slick-dots li:last-of-type button {
   border-right: 1px solid #ccc;
 }
