@@ -45,17 +45,10 @@
                     </ul>
                 </li>
                 <li class="hj-nav-list">
-                    <span>이벤트 및 공지사항</span>
-                    <ul class="hj-nav-list second-depth">
-                        <li class="hj-not-now"><a href="/admin/pages/event.php">이벤트</a></li>
-                        <li class="hj-not-now"><a href="/admin/pages/notice.php">공지사항</a></li>
-                    </ul>
+                    <span><a href="/admin/pages/notice.php">이벤트 및 공지사항</a></span>
                 </li>
                 <li class="hj-nav-list">
-                    <span>상담 문의</span>
-                    <ul class="hj-nav-list second-depth">
-                        <li class="hj-not-now"><a href="/admin/pages/corporate-counseling.php">기업 상담</a></li>
-                    </ul>
+                    <span><a href="/admin/pages/corporate-counseling.php">상담 문의</a></span>
                 </li>
             </ul>
         </nav>

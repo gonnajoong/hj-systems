@@ -2,7 +2,7 @@
     position: fixed;
     z-index: 10;
     display: block;
-    background-color: rgba(0,0,0,0.92);
+    background-color: #fff;
     color: #333;
     top: 0;
     left: 0;
@@ -11,6 +11,8 @@
     text-align: center;
     transition: all .2s ease-in-out;
     overflow: hidden;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0 16px;
 }
 
 #hjHeaderWrap.scroll-move {
@@ -26,10 +28,10 @@
 } */
 
 #hjHeaderWrap a {
-    color: #999;
+    color: #777;
 }
 #hjHeaderWrap a:hover {
-    color: #fff;
+    color: #222;
 }
 
 #hjHeaderWrap > nav {
@@ -50,7 +52,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/images/commons/company_logo_w.png");
+    background-image: url("/images/commons/company_logo.png");
 }
 
 #hjHeaderWrap > nav .hj-company-logo span {
@@ -77,12 +79,12 @@
     line-height: 60px;
     cursor: pointer;
     text-align: left;
-    color: #f5f5f7;
+    color: #777;
     transition: all .2s ease-in-out;
 }
 
 #hjHeaderWrap .hj-nav-wrap .hj-nav-list:hover {
-    color: #fff;
+    color: #222;
 }
 
 #hjHeaderWrap .hj-nav-wrap > .hj-nav-list::after {
@@ -104,6 +106,7 @@
 }
 
 #hjHeaderWrap .hj-nav-wrap .hj-nav-list > span {
+    display: inline-block;
     padding: 0 10px;
 }
 

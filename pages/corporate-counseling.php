@@ -26,14 +26,6 @@
     <section class="hj-text-list-wrap">
         <div class="hj-list-wrap">
             <article class="hj-image-list-wrap">
-                <img src="/admin/images/counseling/leaflet01.jpg" alt="리플렛1">
-                <img src="/admin/images/counseling/leaflet02.jpg" alt="리플렛2">
-                <img src="/admin/images/counseling/leaflet03.jpg" alt="리플렛3">
-                <img src="/admin/images/counseling/leaflet04.jpg" alt="리플렛4">
-                <img src="/admin/images/counseling/leaflet05.jpg" alt="리플렛5">
-                <img src="/admin/images/counseling/leaflet06.jpg" alt="리플렛6">
-                <img src="/admin/images/counseling/leaflet07.jpg" alt="리플렛7">
-                <img src="/admin/images/counseling/leaflet08.jpg" alt="리플렛8">
                 <img src="/admin/images/counseling/counseling.jpg" alt="상담1">
             </article>
         </div>

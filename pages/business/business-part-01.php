@@ -33,7 +33,6 @@
                         <li><button>안내</button></li>
                         <li><button>제품 설치구성</button></li>
                         <li><button>학과 사례</button></li>
-                        <li><button>상담 및 견적요청</button></li>
                     </ul>
                     <ul id="hjNonImageSlideWrap" class="hj-page-in-slide-wrap business-part-wrap business-part-01-wrap">
                         <li class="hj-page-detail-image business-part-01 hj-show">

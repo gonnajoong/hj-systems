@@ -33,15 +33,33 @@
                         <li><button>안내</button></li>
                         <li><button>제품 설치구성</button></li>
                         <li><button>학과 사례</button></li>
-                        <li><button>상담 및 견적요청</button></li>
                     </ul>
-                    <ul id="hjNonImageSlideWrap" class="hj-page-in-slide-wrap business-part-wrap business-part-03-wrap">
-                        <li class="hj-page-detail-image business-part-03"></li>
-                        <li class="hj-page-detail-image business-part-button-01"></li>
-                        <li class="hj-page-detail-image business-part-button-02"></li>
-                        <li class="hj-page-detail-image business-part-button-03"></li>
-                        <li class="hj-page-detail-image business-part-button-04"></li>
-                        <li class="hj-page-detail-image business-part-button-05"></li>
+                    <ul id="hjNonImageSlideWrap" class="hj-page-in-slide-wrap business-part-wrap business-part-02-wrap disable-class">
+                        <li class="hj-page-detail-image business-part-03 hj-ready-image hj-show">
+                            <div>
+                                준비중인 페이지 입니다.
+                            </div>
+                        </li>
+                        <li class="hj-page-detail-image business-part-button-01 hj-ready-image">
+                            <div>
+                                준비중인 페이지 입니다.
+                            </div>
+                        </li>
+                        <li class="hj-page-detail-image business-part-button-02 hj-ready-image">
+                            <div>
+                                준비중인 페이지 입니다.
+                            </div>
+                        </li>
+                        <li class="hj-page-detail-image business-part-button-03 hj-ready-image">
+                            <div>
+                                준비중인 페이지 입니다.
+                            </div>
+                        </li>
+                        <li class="hj-page-detail-image business-part-button-04 hj-ready-image">
+                            <div>
+                                준비중인 페이지 입니다.
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </section>
