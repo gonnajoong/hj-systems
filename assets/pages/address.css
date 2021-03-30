@@ -1,0 +1,134 @@
+#hjAddressWrap {
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+}
+
+#hjAddressWrap > h2 {
+  display: inline-block;
+  font-size: 34px;
+  font-weight: 500;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #2b478b;
+  margin: 100px 0;
+}
+
+#hjAddressWrap .hj-address-map-section {
+  width: 100%;
+  text-align: center;
+}
+
+#hjAddressWrap .hj-address-map {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 1600px;
+  height: 500px;
+}
+
+#hjAddressWrap .hj-address-map #hjKakaoMap {
+  width: 100%;
+  height: 100%;
+}
+
+#hjAddressWrap .hj-address-text-wrap {
+  display: inline-block;
+  width: 100%;
+  max-width: 1600px;
+  text-align: left;
+}
+
+#hjAddressWrap .hj-address-text {
+  margin: 25px 0;
+  padding: 25px 0;
+  border-top: 1px solid #2b478b;
+  border-bottom: 1px solid #2b478b;
+}
+
+#hjAddressWrap .hj-address-text li {
+  margin-bottom: 16px;
+}
+
+#hjAddressWrap .hj-address-text li:last-of-type {
+  margin: 0;
+}
+
+#hjAddressWrap .hj-address-text li strong {
+  font-weight: 500;
+  color: #2b478b;
+  margin-right: 8px;
+}
+
+#hjAddressWrap .hj-address-text li p {
+  display: inline;
+}
+
+#hjAddressWrap .hj-address-text + h3 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+#hjAddressWrap .hj-transport-table {
+  width: 100%;
+  border-top: 1px solid #2b478b;
+  border-bottom: 1px solid #2b478b;
+  margin-bottom: 50px;
+}
+
+#hjAddressWrap .hj-transport-table:last-of-type {
+  margin-bottom: 100px;
+}
+
+#hjAddressWrap .hj-transport-table tr:last-of-type th,
+#hjAddressWrap .hj-transport-table tr:last-of-type td {
+  border-bottom: 0;
+}
+
+#hjAddressWrap .hj-transport-table th,
+#hjAddressWrap .hj-transport-table td {
+  padding: 14px 0 14px 8px;
+}
+
+#hjAddressWrap .hj-transport-table th {
+  width: 20%;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #2b479a;
+  color: #fff;
+}
+
+#hjAddressWrap .hj-transport-table .hj-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#hjAddressWrap .hj-transport-table .hj-9th-metro {
+  background-image: url("../../images/icons/9th metro.png");
+}
+
+#hjAddressWrap .hj-transport-table .hj-blue-bus {
+  background-image: url("../../images/icons/blue_bus.png");
+}
+
+#hjAddressWrap .hj-transport-table .hj-green-bus {
+  background-image: url("../../images/icons/green-bus.png");
+}
+
+#hjAddressWrap .hj-transport-table th:last-of-type {
+  width: 80%;
+  border-right: 0;
+}
+
+#hjAddressWrap .hj-transport-table td {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+#hjAddressWrap .hj-transport-table td:last-of-type {
+  border-right: 0;
+}

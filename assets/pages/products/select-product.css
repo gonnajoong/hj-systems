@@ -1,0 +1,119 @@
+.hj-product-select-wrap {
+    width: 100%;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.hj-product-select-wrap .hj-product-select {
+    display: inline-block;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.hj-product-select-wrap .hj-product-select > h1 {
+    font-size: 36px;
+    color: #222;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.hj-product-select-wrap .hj-product-select .hj-product-select-list {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* 3 x n */
+.hj-product-select-wrap .hj-product-select .hj-product-select-list.hj-product-list-triple li {
+    width: 26.667%;
+    min-width: 300px;
+    height: 300px;
+    text-align: left;
+}
+
+.hj-product-select-wrap .hj-product-select .hj-product-select-list.hj-product-list-triple li:nth-of-type(1) {
+    margin: 0 5% 0 0;
+}
+
+.hj-product-select-wrap .hj-product-select .hj-product-select-list.hj-product-list-triple li:nth-of-type(2) {
+    margin: 0 2.5% 0;
+}
+
+.hj-product-select-wrap .hj-product-select .hj-product-select-list.hj-product-list-triple li:nth-of-type(3) {
+    margin: 0 0 0 2.5%;
+}
+
+.hj-product-select-wrap .hj-product-select .hj-product-select-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 36px;
+}
+
+.hj-product-select-wrap .hj-product-select .hj-product-select-image > span {
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease-in-out;
+    line-height: 1.6;
+}
+
+.hj-product-select-wrap .hj-product-select .hj-product-select-image:hover > span {
+    opacity: 1;
+    visibility: visible;
+}
+
+.hj-product-select-wrap .hj-product-select .hj-product-select-image h2{
+    font-size: 34px;
+    margin-bottom: 24px;
+}
+
+.hj-product-select-wrap .hj-product-select .hj-product-select-image p {
+    font-size: 24px;
+}
+
+.hj-product-select-wrap .hj-product-select .hj-product-select-image + p {
+    font-size: 24px;
+}
+
+.hj-product-select-wrap .hj-product-select .hj-cintiq-select-image-01 {
+    background-image: url("../../../images/products/cintiq/wacom-cintiq-16-i.jpg");
+}
+
+.hj-product-select-wrap .hj-product-select .hj-cintiq-select-image-02 {
+    background-image: url("../../../images/products/cintiq/wacom-cintiq-22-i.jpg");
+}
+
+.hj-product-select-wrap .hj-product-select .hj-intuos-pro-select-image-01 {
+    background-image: url("../../../images/products/intuos-pro/wacom intuos pro small.jpg");
+}
+
+.hj-product-select-wrap .hj-product-select .hj-intuos-pro-select-image-02 {
+    background-image: url("../../../images/products/intuos-pro/wacom intuos pro medium.jpg");
+}
+
+.hj-product-select-wrap .hj-product-select .hj-intuos-pro-select-image-03 {
+    background-image: url("../../../images/products/intuos-pro/wacom intuos pro large.jpg");
+}
+
+.hj-product-select-wrap .hj-product-select .hj-cintiq-pro-select-image-01 {
+    background-image: url("../../../images/products/cintiq-pro/wacom cintiq pro16 gallery g1.jpg");
+}
+.hj-product-select-wrap .hj-product-select .hj-cintiq-pro-select-image-02 {
+    background-image: url("../../../images/products/cintiq-pro/wacom cintiq pro 24 - g5.jpg");
+}
+.hj-product-select-wrap .hj-product-select .hj-cintiq-pro-select-image-03 {
+    background-image: url("../../../images/products/cintiq-pro/wacom cintiq pro 32 - g5.jpg");
+}

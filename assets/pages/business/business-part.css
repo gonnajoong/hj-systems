@@ -1,0 +1,46 @@
+.business-part-wrap li {
+  text-align: center;
+  max-width: 800px;
+}
+
+.business-part-wrap li > h2 {
+  margin: 60px 0 24px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.business-part-wrap li > p {
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.business-part-wrap li .hj-business-sub-title {
+  font-size: 24px;
+  margin: 24px 0;
+}
+
+.business-part-wrap li > img {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.business-part-wrap li .hj-submit-button {
+  max-width: 350px;
+  margin: 24px 0;
+}
+
+.business-part-01-wrap .business-part-01 {
+  height: 4700px;
+}
+
+.business-part-01-wrap .business-part-01-button-01 {
+  height: 3200px;
+}
+
+.business-part-01-wrap .business-part-01-button-05 {
+    padding-top: 62px;
+    height: 1300px;
+}
+

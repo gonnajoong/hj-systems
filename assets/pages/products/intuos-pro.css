@@ -1,0 +1,43 @@
+.intuos-pro-s {
+  background-image: url("../../../images/products/intuos-pro/wacom intuos pro gallery small g2.jpg");
+  width: 100%;
+  height: 811px;
+}
+
+.intuos-pro-m {
+  background-image: url("../../../images/products/intuos-pro/wacom intuos pro overview gallery g1.jpg");
+  width: 100%;
+  height: 811px;
+}
+
+.intuos-pro-l {
+  background-image: url("../../../images/products/intuos-pro/wacom intuos pro overview gallery g3.jpg");
+  width: 100%;
+  height: 811px;
+}
+
+.intuos-pro-button-01 {
+  width: 890px;
+}
+
+.intuos-pro-button-02 {
+  background-image: url("../../../images/products/intuos-pro/button-02.jpg");
+  width: 100%;
+  height: 811px;
+}
+.intuos-pro-button-03 {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+.intuos-pro-button-04 {
+  background-image: url("../../../images/products/intuos-pro/button-04.jpg");
+  width: 100%;
+  height: 811px;
+}
+.intuos-pro-button-05 {
+  width: 100%;
+  height: 811px;
+  background-image: url("../../../images/products/intuos-pro/button-05.jpg");
+}

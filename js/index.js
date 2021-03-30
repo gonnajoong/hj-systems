@@ -1,0 +1,1 @@
+$('head').append('<script src=\'./js/libs/slick.min.js\'><\/script>');

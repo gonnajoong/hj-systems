@@ -1,0 +1,22 @@
+.hj-text-list-wrap {
+    width: 100%;
+  text-align: center;
+}
+
+.hj-text-list-wrap .hj-list-wrap {
+    display: inline-block;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.hj-text-list-wrap .hj-list-wrap .hj-image-list-wrap {
+    max-width: 1200px;
+    display: inline-block;
+    padding: 76px 0;
+}
+
+.hj-text-list-wrap .hj-list-wrap .hj-image-list-wrap img {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 0;
+}

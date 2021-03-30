@@ -1,0 +1,31 @@
+.intuos {
+  background-image: url("../../../images/products/intuos/wacom-intuos-g4.jpg");
+  width: 100%;
+  height: 811px;
+}
+
+.intuos-button-01 {
+  width: 890px;
+}
+
+.intuos-button-02 {
+  background-image: url("../../../images/products/intuos/button-02.jpg");
+  width: 100%;
+  height: 811px;
+}
+.intuos-button-03 {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+.intuos-button-04 {
+  background-image: url("../../../images/products/intuos/button-04.jpg");
+  width: 100%;
+  height: 811px;
+}
+.intuos-button-05 {
+  width: 100%;
+  height: 811px;
+  background-image: url("../../../images/products/intuos/button-05.jpg");
+}

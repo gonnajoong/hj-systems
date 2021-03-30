@@ -1,0 +1,97 @@
+const hjLogin = $("#hjLogin");
+var hjFooterButton = $(".hj-footer-button");
+var hjNoticeCreateButton = $(".hj-notice-create-button");
+
+hjLogin.on('click', function(e){
+    e.preventDefault();
+
+    var u_id = $("#u_id").val();
+    var u_pw = $("#u_pw").val();
+
+    if(!u_id) {
+        alert('아이디를 입력해주세요');
+        return false;
+    } else if (!u_pw){
+        alert('비밀번호를 입력해주세요');
+        return false;
+    }
+
+    var form_data = {
+        u_id: u_id,
+        u_pw: u_pw,
+        is_ajax: 1
+    };
+
+    $.ajax({
+        url: '/admin/sessions/login.php',
+        type: 'POST',
+        data: form_data,
+        dataType: 'json',
+        success: function(data) {
+            if(data.data.status_code === 200) {
+                // var decodeData = JSON.stringify(data);
+                location.href = "/admin";
+            } else {
+                alert('아이디, 비밀번호를 확인해주세요');
+            }
+        },
+        error: function(err) {
+            var decodeErr = JSON.stringify(err);
+            console.log('error: '+ decodeErr);
+            alert('관리자에게 문의 부탁드립니다.');
+        }
+    });
+    return false;
+});
+
+function setCookie(name, value, expiredays) {
+    var cookie = name + "=" + escape(value) + "; path=/;"
+    if (typeof expiredays != 'undefined') {
+        var todayDate = new Date();
+        todayDate.setDate(todayDate.getDate() + expiredays);
+        cookie += "expires=" + todayDate.toGMTString() + ";"
+    }
+    document.cookie = cookie;
+}
+
+// todo 세션 쿠키 여부 확인 후 로그인 -> 로그아웃 으로 바꿀것
+function getCookie(cookieName){
+    var cookieValue=null;
+    if(document.cookie){
+        var array=document.cookie.split((escape(cookieName)+'='));
+        if(array.length >= 2){
+            var arraySub=array[1].split(';');
+            cookieValue=unescape(arraySub[0]);
+        }
+    }
+    return cookieValue;
+}
+
+function deleteCookie(name) {
+    setCookie(name, "", -1);
+}
+
+if(getCookie('HJ_SESSION') !== null) {
+    hjFooterButton.text("로그아웃");
+    hjFooterButton.attr("href", "#");
+    hjFooterButton.addClass("is-login");
+    hjNoticeCreateButton.css("display", "inline-block");
+} else {
+    hjFooterButton.text("로그인");
+    hjFooterButton.attr("href", "/admin/login.php");
+    hjFooterButton.removeClass("is-login");
+    hjNoticeCreateButton.css("display", "none");
+}
+
+
+hjFooterButton.on('click', function(e){
+    e.preventDefault();
+    if($(this).hasClass('is-login')){
+        console.log('del cookie');
+        deleteCookie("HJ_SESSION");
+        location.reload();
+    } else {
+        location.href = "/admin/login.php";
+    }
+});
+

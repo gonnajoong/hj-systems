@@ -1,0 +1,43 @@
+.hj-link-button {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  padding: 0 16px;
+  text-align: center;
+  background-color: #0085bb;
+  transition: all 0.2s ease-in-out;
+}
+
+.hj-link-button:hover {
+  background-color: #00b7ff;
+}
+
+.hj-link-button > span {
+  color: #fff;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 0;
+  border: 0;
+}
+
+.hj-submit-button {
+  width: 100%;
+  padding: 6px 12px;
+  text-align: center;
+  background-color: #000;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.hj-submit-button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.hj-submit-button > span {
+  display: block;
+}

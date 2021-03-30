@@ -1,0 +1,31 @@
+.cintiq {
+  background-image: url("../../../images/products/cintiq/wacom-cintiq-22-elevated-angle-view-right-g2.jpg");
+  width: 100%;
+  height: 811px;
+}
+
+.cintiq-button-01 {
+  width: 890px;
+}
+
+.cintiq-button-02 {
+  background-image: url("../../../images/products/cintiq/button-02.jpg");
+  width: 100%;
+  height: 811px;
+}
+.cintiq-button-03 {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+.cintiq-button-04 {
+  background-image: url("../../../images/products/cintiq/button-04.jpg");
+  width: 100%;
+  height: 811px;
+}
+.cintiq-button-05 {
+  width: 100%;
+  height: 811px;
+  background-image: url("../../../images/products/cintiq/button-05.jpg");
+}

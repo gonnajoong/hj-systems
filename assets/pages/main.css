@@ -1,0 +1,168 @@
+body {
+    text-align: center;
+}
+
+#hjMainWrap {
+    display: inline-block;
+    max-width: 1600px;
+    width: 100%;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#hjMainWrap .hj-slide-wrap {
+    position: relative;
+    display: inline-block;
+    max-width: 1600px;
+    width: 100%;
+    height: 500px;
+}
+
+#hjMainWrap .hj-slide-wrap .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -23px;
+    width: 46px;
+    height: 46px;
+    background-color: transparent;
+    border: 0;
+    font-size: 0;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#hjMainWrap .hj-slide-wrap .slick-prev {
+    left: 10px;
+    background-image: url('/images/icons/left-arrow.png');
+
+}
+#hjMainWrap .hj-slide-wrap .slick-next {
+    right: 10px;
+    background-image: url('/images/icons/right-arrow.png');
+}
+
+#hjMainWrap .hj-slide-wrap .hj-slide-image {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+#hjMainWrap .hj-slide-wrap .slick-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hjMainWrap .hj-slide-wrap .slick-dots li {
+    margin-left: 12px;
+}
+
+#hjMainWrap .hj-slide-wrap .slick-dots li:first-of-type {
+    margin: 0;
+}
+
+#hjMainWrap .hj-slide-wrap .slick-dots li button {
+    width: 16px;
+    height: 16px;
+    border: 0;
+    border-radius: 50%;
+    background-color: rgba(220, 220, 220, 0.7);
+    padding: 0;
+    font-size: 0;
+    transition: all .2s ease-in-out;
+}
+#hjMainWrap .hj-slide-wrap .slick-dots li.slick-active button {
+    background-color: rgba(0,0,0,0.7);
+}
+
+#hjMainWrap .hj-slide-wrap .hj-slide-image {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*#hjMainWrap .hj-slide-wrap .hj-slide-image:nth-of-type(3n - 2) {*/
+/*    background-color: gold;*/
+/*}*/
+/*#hjMainWrap .hj-slide-wrap .hj-slide-image:nth-of-type(3n - 1) {*/
+/*    background-color: green;*/
+/*}*/
+/*#hjMainWrap .hj-slide-wrap .hj-slide-image:nth-of-type(3n) {*/
+/*    background-color: pink;*/
+/*}*/
+
+#hjMainWrap .hj-company-abbr-wrap {
+    display: inline-block;
+    max-width: 1600px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list {
+    display: flex;
+    align-content: center;
+    margin-right: -20px;
+}
+
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li {
+    margin-right: 20px;
+    width: 20%;
+    height: 400px;
+}
+
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #d4d4d4;
+    border-radius: 6px;
+    text-align: left;
+}
+
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .hj-abbr-img {
+    display: block;
+    width: 100%;
+    height: 160px;
+    border-radius: 6px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .hj-abbr-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .hj-abbr-contents {
+    display: block;
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 0 10px;
+}
+
+/*제품군 이미지 스타일*/
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .smart-pad {
+    background-image: url("/images/products/smartPad/bamboo-slate-gallery-3-g.png");
+}
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .intuos {
+    background-image: url("/images/products/intuos/wacom intuos pro overview gallery g3.png");
+}
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .cintiq {
+    background-image: url("/images/products/cintiq/wacom cintiq pro 24 - g5.png");
+}
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .studio-pro {
+    background-image: url("/images/products/mobileStudioPro/wacom mobilestudio pro gallery 4.png");
+}
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .stylus {
+    background-image: url("/images/products/stylus/bamboo sketch gallery 4.png");
+}
