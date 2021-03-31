@@ -29,19 +29,25 @@
                 <div class="hj-product-image">
                 <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
                         <li class="hj-active"><button>MSP (모바일 스튜디오 프로)</button></li>
-                        <li><button>상세 페이지</button></li>
-                        <!-- <li><button>제품구성 설치방법</button></li> -->
+                        <li><button>모바일 스튜디오 13"L</button></li>
+                        <li><button>모바일 스튜디오 13"H</button></li>
+                        <li><button>모바일 스튜디오 16"H</button></li>
                         <li><button>제품 제원</button></li>
-                        <!-- <li><button>분배기 or 젠더</button></li>
-                        <li><button>구매 및 견적 상담</button></li> -->
+                        <li><button>분배기 or 젠더</button></li>
+                        <!-- <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
                     <ul id="hjPageInSlideWrap" class="hj-page-in-slide-wrap product-wrap mobile-studio-wrap">
                         <li class="hj-page-detail-image msp hj-show"></li>
                         <li class="hj-page-detail-image msp-button-01">
-                            <img src="../../images/products/msp" alt="모바일 스튜디오 프로">
+                            <img src="../../images/products/msp/mobile_studio_13_DTH-W1321L_20191206.jpg" alt="모바일 스튜디오 프로">
                         </li>
-                        <!-- <li class="hj-page-detail-image msp-button-02"></li> -->
+                        <li class="hj-page-detail-image msp-button-02">
+                            <img src="../../images/products/msp/mobile_studio_13_DTH-W1321H_20200227.jpg" alt="모바일 스튜디오 프로">
+                        </li>
                         <li class="hj-page-detail-image msp-button-03">
+                            <img src="../../images/products/msp/mobile_studio_16_DTH-W1621H_20191206.jpg" alt="모바일 스튜디오 프로">
+                        </li>
+                        <li class="hj-page-detail-image msp-button-04">
                         <table class="hj-product-spec-table">
                                 <tr class="hj-table-main-header">
                                     <th>제품명</th>
@@ -131,8 +137,7 @@
                                 </tr>
                             </table>
                         </li>
-                        <!-- <li class="hj-page-detail-image msp-button-04"></li>
-                        <li class="hj-page-detail-image msp-button-05"></li> -->
+                        <!-- <li class="hj-page-detail-image msp-button-05"></li> -->
                     </ul>
                     <button class="hj-move-top">
                         <span>TOP</span>

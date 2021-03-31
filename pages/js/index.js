@@ -113,6 +113,18 @@ hjPageSlideButton02.on('click', function(){
             var imgHeight = hjPageInSlideWrap02.children('img');
             hjPageInSlideWrap.css('height', (imgHeight.height()+250)+'px');
         }
+        if (hjPageInSlideWrap.hasClass('mobile-studio-wrap')) {
+            var imgHeight = hjPageInSlideWrap02.children('img');
+            hjPageInSlideWrap.css('height', (imgHeight.height())+'px');
+        }
+        if (hjPageInSlideWrap.hasClass('cintiq-pro-wrap')) {
+            var imgHeight = hjPageInSlideWrap02.children('img');
+            hjPageInSlideWrap.css('height', (imgHeight.height())+'px');
+        }
+        if (hjPageInSlideWrap.hasClass('cintiq-wrap')) {
+            var imgHeight = hjPageInSlideWrap02.children('img');
+            hjPageInSlideWrap.css('height', (imgHeight.height())+'px');
+        }
 
         hjPageInSlideWrap.css('height', hjPageInSlideWrap02.height()+'px');
         $('html, body').animate({scrollTop: 0 }, 'slow');
@@ -135,10 +147,18 @@ hjPageSlideButton03.on('click', function(){
         hjPageInSlideWrap04.removeClass('hj-show');
         hjPageInSlideWrap05.removeClass('hj-show');
 
-        var tableHeight = hjProductSpecTable.height();
+        if (hjPageInSlideWrap.hasClass('mobile-studio-wrap')) {
+            var imgHeight = hjPageInSlideWrap02.children('img');
+            hjPageInSlideWrap.css('height', (imgHeight.height())+'px');
+        } else if (hjPageInSlideWrap.hasClass('cintiq-pro-wrap')) {
+            var imgHeight = hjPageInSlideWrap02.children('img');
+            hjPageInSlideWrap.css('height', (imgHeight.height())+'px');
+        } else {
+            var tableHeight = hjProductSpecTable.height();
 
-        hjPageInSlideWrap.css('height', tableHeight+100+'px');
-        $('html, body').animate({scrollTop: 0 }, 'slow');
+            hjPageInSlideWrap.css('height', tableHeight+100+'px');
+            $('html, body').animate({scrollTop: 0 }, 'slow');
+        }
     }
 });
 
@@ -158,8 +178,17 @@ hjPageSlideButton04.on('click', function(){
         hjPageInSlideWrap04.addClass('hj-show');
         hjPageInSlideWrap05.removeClass('hj-show');
 
-        hjPageInSlideWrap.css('height', hjPageInSlideWrap04.height()+'px');
-        $('html, body').animate({scrollTop: 0 }, 'slow');
+        if (hjPageInSlideWrap.hasClass('mobile-studio-wrap')) {
+            var tableHeight = hjProductSpecTable.height();
+            hjPageInSlideWrap.css('height', tableHeight+100+'px');
+            $('html, body').animate({scrollTop: 0 }, 'slow');
+        } else if (hjPageInSlideWrap.hasClass('cintiq-pro-wrap')) {
+            var tableHeight = hjProductSpecTable.height();
+            hjPageInSlideWrap.css('height', tableHeight+100+'px');
+        } else {
+            hjPageInSlideWrap.css('height', hjPageInSlideWrap04.height()+'px');
+            $('html, body').animate({scrollTop: 0 }, 'slow');
+        }
     }
 });
 

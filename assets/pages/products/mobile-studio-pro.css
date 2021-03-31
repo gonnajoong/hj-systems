@@ -9,24 +9,19 @@
 }
 
 .msp-button-02 {
-  background-image: url("../../../images/products/msp/button-02.jpg");
-  width: 100%;
-  height: 811px;
+  width: 890px;
 }
 .msp-button-03 {
+  width: 890px;
+}
+.msp-button-04 {
   background-color: #fff;
   width: 100%;
   text-align: center;
   padding-top: 100px;
   height: 800px;
 }
-.msp-button-04 {
-  background-image: url("../../../images/products/msp/button-04.jpg");
-  width: 100%;
-  height: 811px;
-}
 .msp-button-05 {
   width: 100%;
   height: 811px;
-  background-image: url("../../../images/products/msp/button-05.jpg");
 }
