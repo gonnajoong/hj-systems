@@ -26,12 +26,12 @@
                         <li class="hj-not-now"><a href="/admin/pages/business/business-part-05.html"></a></li> -->
                     </ul>
                 </li>
-                <li class="hj-nav-list">
+                <!-- <li class="hj-nav-list">
                     <span>자료실</span>
                     <ul class="hj-nav-list second-depth">
                         <li class="hj-not-now"><a href="/admin/pages/data-room.php">자료실</a></li>
                     </ul>
-                </li>
+                </li> -->
                 <li class="hj-nav-list">
                     <span>제품소개</span>
                     <ul class="hj-nav-list second-depth">
