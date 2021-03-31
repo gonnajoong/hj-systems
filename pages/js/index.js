@@ -110,7 +110,8 @@ hjPageSlideButton02.on('click', function(){
         hjPageInSlideWrap04.removeClass('hj-show');
         hjPageInSlideWrap05.removeClass('hj-show');
 
-        hjPageInSlideWrap.css('height', hjPageInSlideWrap02.height()+'px');
+        var imgHeight = hjPageInSlideWrap02.children('img');
+        hjPageInSlideWrap.css('height', imgHeight.height()+'px');
         $('html, body').animate({scrollTop: 0 }, 'slow');
     }
 });

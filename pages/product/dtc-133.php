@@ -18,7 +18,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../../assets/index.css" />
 
-    <title>HJ SYSTEMS</title>
+    <title>HJ SYSTEMS | 원바이와콤</title>
 </head>
 <body>
     <?php @include("../../layouts/header.php");?>
@@ -40,7 +40,15 @@
                         <li class="hj-page-detail-image dtc-133-button-01">
                             <img src="../../images/products/dtc-133/와콤원_온라인상세페이지_non creative_20210118.jpg" alt="와콤원">
                         </li>
-                        <li class="hj-page-detail-image dtc-133-button-02"></li>
+                        <li class="hj-page-detail-image dtc-133-button-02">
+                            <img src="../../images/products/dtc-133/dtc_133_guide_01.jpg" alt="설치 방법">
+                            <button class="hj-submit-button">
+                                <a href="../../pdfs/B2B 와콤원 멀티스크린연결방법_전단_20210107.pdf" download>와콤원 멀티스크린 가이드 다운로드</a>
+                            </button>
+                            <button class="hj-submit-button">
+                                <a href="../../pdfs/210121_와콤 원 전단지_A4.pdf" download>와콤원 연결 가이드 다운로드</a>
+                            </button>
+                        </li>
                         <li class="hj-page-detail-image dtc-133-button-03">
                             <table class="hj-product-spec-table">
                                 <tr class="hj-table-main-header">

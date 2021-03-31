@@ -9,10 +9,21 @@
 }
 
 .dtc-133-button-02 {
-  background-image: url("../../../images/products/dtc-133/button-02.jpg");
   width: 100%;
-  height: 811px;
+  padding-top: 36px;
+  text-align: center;
 }
+
+.dtc-133-button-02 img {
+  max-width: 800px;
+}
+
+.dtc-133-button-02 .hj-submit-button {
+  max-width: 250px;
+  position: absolute;
+  
+}
+
 .dtc-133-button-03 {
   background-color: #fff;
   width: 100%;
@@ -20,12 +31,10 @@
   padding-top: 100px;
 }
 .dtc-133-button-04 {
-  background-image: url("../../../images/products/dtc-133/button-04.jpg");
   width: 100%;
   height: 811px;
 }
 .dtc-133-button-05 {
   width: 100%;
   height: 811px;
-  background-image: url("../../../images/products/dtc-133/button-05.jpg");
 }
