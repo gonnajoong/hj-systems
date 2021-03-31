@@ -191,7 +191,9 @@
                             <p class="hj-text-under"><strong><a href="https://account.wacom.com/ko-kr/sign-in?returnUrl=/ko-kr">▶ Wacom ID 등록하기 (http://account.wacom.com/ko-kr)</a></strong></p>
                             <p class="hj-text-under"><strong><a href="https://store.wacom.kr/index.asp">▶ 와콤 타블렛 구매하기</a></strong></p>
                             <p class="hj-text-under"><strong><a href="https://wacomkoreablog.com/category/Support/%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8%20%EB%A7%A4%EC%9E%A5">▶ 전국 와콤스토어 자세히보기</a></strong></p>
-                            
+                            <p>
+                                <a href="https://wacomkoreablog.com/1195">출처: https://wacomkoreablog.com/1195 [Wacom Blog]</a>
+                            </p>
                         </li>
                         <!-- <li class="hj-page-detail-image business-part-01-button-03"></li> -->
                         <!-- <li class="hj-page-detail-image business-part-01-button-04"></li>

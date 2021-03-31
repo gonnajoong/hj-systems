@@ -13,5 +13,7 @@
 @import url(./pages/products/one-by-wacom.css);
 @import url(./pages/business/business-part.css);
 @import url(./pages/notice-board.css);
+@import url(./pages/notice-detail.css);
+@import url(./pages/notice-edit.css);
 @import url(./pages/login.css);
 @import url(./pages/counseling.css);

@@ -26,26 +26,26 @@
     <section class="hj-notice-detail-wrap">
         <article class="hj-notice-detail">
             <ul>
-                <li>
-                    <span>분류</span>
-                    <span>제목</span>
-                    <span>시간</span>
+                <li class="hj-notice-top">
+                    <span>공지</span>
+                    <span>제목 테스트</span>
+                    <span>2021-03-31 18:24:47</span>
                 </li>
                 <li class="hj-contents-wrap">
                     <!-- 이미지, 내용 출력 -->
                     이미지 혹은 내용
                 </li>
             </ul>
-            <div>
+            <div class="hj-button-wrap">
                 <a href="">
-                    <button>목록</button>
+                    <button class="hj-white">목록</button>
                 </a>
                 <!-- 로그인 유무에 따라 수정 및 삭제 버튼 등장 -->
                 <a href="">
-                    <button>수정</button>
+                    <button class="hj-black">수정</button>
                 </a>
                 <a href="">
-                    <button>삭제</button>
+                    <button class="hj-black">삭제</button>
                 </a>
             </div>
         </article>
