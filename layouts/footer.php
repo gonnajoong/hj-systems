@@ -8,7 +8,7 @@
                     <span>FAX : <a href="tel:02-2658-6659">02-2658-6659</a></span>
                 </p>
                 <p>
-                    <span>E-mail : <a href="email:yjkim@hjsystems.co.kr">yjkim@hjsystems.co.kr</a></span>
+                    <span>통신판매업신고번호 : 2019-서울강서-2253</span>
                     <span>사업자 등록번호 : 141-81-48231</span>
                 </p>
                 <p>
