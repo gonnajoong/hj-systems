@@ -88,7 +88,6 @@ hjPageSlideButton01.on('click', function(){
         hjPageInSlideWrap05.removeClass('hj-show');
 
         var imgHeight = hjPageInSlideWrap01.children('img');
-
         hjPageInSlideWrap.css('height', imgHeight.height()+'px');
         $('html, body').animate({scrollTop: 0 }, 'slow');
     }
@@ -110,8 +109,12 @@ hjPageSlideButton02.on('click', function(){
         hjPageInSlideWrap04.removeClass('hj-show');
         hjPageInSlideWrap05.removeClass('hj-show');
 
-        var imgHeight = hjPageInSlideWrap02.children('img');
-        hjPageInSlideWrap.css('height', imgHeight.height()+'px');
+        if(hjPageInSlideWrap.hasClass('dtc-133-wrap')) {
+            var imgHeight = hjPageInSlideWrap02.children('img');
+            hjPageInSlideWrap.css('height', (imgHeight.height()+250)+'px');
+        }
+
+        hjPageInSlideWrap.css('height', hjPageInSlideWrap02.height()+'px');
         $('html, body').animate({scrollTop: 0 }, 'slow');
     }
 });

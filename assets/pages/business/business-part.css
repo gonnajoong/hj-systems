@@ -39,6 +39,10 @@
   margin: 24px 0;
 }
 
+.business-part-wrap li .align-center {
+  text-align: center;
+}
+
 .business-part-01-wrap .business-part-01 {
   height: 8000px;
 }

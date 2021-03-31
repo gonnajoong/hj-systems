@@ -27,7 +27,7 @@
     <section id="hjMainWrap" class="hj-main-wrap">
         <article class="hj-slide-wrap">
             <div class="hj-slide-image" style="background-image: url('/admin/images/banners/hj_illust_banner_03.jpg');"></div>
-            <div class="hj-slide-image" style="background-image: url('https://wcm-cdn.wacom.com/-/media/images/products/slides/gallery images/intuos pro overview/wacom intuos pro overview gallery g4.jpg?h=640&la=ko&w=960&rev=3d18c60127d04220b822313084f534e3&hash=0AA72A46FC911FAFC25E72DD687953AA');"></div>
+            <div class="hj-slide-image" style="background-image: url('/admin/images/banners/wacom-one_banner.jpg');"></div>
             <div class="hj-slide-image" style="background-image: url('https://wcm-cdn.wacom.com/-/media/images/products/pen computers/mobilestudio pro 1-5/gallery/wacom mobilestudio pro gallery 2.jpg?h=640&la=ko&w=960&hash=A3E41D07EE8D12A9B24512B4D41F417D')"></div>
         </article>
         <article class="hj-company-abbr-wrap">
@@ -50,6 +50,7 @@
                 </li>
                 <li data-aos="fade-up" data-aos-duration="900">
                     <a href="http://www.hjsystems.co.kr/admin/pages/notice.php">
+                    <!-- Copyright holder www.flaticon.com -->
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-03"></div>
                             <p class="hj-abbr-title">이벤트 및 공지사항 바로가기</p>

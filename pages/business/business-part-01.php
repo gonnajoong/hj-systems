@@ -103,9 +103,12 @@
                                     <span>줌 클라이언트 다운 받기</span>
                                 </button>
                             </a>
+                            <p>
+                            <a href="https://wacomkoreablog.com/1275?category=837161">출처: https://wacomkoreablog.com/1275?category=837161 [Wacom Blog]</a>
+                            </p>
                         </li>
                         <li class="hj-page-detail-image business-part-01-button-01">
-                            <p class="hj-business-sub-title">집에서도 상상력과 창의력을 쑥쑥 키워줄</p>
+                            <p class="hj-business-sub-title align-center">집에서도 상상력과 창의력을 쑥쑥 키워줄</p>
                             <h2>아이들과 함께 사용하기 좋은 와콤 타블렛</h2>
                             <img src="/admin/images/business-part/business-part-01/business-12.jpg" alt="사업분야 이미지">
                             <p>신종 코로나바이러스 감염증이 우리 일상 속으로 들어온 지 벌써 9개월, 여전히 사회적 거리두기가 계속되고, 원격 수업, 온라인 강의, 재택근무 등 집에서 지내는 시간이 많아지고 있습니다. 밖에 나가 뛰어놀 기회가 더욱 적어진 아이들은 하루종일 집안에 갇혀 답답해하고, 온종일 아이들과 시간을 보내야 하는 부모님들 역시 걱정이 이만저만이 아니죠.</p>
@@ -151,7 +154,9 @@
                             <p>원격 수업을 들을 때도, 온라인 강의를 할 때도, 마우스보다 훨씬 편하게 디지털 필기를 할 수 있고, 저 정밀하고 세밀하게 그림을 그릴 수 있습니다. 무엇보다 피스타치오 그린, 베리 핑크 등 파스텔톤의 예쁜 색상도 출시되어 있기에 자신만의 아기자기한 아이템을 좋아하는 아이들에게 좋은 매력 포인트가 될 수 있습니다.</p>
                             <p class="hj-text-under"><strong><a href="https://wacomkoreablog.com/942">▶ 와콤 인튜어스 자세히 보기</a></strong></p>
                             <p>비록 마음껏 나가지 못하는 것이 답답한 요즘이지만, 오히려 아이의 호기심과 상상력을 자극하고 창의력을 마음껏 펼칠 수 있는 기회가 될 수 있는데요. 와콤 타블렛으로 자유로운 창작 활동은 물론 학습도구로도 유용하게 활용하며 이시기를 즐겁고 뜻깊게 보내보는 건 어떨까요? :)</p>
-                            <p>출처: https://wacomkoreablog.com/1277?category=837161 [Wacom Blog]</p>
+                            <p>
+                                <a href="https://wacomkoreablog.com/1277?category=837161">출처: https://wacomkoreablog.com/1277?category=837161 [Wacom Blog]</a>
+                            </p>
                         </li>
                         <li class="hj-page-detail-image business-part-01-button-02"></li>
                         <li class="hj-page-detail-image business-part-01-button-03"></li>
