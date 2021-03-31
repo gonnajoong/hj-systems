@@ -1,4 +1,5 @@
-hjNoticeCreateButton.on("click", function(){
+var hjNotiCreate = ".hj-notice-create-button";
+$(document).on("click", hjNotiCreate, function(){
     if(getCookie('HJ_SESSION')){
         // 공지사항 등록 페이지로 이동
         location.href = "/admin/pages/notice-edit.php";

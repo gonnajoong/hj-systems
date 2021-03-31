@@ -1,6 +1,7 @@
 const hjLogin = $("#hjLogin");
 var hjFooterButton = $(".hj-footer-button");
 var hjNoticeCreateButton = $(".hj-notice-create-button");
+const hjBoardListWrap = $(".hj-board-list-wrap");
 
 hjLogin.on('click', function(e){
     e.preventDefault();
@@ -75,12 +76,13 @@ if(getCookie('HJ_SESSION') !== null) {
     hjFooterButton.text("로그아웃");
     hjFooterButton.attr("href", "#");
     hjFooterButton.addClass("is-login");
+    hjBoardListWrap.append("<button class='hj-notice-create-button'>작성</button>");
     hjNoticeCreateButton.css("display", "inline-block");
 } else {
     hjFooterButton.text("로그인");
     hjFooterButton.attr("href", "/admin/login.php");
     hjFooterButton.removeClass("is-login");
-    hjNoticeCreateButton.css("display", "none");
+    // hjNoticeCreateButton.css("display", "none");
 }
 
 

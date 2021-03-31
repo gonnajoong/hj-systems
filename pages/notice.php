@@ -46,7 +46,7 @@
                     </tbody>
                 </table>
                 <!-- TODO 공지사항 목록 가져오는 스크립트 추가 및 공지사항 없을때 외형 추가할 것 -->
-            <button class="hj-notice-create-button">작성</button>
+            
             </article>
             <article class="hj-pagination-wrap">
                 <ul>
