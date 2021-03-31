@@ -50,7 +50,6 @@
                 </li>
                 <li data-aos="fade-up" data-aos-duration="900">
                     <a href="http://www.hjsystems.co.kr/admin/pages/notice.php">
-                    <!-- Copyright holder www.flaticon.com -->
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-03"></div>
                             <p class="hj-abbr-title">이벤트 및 공지사항 바로가기</p>
