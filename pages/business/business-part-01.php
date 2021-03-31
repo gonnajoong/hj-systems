@@ -158,10 +158,44 @@
                                 <a href="https://wacomkoreablog.com/1277?category=837161">출처: https://wacomkoreablog.com/1277?category=837161 [Wacom Blog]</a>
                             </p>
                         </li>
-                        <li class="hj-page-detail-image business-part-01-button-02"></li>
-                        <li class="hj-page-detail-image business-part-01-button-03"></li>
+                        <li class="hj-page-detail-image business-part-01-button-02">
+                            <h2>와콤 타블렛 제품별 번들 소프트웨어 총정리</h2>
+                            <p>와콤 타블렛을 구매하면 다양한 창작용, 교육용 소프트웨어를 무료로 사용할 수 있습니다. 와콤은 어도비, 클립스튜디오, 코렐 등 창작용 소프트웨어부터 익스플레인 에브리씽, 림누 등 교육용 소프트웨어까지 각 제품별로 다양한 프리미엄 소프트웨어를 번들로 제공합니다. 제품별로 제공되는 번들 소프트웨어의 종류를 소개합니다.</p>
+                            <img src="/admin/images/business-part/business-part-01/business-24.png" alt="번들 소프트웨어 이미지">
+                            <img src="/admin/images/business-part/business-part-01/business-25.png" alt="번들 소프트웨어 이미지">
+                            <p class="hj-business-sub-title">1. 드로잉 소프트웨어</p>
+                            <p>예비 웹툰 작가, 만화가, 일러스트레이터, 디자이너 등 디지털 드로잉을 원활하게 돕는 드로잉 전용 소프트웨어</p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkorea.tistory.com/1296">▶ 클립스튜디오 페인트 PRO 자세히 보기</a></strong></p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkoreablog.com/1190">▶ 클립스튜디오 페인트 EX 자세히 보기</a></strong></p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkoreablog.com/1178">▶ 어도비 프레스코 자세히 보기</a></strong></p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkorea.tistory.com/1293">▶ 코렐 페인터 에센셜 7 자세히 보기</a></strong></p>
+                            <p class="hj-business-sub-title">2. 교육용 소프트웨어</p>
+                            <p>온라인 강의, 원격수업, 쌍방향수업 등 비대면 교육에 유용한 소프트웨어</p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkoreablog.com/1291">▶ 익스플레인 에브리씽 자세히 보기</a></strong></p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkoreablog.com/1291">▶ 림누 자세히 보기</a></strong></p>
+                            <p class="hj-business-sub-title">3. 동영상 편집 소프트웨어</p>
+                            <p>세련되고 완성도 높은 영상 컨텐츠들 만들기 위한 소프트웨어</p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkorea.tistory.com/1294">▶ 어도비 프리미어 프로 자세히 보기</a></strong></p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkorea.tistory.com/1294">▶ 어도비 애프터 이펙트 자세히 보기</a></strong></p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkorea.tistory.com/1294">▶ 어도비 프리미어 러쉬 자세히 보기</a></strong></p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkorea.tistory.com/1316">▶ 보리스 FX 스위트 자세히 보기</a></strong></p>
+                            <p class="hj-business-sub-title">4. 사진 편집 소프트웨어</p>
+                            <p>사진 보정과 편집, 합성 등을 쉽게 도와주는 소프트웨어</p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkorea.tistory.com/1295">▶ 코렐 애프터샷 프로 3 자세히 보기</a></strong></p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkorea.tistory.com/1295">▶ 어도비 CC 포토그래피 플랜 자세히 보기</a></strong></p>
+                            <p class="hj-business-sub-title">5. 3D 소프트웨어</p>
+                            <p>실감나는 3D 질감을 표현할 수 있는 소프트웨어</p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkorea.tistory.com/1320">▶ 오토이 스컬프론 자세히 보기</a></strong></p>
+                            <p><strong>※번들 소프트웨어 이용은 반드시 제품 등록 및 Wacom ID 생성이 필요하며, 제품 등록 기간 안에 다운로드 가능합니다.</strong></p>
+                            <p><strong>※번들 소프트웨어 제공 여부, 종류, 이용 기한은 해당 소프트웨어 제작사 및 당사의 사정으로 사전 고지 없이 변경될 수 있습니다.</strong></p>
+                            <p class="hj-text-under"><strong><a href="https://account.wacom.com/ko-kr/sign-in?returnUrl=/ko-kr">▶ Wacom ID 등록하기 (http://account.wacom.com/ko-kr)</a></strong></p>
+                            <p class="hj-text-under"><strong><a href="https://store.wacom.kr/index.asp">▶ 와콤 타블렛 구매하기</a></strong></p>
+                            <p class="hj-text-under"><strong><a href="https://wacomkoreablog.com/category/Support/%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8%20%EB%A7%A4%EC%9E%A5">▶ 전국 와콤스토어 자세히보기</a></strong></p>
+                            
+                        </li>
+                        <!-- <li class="hj-page-detail-image business-part-01-button-03"></li> -->
                         <!-- <li class="hj-page-detail-image business-part-01-button-04"></li>
-                        <li class="hj-page-detail-image business-part-01-button-05"></li> -->
+                        <li class="hj-page-detail-image business-part-01-button-05"></li> -->`
                     </ul>
                     <button class="hj-move-top">
                         <span>TOP</span>
