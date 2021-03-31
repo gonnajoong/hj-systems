@@ -26,19 +26,18 @@
                         <li class="hj-not-now"><a href="/admin/pages/business/business-part-05.html"></a></li> -->
                     </ul>
                 </li>
-                <!-- <li class="hj-nav-list">
-                    <span>자료실</span>
-                    <ul class="hj-nav-list second-depth">
-                        <li class="hj-not-now"><a href="/admin/pages/data-room.php">자료실</a></li>
-                    </ul>
-                </li> -->
                 <li class="hj-nav-list">
-                    <span>제품소개</span>
+                    <span>펜타블렛</span>
                     <ul class="hj-nav-list second-depth">
-                        <li class="hj-not-now"><a href="/admin/pages/product/dtc-133.php">DTC-133</a></li>
-                        <li class="hj-not-now"><a href="/admin/pages/product/one-by-wacom.php">원바이와콤</a></li>
+                    <li class="hj-not-now"><a href="/admin/pages/product/one-by-wacom.php">원바이와콤</a></li>
                         <li class="hj-not-now"><a href="/admin/pages/product/intuos.php">인튜어스</a></li>
                         <li class="hj-not-now"><a href="/admin/pages/product/select-product-ip.php">인튜어스 프로</a></li>
+                    </ul>
+                </li>
+                <li class="hj-nav-list">
+                    <span>액정타블렛</span>
+                    <ul class="hj-nav-list second-depth">
+                        <li class="hj-not-now"><a href="/admin/pages/product/dtc-133.php">DTC-133</a></li>
                         <li class="hj-not-now"><a href="/admin/pages/product/select-product-c.php">신티크</a></li>
                         <li class="hj-not-now"><a href="/admin/pages/product/select-product-cp.php">신티크 프로</a></li>
                         <li class="hj-not-now"><a href="/admin/pages/product/mobile-studio.php">MSP (모바일)</a></li>

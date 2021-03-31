@@ -21,35 +21,34 @@
     <title>HJ SYSTEMS | 공지사항</title>
 </head>
 <body>
-<?php @include("../layouts/header.php");?>
-<!-- 로그인 유무 확인 후 로그인 유저가 아닐 시 뒤로가기 -->
+    <?php @include("../layouts/header.php");?>
     <script type="text/javascript" src="../../pages/layouts/header.js"></script>
-    <section class="hj-notice-edit-wrap">
-    <!-- 수정, 삭제 query 로 변경 -->
-        <form action="">
-            <label for="">
-                <span>제목</span>
-                <input type="text" placeholder="제목을 입력해주세요" require>
-            </label>
-            <label for="">
-                <span>분류</span>
-                <select name="" id="">
-                    <option value="">선택해주세요.</option>
-                    <option value="event">이벤트</option>
-                    <option value="notice">공지사항</option>
-                </select>
-            </label>
-            <label for="">
-                <span>내용</span>
-                <textarea name=""
-                        id=""
-                        placeholder="내용을 입력해주세요"></textarea>
-            </label>
-            <label for="">
-                <span>이미지</span>
-                <input type="file" name="" accept="image/x-png,image/gif,image/jpeg" >
-            </label>
-        </form>
+    <section class="hj-notice-detail-wrap">
+        <article class="hj-notice-detail">
+            <ul>
+                <li>
+                    <span>분류</span>
+                    <span>제목</span>
+                    <span>시간</span>
+                </li>
+                <li class="hj-contents-wrap">
+                    <!-- 이미지, 내용 출력 -->
+                    이미지 혹은 내용
+                </li>
+            </ul>
+            <div>
+                <a href="">
+                    <button>목록</button>
+                </a>
+                <!-- 로그인 유무에 따라 수정 및 삭제 버튼 등장 -->
+                <a href="">
+                    <button>수정</button>
+                </a>
+                <a href="">
+                    <button>삭제</button>
+                </a>
+            </div>
+        </article>
     </section>
     <?php @include("../layouts/footer.php");?>
     <script type="text/javascript" src="/admin/pages/main/js/index.js"></script>
