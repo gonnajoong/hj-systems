@@ -24,6 +24,9 @@
     <?php @include("../layouts/header.php");?>
     <script type="text/javascript" src="../../pages/layouts/header.js"></script>
     <section class="hj-notice-detail-wrap">
+        <article class="hj-board-title">
+            <h2>이벤트 및 공지사항</h2>
+        </article>
         <article class="hj-notice-detail">
             <ul>
                 <li class="hj-notice-top">

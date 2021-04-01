@@ -9,10 +9,13 @@
   max-width: 1600px;
 }
 
-.hj-notice-board-wrap .hj-board-wrap .hj-board-title {
-  margin: 100px 0;
-  font-size: 28px;
-  font-weight: 600;
+.hj-notice-board-wrap .hj-board-wrap .hj-board-title h2 {
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 500;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #2b478b;
+    margin: 100px 0;
 }
 
 .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table {

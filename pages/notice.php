@@ -26,7 +26,7 @@
     <section class="hj-notice-board-wrap">
         <div class="hj-board-wrap">
             <article class="hj-board-title">
-                <h1>이벤트 및 공지사항</h1>
+                <h2>이벤트 및 공지사항</h2>
             </article>
             <article class="hj-board-list-wrap">
                 <table>

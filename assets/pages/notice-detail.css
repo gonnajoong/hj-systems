@@ -4,11 +4,19 @@
     text-align: center;
 }
 
+.hj-notice-detail-wrap .hj-board-title h2 {
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 500;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #2b478b;
+    margin: 100px 0;
+}
+
 .hj-notice-detail-wrap .hj-notice-detail {
     display: inline-block;
     width: 100%;
     max-width: 1600px;
-    margin-top: 34px;
 }
 
 .hj-notice-detail ul {
