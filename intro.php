@@ -22,7 +22,7 @@
 </head>
 <body>
     <?php @include("./layouts/header.php");?>
-    <script type="text/javascript" src="/admin/pages/layouts/header.js"></script>
+    <script type="text/javascript" src="/pages/layouts/header.js"></script>
     <section id="hjIntroWrap" class="hj-intro-wrap">
         <h2>인사말</h2>
         <article class="hj-intro">
@@ -38,6 +38,6 @@
         </article>
     </section>
     <?php @include("./layouts/footer.php");?>
-    <script type="text/javascript" src="/admin/pages/main/js/index.js"></script>
+    <script type="text/javascript" src="/pages/main/js/index.js"></script>
 </body>
 </html>

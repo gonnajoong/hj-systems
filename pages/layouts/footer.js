@@ -24,14 +24,14 @@ hjLogin.on('click', function(e){
     };
 
     $.ajax({
-        url: '/admin/sessions/login.php',
+        url: '/sessions/login.php',
         type: 'POST',
         data: form_data,
         dataType: 'json',
         success: function(data) {
             if(data.data.status_code === 200) {
                 // var decodeData = JSON.stringify(data);
-                location.href = "/admin";
+                location.href = "/";
             } else {
                 alert('아이디, 비밀번호를 확인해주세요');
             }
@@ -80,7 +80,7 @@ if(getCookie('HJ_SESSION') !== null) {
     hjNoticeCreateButton.css("display", "inline-block");
 } else {
     hjFooterButton.text("로그인");
-    hjFooterButton.attr("href", "/admin/login.php");
+    hjFooterButton.attr("href", "/login.php");
     hjFooterButton.removeClass("is-login");
     // hjNoticeCreateButton.css("display", "none");
 }
@@ -93,7 +93,7 @@ hjFooterButton.on('click', function(e){
         deleteCookie("HJ_SESSION");
         location.reload();
     } else {
-        location.href = "/admin/login.php";
+        location.href = "/login.php";
     }
 });
 

@@ -22,7 +22,7 @@
 </head>
 <body>
     <?php @include("./layouts/header.php");?>
-    <script type="text/javascript" src="/admin/pages/layouts/header.js"></script>
+    <script type="text/javascript" src="/pages/layouts/header.js"></script>
     <section id="hjAddressWrap">
         <h2>찾아오시는 길</h2>
         <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1960b0cb26671b5f70989ae9e95c3ee2"></script>

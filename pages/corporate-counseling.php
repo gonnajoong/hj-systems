@@ -26,13 +26,13 @@
     <section class="hj-text-list-wrap">
         <div class="hj-list-wrap">
             <article class="hj-image-list-wrap">
-                <img src="/admin/images/counseling/counseling.jpg" alt="상담1">
+                <img src="/images/counseling/counseling.jpg" alt="상담1">
             </article>
         </div>
     </section>
     <?php @include("../layouts/footer.php");?>
-    <script type="text/javascript" src="/admin/pages/main/js/index.js"></script>
-    <script type="text/javascript" src="/admin/pages/js/index.js"></script>
-    <script type="text/javascript" src="/admin/pages/js/notice.js"></script>
+    <script type="text/javascript" src="/pages/main/js/index.js"></script>
+    <script type="text/javascript" src="/pages/js/index.js"></script>
+    <script type="text/javascript" src="/pages/js/notice.js"></script>
 </body>
 </html>

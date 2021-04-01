@@ -16,7 +16,7 @@
                 </p>
                 <p>
                     <a href="www.hjsystems.co.kr">www.hjsystems.co.kr</a>
-                    <a class="hj-footer-button" href="/admin/login.php">로그인</a>
+                    <a class="hj-footer-button" href="/login.php">로그인</a>
                 </p>
             </address>
             <span class="hj-footer-logo">
@@ -28,4 +28,4 @@
             Copyright ⓒ HJ SYSTEMS. 2020 All Rights Reserved
         </span>
     </footer>
-    <script type="text/javascript" src="/admin/pages/layouts/footer.js"></script>
+    <script type="text/javascript" src="/pages/layouts/footer.js"></script>

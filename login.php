@@ -22,7 +22,7 @@
 </head>
 <body>
     <?php @include("./layouts/header.php");?>
-    <script type="text/javascript" src="/admin/pages/layouts/header.js"></script>
+    <script type="text/javascript" src="/pages/layouts/header.js"></script>
     <section class="hj-login-wrap">
         <h2>로그인</h2>
         <article class="hj-login">
@@ -42,7 +42,7 @@
         </article>
     </section>
     <?php @include("./layouts/footer.php");?>
-    <script type="text/javascript" src="/admin/pages/main/js/index.js"></script>
+    <script type="text/javascript" src="/pages/main/js/index.js"></script>
     <script type="text/javascript">
         if(getCookie("HJ_SESSION")) {
             history.back();

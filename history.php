@@ -23,7 +23,7 @@
 </head>
 <body>
     <?php @include("./layouts/header.php");?>
-    <script type="text/javascript" src="/admin/pages/layouts/header.js"></script>
+    <script type="text/javascript" src="/pages/layouts/header.js"></script>
     <section class="hj-company-history-wrap">
         <h2>회사 연혁</h2>
         <article>

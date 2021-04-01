@@ -16,24 +16,24 @@
       <script src="./js/libs/slick.min.js"></script>
 
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="/admin/assets/index.css" />
+      <link rel="stylesheet" href="/assets/index.css" />
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>HJ SYSTEMS</title>
 </head>
 <body>
     <?php @include("./layouts/header.php");?>
-    <script type="text/javascript" src="/admin/pages/layouts/header.js"></script>
+    <script type="text/javascript" src="/pages/layouts/header.js"></script>
     <section id="hjMainWrap" class="hj-main-wrap">
         <article class="hj-slide-wrap">
-            <div class="hj-slide-image" style="background-image: url('/admin/images/banners/hj_illust_banner_03.jpg');"></div>
-            <div class="hj-slide-image" style="background-image: url('/admin/images/banners/wacom-one_banner.jpg');"></div>
+            <div class="hj-slide-image" style="background-image: url('/images/banners/hj_illust_banner_03.jpg');"></div>
+            <div class="hj-slide-image" style="background-image: url('/images/banners/wacom-one_banner.jpg');"></div>
             <div class="hj-slide-image" style="background-image: url('https://wcm-cdn.wacom.com/-/media/images/products/pen computers/mobilestudio pro 1-5/gallery/wacom mobilestudio pro gallery 2.jpg?h=640&la=ko&w=960&hash=A3E41D07EE8D12A9B24512B4D41F417D')"></div>
         </article>
         <article class="hj-company-abbr-wrap">
             <ul class="hj-company-abbr-list">
                 <li data-aos="fade-up" data-aos-duration="400">
-                    <a href="http://www.hjsystems.co.kr/admin/pages/business/business-part-01.php">
+                    <a href="http://www.hjsystems.co.kr/pages/business/business-part-01.php">
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-01"></div>
                             <p class="hj-abbr-title">학교 화상교육 바로가기</p>
@@ -41,7 +41,7 @@
                     </a>
                 </li>
                 <li data-aos="fade-up" data-aos-duration="700">
-                    <a href="http://www.hjsystems.co.kr/admin/pages/product/dtc-133.php">
+                    <a href="http://www.hjsystems.co.kr/pages/product/dtc-133.php">
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-02"></div>
                             <p class="hj-abbr-title">Wacom One 바로가기</p>
@@ -49,7 +49,7 @@
                     </a>
                 </li>
                 <li data-aos="fade-up" data-aos-duration="900">
-                    <a href="http://www.hjsystems.co.kr/admin/pages/notice.php">
+                    <a href="http://www.hjsystems.co.kr/pages/notice.php">
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-03"></div>
                             <p class="hj-abbr-title">이벤트 및 공지사항 바로가기</p>
@@ -57,7 +57,7 @@
                     </a>
                 </li>
                 <li data-aos="fade-up" data-aos-duration="1300">
-                    <a href="http://www.hjsystems.co.kr/admin/pages/corporate-counseling.php">
+                    <a href="http://www.hjsystems.co.kr/pages/corporate-counseling.php">
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-04"></div>
                             <p class="hj-abbr-title">상담 문의 바로가기</p>
@@ -75,6 +75,6 @@
         </article>
     </section>
     <?php @include("./layouts/footer.php");?>
-    <script type="text/javascript" src="/admin/pages/main/js/index.js"></script>
+    <script type="text/javascript" src="/pages/main/js/index.js"></script>
 </body>
 </html>

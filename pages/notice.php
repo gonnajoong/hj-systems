@@ -40,7 +40,7 @@
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td><a href="/admin/pages/notice-detail.php?id=1&type=notice">임시 제목</a></td>
+                            <td><a href="/pages/notice-detail.php?id=1&type=notice">임시 제목</a></td>
                             <td>2020-01-20 16:30:22</td>
                         </tr>
                     </tbody>
@@ -62,8 +62,8 @@
         </div>
     </section>
     <?php @include("../layouts/footer.php");?>
-    <script type="text/javascript" src="/admin/pages/main/js/index.js"></script>
-    <script type="text/javascript" src="/admin/pages/js/index.js"></script>
-    <script type="text/javascript" src="/admin/pages/js/notice.js"></script>
+    <script type="text/javascript" src="/pages/main/js/index.js"></script>
+    <script type="text/javascript" src="/pages/js/index.js"></script>
+    <script type="text/javascript" src="/pages/js/notice.js"></script>
 </body>
 </html>

@@ -157,16 +157,16 @@ body {
 
 /*제품군 이미지 스타일*/
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-01 {
-    background-image: url("/admin/images/business-part/business-part-01/business-01.jpg");
+    background-image: url("/images/business-part/business-part-01/business-01.jpg");
 }
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-02 {
-    background-image: url("/admin/images/products/dtc-133/one_2.jpg");
+    background-image: url("/images/products/dtc-133/one_2.jpg");
 }
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-03 {
-    background-image: url("/admin/images/icons/notice.png");
+    background-image: url("/images/icons/notice.png");
 }
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-04 {
-    background-image: url("/admin/images/icons/comerce.png");
+    background-image: url("/images/icons/comerce.png");
 }
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-05 {
     background-image: url("/images/products/stylus/bamboo sketch gallery 4.png");
