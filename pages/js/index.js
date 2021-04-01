@@ -112,18 +112,22 @@ hjPageSlideButton02.on('click', function(){
         if(hjPageInSlideWrap.hasClass('dtc-133-wrap')) {
             var imgHeight = hjPageInSlideWrap02.children('img');
             hjPageInSlideWrap.css('height', (imgHeight.height()+250)+'px');
+            $('html, body').animate({scrollTop: 0 }, 'slow');
         }
         if (hjPageInSlideWrap.hasClass('mobile-studio-wrap')) {
             var imgHeight = hjPageInSlideWrap02.children('img');
             hjPageInSlideWrap.css('height', (imgHeight.height())+'px');
+            $('html, body').animate({scrollTop: 0 }, 'slow');
         }
         if (hjPageInSlideWrap.hasClass('cintiq-pro-wrap')) {
             var imgHeight = hjPageInSlideWrap02.children('img');
             hjPageInSlideWrap.css('height', (imgHeight.height())+'px');
+            $('html, body').animate({scrollTop: 0 }, 'slow');
         }
         if (hjPageInSlideWrap.hasClass('cintiq-wrap')) {
             var imgHeight = hjPageInSlideWrap02.children('img');
             hjPageInSlideWrap.css('height', (imgHeight.height())+'px');
+            $('html, body').animate({scrollTop: 0 }, 'slow');
         }
 
         hjPageInSlideWrap.css('height', hjPageInSlideWrap02.height()+'px');
@@ -148,15 +152,17 @@ hjPageSlideButton03.on('click', function(){
         hjPageInSlideWrap05.removeClass('hj-show');
 
         if (hjPageInSlideWrap.hasClass('mobile-studio-wrap')) {
-            var imgHeight = hjPageInSlideWrap02.children('img');
+            var imgHeight = hjPageInSlideWrap03.children('img');
             hjPageInSlideWrap.css('height', (imgHeight.height())+'px');
+            $('html, body').animate({scrollTop: 0 }, 'slow');
         } else if (hjPageInSlideWrap.hasClass('cintiq-pro-wrap')) {
-            var imgHeight = hjPageInSlideWrap02.children('img');
+            var imgHeight = hjPageInSlideWrap03.children('img');
             hjPageInSlideWrap.css('height', (imgHeight.height())+'px');
+            $('html, body').animate({scrollTop: 0 }, 'slow');
         } else {
             var tableHeight = hjProductSpecTable.height();
 
-            hjPageInSlideWrap.css('height', tableHeight+100+'px');
+            hjPageInSlideWrap.css('height', tableHeight+102+'px');
             $('html, body').animate({scrollTop: 0 }, 'slow');
         }
     }
@@ -180,11 +186,16 @@ hjPageSlideButton04.on('click', function(){
 
         if (hjPageInSlideWrap.hasClass('mobile-studio-wrap')) {
             var tableHeight = hjProductSpecTable.height();
-            hjPageInSlideWrap.css('height', tableHeight+100+'px');
+            hjPageInSlideWrap.css('height', tableHeight+102+'px');
             $('html, body').animate({scrollTop: 0 }, 'slow');
         } else if (hjPageInSlideWrap.hasClass('cintiq-pro-wrap')) {
             var tableHeight = hjProductSpecTable.height();
-            hjPageInSlideWrap.css('height', tableHeight+100+'px');
+            hjPageInSlideWrap.css('height', tableHeight+102+'px');
+            $('html, body').animate({scrollTop: 0 }, 'slow');
+        } else if(hjPageInSlideWrap.hasClass('cintiq-pro-wrap')) {
+            var imgHeight = hjPageInSlideWrap04.children('img');
+            hjPageInSlideWrap.css('height', (imgHeight.height())+'px');
+            $('html, body').animate({scrollTop: 0 }, 'slow');
         } else {
             hjPageInSlideWrap.css('height', hjPageInSlideWrap04.height()+'px');
             $('html, body').animate({scrollTop: 0 }, 'slow');

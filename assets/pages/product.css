@@ -113,7 +113,7 @@
   overflow: hidden;
 }
 
-.hj-page-in-slide-wrap li {
+.hj-page-in-slide-wrap > li {
   position: absolute;
   top: 0;
   left: 50%;
@@ -123,7 +123,7 @@
   transition: all 0.2s ease-in-out;
 }
 
-.hj-page-in-slide-wrap li.hj-show {
+.hj-page-in-slide-wrap > li.hj-show {
   opacity: 1;
   visibility: visible;
 }
@@ -237,33 +237,20 @@
   color: #222;
 }
 
-.hj-move-back {
-  position: fixed;
-  bottom: 256px;
-  right: 50px;
-  width: 44px;
-  height: 44px;
-  background-color: #000;
+.hj-product-image .hj-move-top span {
   color: #fff;
-  border: 1px solid #000;
-  text-align: center;
-  font-size: 12px;
-  transition: all 0.2s ease-in-out;
-}
-
-.hj-product-image .hj-move-back:hover {
-  background-color: #fff;
-  color: #222;
 }
 
 .hj-product-spec-table {
   display: inline-table;
-  width: 800px;
+  width: 1000px;
   text-align: left;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 .hj-product-spec-table tr {
-  border-bottom: 1px solid #707070;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 .hj-product-spec-table tr:last-of-type {
@@ -271,23 +258,65 @@
 }
 
 .hj-product-spec-table th {
-  padding: 14px 0 14px 20px;
+  padding: 14px 20px;
   background-color: #ccc;
   font-weight: 500;
 }
 
 .hj-product-spec-table .hj-table-main-header th {
-  width: 40%;
+  width: 25%;
   background-color: #e8323e;
   color: #fff;
+}
+
+/* 인튜어스 프로 */
+.hj-product-spec-table .hj-table-main-header.hj-table-intuos-pro th {
+  width: 16.6%;
+}
+
+/* 인튜어스 */
+.hj-product-spec-table .hj-table-main-header.hj-table-intuos th {
+  width: 20%;
+}
+
+/* 신티크 */
+.hj-product-spec-table .hj-table-main-header.hj-table-cintiq th {
+  width: 40%;
+}
+
+/* 신티크 프로 */
+.hj-product-spec-table .hj-table-main-header.hj-table-cintiq-pro th {
+  width: 20%;
 }
 
 .hj-product-spec-table .hj-table-main-header th:nth-of-type(1) {
   width: 20%;
 }
 
+/* 인튜어스 프로 */
+.hj-product-spec-table .hj-table-main-header.hj-table-intuos-pro th:nth-of-type(1) {
+  width: 16.6%;
+}
+
+/* 인튜어스 */
+.hj-product-spec-table .hj-table-main-header.hj-table-intuos th:nth-of-type(1) {
+  width: 20%;
+}
+
+/* 신티크 */
+.hj-product-spec-table .hj-table-main-header.hj-table-cintiq th:nth-of-type(1) {
+  width: 20%;
+}
+
+/* 신티크 프로 */
+.hj-product-spec-table .hj-table-main-header.hj-table-cintiq-pro th:nth-of-type(1) {
+  width: 20%;
+}
+
 .hj-product-spec-table td {
-  padding: 14px 0 14px 20px;
+  padding: 14px 20px;
   background-color: #fff;
   line-height: 1.6;
+  border-right: 1px solid #e1e1e1;
+  
 }

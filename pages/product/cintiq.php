@@ -28,10 +28,10 @@
             <section class="hj-product-content-wrap">
                 <div class="hj-product-image">
                 <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
-                        <li class="hj-active"><button>신티크 16</button></li>
+                        <li class="hj-active"><button>신티크</button></li>
                         <li><button>신티크 16"</button></li>
                         <li><button>신티크 22"</button></li>
-                        <li><button>제품 제원</button></li>
+                        <li><button>제품 사양</button></li>
                         <!-- <li><button>분배기 or 젠더</button></li>
                         <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
@@ -45,7 +45,7 @@
                         </li>
                         <li class="hj-page-detail-image cintiq-button-03">
                         <table class="hj-product-spec-table">
-                                <tr class="hj-table-main-header">
+                                <tr class="hj-table-main-header hj-table-cintiq">
                                     <th>제품명</th>
                                     <th>Wacom Cintiq 16</th>
                                     <th>Wacom Cintiq 22</th>

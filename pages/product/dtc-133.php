@@ -18,7 +18,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../../assets/index.css" />
 
-    <title>HJ SYSTEMS | 원바이와콤</title>
+    <title>HJ SYSTEMS | 와콤원</title>
 </head>
 <body>
     <?php @include("../../layouts/header.php");?>
@@ -28,11 +28,11 @@
             <section class="hj-product-content-wrap">
                 <div class="hj-product-image">
                     <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
-                        <li class="hj-active"><button>DTC-133</button></li>
+                        <li class="hj-active"><button>와콤원</button></li>
                         <li><button>상세 페이지</button></li>
                         <li><button>제품구성 설치방법</button></li>
-                        <li><button>제품 제원</button></li>
-                        <li><button>분배기 or 젠더</button></li>
+                        <li><button>제품 사양</button></li>
+                        <!-- <li><button>분배기 or 젠더</button></li> -->
                         <!-- <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
                     <ul id="hjPageInSlideWrap" class="hj-page-in-slide-wrap product-wrap dtc-133-wrap">
@@ -140,7 +140,7 @@
                                 </tr>
                             </table>
                         </li>
-                        <li class="hj-page-detail-image dtc-133-button-04"></li>
+                        <!-- <li class="hj-page-detail-image dtc-133-button-04"></li> -->
                         <!-- <li class="hj-page-detail-image dtc-133-button-05"></li> -->
                     </ul>
                     <button class="hj-move-top">

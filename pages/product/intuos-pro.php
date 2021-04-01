@@ -31,7 +31,7 @@
                         <li class="hj-active"><button>인튜어스 프로</button></li>
                         <li><button>상세 페이지</button></li>
                         <li><button>제품 크기비교</button></li>
-                        <li><button>제품 제원</button></li>
+                        <li><button>제품 사양</button></li>
                         <!-- <li><button>분배기 or 젠더</button></li>
                         <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
@@ -45,11 +45,7 @@
                         </li>
                         <li class="hj-page-detail-image intuos-pro-button-03">
                         <table class="hj-product-spec-table">
-                                <tr>
-                                    <th colspan="3"></th>
-                                    <th colspan="2"></th>
-                                </tr>
-                                <tr class="hj-table-main-header">
+                                <tr class="hj-table-main-header hj-table-intuos-pro">
                                     <th>제품명</th>
                                     <th>Wacom Intuos Pro (소형)</th>
                                     <th>Wacom Intuos Pro (중형)</th>
@@ -99,15 +95,20 @@
                                 </tr>
                                 <tr>
                                     <th>제품 구성</th>
-                                    <td>
-                                        Wacom Intuos Pro 타블렛, Pro Pen2, 펜 스탠드 (표준 펜심 6개, 펠트 펜심 4개 포함),
-                                        펜 컬러 링 4개, 텍스쳐 시트 샘플카드 (중형&대형)
+                                    <td colspan="3">
+                                        Wacom Intuos Pro 타블렛, 
+                                        Pro Pen2, 펜 스탠드 (표준 펜심 6개, 
+                                        펠트 펜심 4개 포함), 펜 컬러 링 4개, 
+                                        텍스쳐 시트 샘플카드 (중형&대형) 
                                         USB 케이블 (2m), 퀵스타트 가이드
                                     </td>
-                                    <td>
-                                        Wacom Intuos Pro 타블렛, Pro Pen2, 펜 스탠드 (표준 펜심 6개, 펠트 펜심 4개 포함),
-                                        펜 컬러 링 4개, 텍스쳐 시트 샘플카드, USB케이블(2m), 퀵스타트 가이드, Wacom Finetip Pen, Wacom Paper Clip,
-                                        종이 샘플 10장(중형 A5/대형 A4), 액세서리 수납용 소프트 케이스, 파인팁 잉크 펜 교체용 심 (3개)
+                                    <td colspan="2">
+                                        Wacom Intuos Pro 타블렛, Pro Pen2, 
+                                        펜 스탠드 (표준 펜심 6개, 펠트 펜심 4개 포함), 
+                                        펜 컬러 링 4개, 텍스쳐 시트 샘플카드, USB케이블(2m), 
+                                        퀵스타트 가이드, Wacom Finetip Pen, Wacom Paper Clip, 
+                                        종이 샘플 10장(중형 A5/대형 A4), 액세서리 수납용 소프트 케이스, 
+                                        파인팁 잉크 펜 교체용 심 (3개)
                                     </td>
                                 </tr>
                                 <tr>

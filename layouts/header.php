@@ -21,7 +21,7 @@
                     <ul class="hj-nav-list second-depth">
                         <li class="hj-not-now"><a href="/pages/business/business-part-01.php">학교 화상교육</a></li>
                         <li class="hj-not-now"><a href="/pages/business/business-part-02.php">VR 사업</a></li>
-                        <li class="hj-not-now"><a href="/pages/business/business-part-03.php">기관 및 기타</a></li>
+                        <li class="hj-not-now"><a href="/pages/business/business-part-03.php">기관 및 기업</a></li>
                         <!-- <li class="hj-not-now"><a href="/admin/pages/business/business-part-04.html"></a></li>
                         <li class="hj-not-now"><a href="/admin/pages/business/business-part-05.html"></a></li> -->
                     </ul>
@@ -37,7 +37,7 @@
                 <li class="hj-nav-list">
                     <span>액정타블렛</span>
                     <ul class="hj-nav-list second-depth">
-                        <li class="hj-not-now"><a href="/pages/product/dtc-133.php">DTC-133</a></li>
+                        <li class="hj-not-now"><a href="/pages/product/dtc-133.php">와콤원</a></li>
                         <li class="hj-not-now"><a href="/pages/product/cintiq.php">신티크</a></li>
                         <li class="hj-not-now"><a href="/pages/product/cintiq-pro.php">신티크 프로</a></li>
                         <li class="hj-not-now"><a href="/pages/product/mobile-studio.php">MSP (모바일)</a></li>

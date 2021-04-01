@@ -8,14 +8,14 @@
                     <span>FAX : <a href="tel:02-2658-6659">02-2658-6659</a></span>
                 </p>
                 <p>
-                    <span>통신판매업신고번호 : 2019-서울강서-2253</span>
                     <span>사업자 등록번호 : 141-81-48231</span>
+                    <span>통신판매업신고번호 : 2019-서울강서-2253</span>
                 </p>
                 <p>
-                    <span>위치 : 서울시 강서구 양천로 551-24 한화 비즈메트로2차 706호</span>
+                    <span>서울시 강서구 양천로 551-24 한화 비즈메트로2차 706호</span>
                 </p>
                 <p>
-                    <a href="www.hjsystems.co.kr">www.hjsystems.co.kr</a>
+                    <a href="/">www.hjsystems.co.kr</a>
                     <a class="hj-footer-button" href="/login.php">로그인</a>
                 </p>
             </address>

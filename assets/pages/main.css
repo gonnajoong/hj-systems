@@ -82,20 +82,30 @@ body {
 }
 
 #hjMainWrap .hj-slide-wrap .hj-slide-image {
+    position: relative;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-/*#hjMainWrap .hj-slide-wrap .hj-slide-image:nth-of-type(3n - 2) {*/
-/*    background-color: gold;*/
-/*}*/
-/*#hjMainWrap .hj-slide-wrap .hj-slide-image:nth-of-type(3n - 1) {*/
-/*    background-color: green;*/
-/*}*/
-/*#hjMainWrap .hj-slide-wrap .hj-slide-image:nth-of-type(3n) {*/
-/*    background-color: pink;*/
-/*}*/
+#hjMainWrap .hj-slide-wrap .hj-slide-image > a {
+    position: absolute;
+    color: #2997ff;
+}
+
+#hjMainWrap .hj-slide-wrap .hj-slide-image > a:hover {
+    text-decoration: underline;
+}
+
+#hjMainWrap .hj-slide-wrap .hj-slide-image > a.hj-dtc-133-learn {
+    right: 21%;
+    bottom: 120px;
+}
+
+#hjMainWrap .hj-slide-wrap .hj-slide-image > a.hj-msp-learn {
+    left: 60px;
+    bottom: 120px;
+}
 
 #hjMainWrap .hj-company-abbr-wrap {
     display: inline-block;

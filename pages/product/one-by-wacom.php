@@ -31,7 +31,7 @@
                         <li class="hj-active"><button>원바이와콤</button></li>
                         <li><button>상세 페이지</button></li>
                         <li><button>제품 크기비교</button></li>
-                        <li><button>제품 제원</button></li>
+                        <li><button>제품 사양</button></li>
                         <!-- <li><button>분배기 or 젠더</button></li>
                         <li><button>구매 및 견적 상담</button></li> -->
                     </ul>

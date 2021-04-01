@@ -27,8 +27,12 @@
     <section id="hjMainWrap" class="hj-main-wrap">
         <article class="hj-slide-wrap">
             <div class="hj-slide-image" style="background-image: url('/images/banners/hj_illust_banner_03.jpg');"></div>
-            <div class="hj-slide-image" style="background-image: url('/images/banners/wacom-one_banner.jpg');"></div>
-            <div class="hj-slide-image" style="background-image: url('https://wcm-cdn.wacom.com/-/media/images/products/pen computers/mobilestudio pro 1-5/gallery/wacom mobilestudio pro gallery 2.jpg?h=640&la=ko&w=960&hash=A3E41D07EE8D12A9B24512B4D41F417D')"></div>
+            <div class="hj-slide-image" style="background-image: url('/images/banners/wacom-one_banner.jpg');">
+                <a class="hj-dtc-133-learn" href="http://www.hjsystems.co.kr/pages/product/dtc-133.php">제품 바로가기 ></a>
+            </div>
+            <div class="hj-slide-image" style="background-image: url('/images/banners/msp_banner.jpg')">
+                <a class="hj-msp-learn" href="http://www.hjsystems.co.kr/pages/product/mobile-studio.php">제품 바로가기 ></a>
+            </div>
         </article>
         <article class="hj-company-abbr-wrap">
             <ul class="hj-company-abbr-list">

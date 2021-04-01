@@ -28,7 +28,7 @@
             <section class="hj-product-content-wrap">
                 <div class="hj-product-image">
                 <ul id="hjNonImageButton" class="hj-page-slide-button slick-dots">
-                        <li class="hj-active"><button>기관 및 기타</button></li>
+                        <li class="hj-active"><button>기관 및 기업</button></li>
                         <li><button>소프트웨어 구성</button></li>
                         <li><button>안내</button></li>
                         <li><button>제품 설치구성</button></li>

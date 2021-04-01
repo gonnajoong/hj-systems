@@ -31,7 +31,7 @@
                         <li class="hj-active"><button>인튜어스</button></li>
                         <li><button>상세 페이지</button></li>
                         <li><button>제품 크기비교</button></li>
-                        <li><button>제품 제원</button></li>
+                        <li><button>제품 사양</button></li>
                         <!-- <li><button>분배기 or 젠더</button></li>
                         <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
@@ -45,7 +45,7 @@
                         </li>
                         <li class="hj-page-detail-image intuos-button-03">
                         <table class="hj-product-spec-table">
-                                <tr class="hj-table-main-header">
+                                <tr class="hj-table-main-header hj-table-intuos">
                                     <th>제품 사양</th>
                                     <th>소형 USB</th>
                                     <th>중형 USB</th>
@@ -100,7 +100,7 @@
                                     <td colspan="2">약 3.5시간</td>
                                 </tr>
                                 <tr>
-                                    <th>크기 (가장 두꺼운 부분)</th>
+                                    <th>크기<br/>(가장 두꺼운 부분)</th>
                                     <td>200 x 160 x 8.8mm</td>
                                     <td>264 x 200 x 8.8mm</td>
                                     <td>200 x 160 x 8.8mm</td>
@@ -127,26 +127,27 @@
                                 <tr>
                                     <th>연결</th>
                                     <td colspan="2">
-                                        · PC에 표준 탑재된 USB 케이블
-                                        · 인터넷 접속 (와콤 드라이버, 번들 소프트웨어 다운로드용)
+                                        <ul>
+                                            <li>· PC에 표준 탑재된 USB 케이블</li>
+                                            <li>· 인터넷 접속 (와콤 드라이버, 번들 소프트웨어 다운로드용)</li>
+                                        </ul>
                                     </td>
                                     <td colspan="2">
-                                        · 블루투스 무선 연결
-                                        · PC에 표준 탑재된 USB케이블
-                                        · 인터넷 접속 (와콤 드라이버, 번들 소프트웨어 다운로드용)
+                                        <ul>
+                                            <li>· 블루투스 무선 연결</li>
+                                            <li>· PC에 표준 탑재된 USB케이블</li>
+                                            <li>· 인터넷 접속 (와콤 드라이버, 번들 소프트웨어 다운로드용)</li>
+                                        </ul>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>제품 구성</th>
-                                    <td>
-                                        · 펜 타블렛 본체 · Wacom Pen 4K · USB 케이블 (케이블 밴드포함, 1.5m)
-                                        · 3개의 여분 표준 펜심 (펜 속에 포함) · 펜심 제거툴 (펜 끝에 위치) · 퀵 스타트 가이드
+                                    <td colspan="4">
+                                        <ul>
+                                            <li>· 펜 타블렛 본체 · Wacom Pen 4K · USB 케이블 (케이블 밴드포함, 1.5m)</li>
+                                            <li>· 3개의 여분 표준 펜심 (펜 속에 포함) · 펜심 제거툴 (펜 끝에 위치) · 퀵 스타트 가이드</li>
+                                        </ul>
                                     </td>
-                                </tr>
-                                <tr>
-                                    <th>액세서리 (옵션)</th>
-                                    <td>펜 (LP190K), 표준 펜심(ACK20001)</td>
-                                    <td></td>
                                 </tr>
                             </table>
                         </li>

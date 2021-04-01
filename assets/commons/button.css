@@ -42,10 +42,15 @@ button {
   background-color: #fff;
 }
 
+.hj-submit-button:hover span {
+  color: #000;
+}
+
 .hj-submit-button:hover a {
   color: #000;
 }
 
 .hj-submit-button > span {
   display: block;
+  color: #fff;
 }
