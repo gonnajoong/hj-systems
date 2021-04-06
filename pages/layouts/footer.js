@@ -79,7 +79,7 @@ if(getCookie('HJ_SESSION') !== null) {
     hjBoardListWrap.append("<button class='hj-notice-create-button'>작성</button>");
     hjNoticeCreateButton.css("display", "inline-block");
 } else {
-    hjFooterButton.text("로그인");
+    hjFooterButton.text("관리자 로그인");
     hjFooterButton.attr("href", "/login.php");
     hjFooterButton.removeClass("is-login");
     // hjNoticeCreateButton.css("display", "none");

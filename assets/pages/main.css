@@ -181,3 +181,25 @@ body {
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-05 {
     background-image: url("/images/products/stylus/bamboo sketch gallery 4.png");
 }
+
+/* tablet */
+@media screen and (max-width: 1200px) {
+    #hjMainWrap .hj-slide-wrap .slick-arrow {
+        display: none !important;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+    #hjMainWrap {
+        display: inline-block;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 60px 0;
+    }
+    
+    #hjMainWrap .hj-slide-wrap .slick-arrow {
+        display: none !important;
+    }
+}

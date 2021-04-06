@@ -71,6 +71,10 @@
 
 }
 
+#hjHeaderWrap .hj-nav-wrap .hj-menu-m {
+    display: none;
+}
+
 #hjHeaderWrap .hj-nav-wrap .hj-nav-list {
     position: relative;
     width: 170px;
@@ -87,7 +91,7 @@
     color: #222;
 }
 
-#hjHeaderWrap .hj-nav-wrap > .hj-nav-list::after {
+#hjHeaderWrap .hj-nav-wrap .hj-reactive-nav > .hj-nav-list::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -101,7 +105,7 @@
     /* transform: translateX(-50%); */
 }
 
-#hjHeaderWrap.hj-spread .hj-nav-wrap > .hj-nav-list.current::after {
+#hjHeaderWrap.hj-spread .hj-nav-wrap .hj-reactive-nav > .hj-nav-list.current::after {
     width: 100%;
 }
 
@@ -149,4 +153,48 @@
 #hjHeaderWrap .hj-nav-wrap .hj-nav-list:hover > .second-depth {
     opacity: 1;
     visibility: visible;
+}
+
+/* tablet */
+@media screen and (max-width: 1200px) {
+    #hjHeaderWrap {
+        font-size: 14px;
+    }
+
+    #hjHeaderWrap .hj-nav-wrap .hj-nav-list {
+        width: 110px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 1200px) {
+    #hjHeaderWrap {
+        padding: 0 8px;
+    }
+
+    #hjHeaderWrap.scroll-move {
+        box-shadow: none;
+    }
+    
+    #hjHeaderWrap.hj-spread {
+        height: 100%;
+    }
+
+    #hjHeaderWrap > nav .hj-company-logo {
+        width: 32px;
+        height: 22px;
+    }
+
+    #hjHeaderWrap .hj-nav-wrap .hj-menu-m {
+        position: absolute;
+        right: 8px;
+        top: 0;
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        background-image: url("../../images/icons/hamburg_menu.png");
+        background-size: 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }

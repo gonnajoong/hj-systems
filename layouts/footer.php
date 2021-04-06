@@ -16,7 +16,7 @@
                 </p>
                 <p>
                     <a href="/">www.hjsystems.co.kr</a>
-                    <a class="hj-footer-button" href="/login.php">로그인</a>
+                    <a class="hj-footer-button" href="/login.php">관리자 로그인</a>
                 </p>
             </address>
             <span class="hj-footer-logo">

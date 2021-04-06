@@ -8,6 +8,7 @@
                         <span>HJ SYSTEMS</span>
                     </div>
                 </a>
+                <button class="hj-menu-m"></button>
                 <li class="hj-nav-list">
                     <span>회사소개</span>
                     <ul class="hj-nav-list second-depth">
@@ -44,7 +45,7 @@
                     </ul>
                 </li>
                 <li class="hj-nav-list">
-                    <span><a href="/pages/notice.php">이벤트 및 공지사항</a></span>
+                    <span><a href="/pages/notice.php">공지사항</a></span>
                 </li>
                 <li class="hj-nav-list">
                     <span><a href="/pages/corporate-counseling.php">상담 문의</a></span>
