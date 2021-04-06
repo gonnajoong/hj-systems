@@ -60,6 +60,12 @@ body {
   min-height: 100%;
 }
 
+@media screen and (max-width: 782px) {
+  body {
+    padding: 0;
+  }
+}
+
 ol,
 ul {
   list-style: none;
