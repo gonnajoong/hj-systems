@@ -274,7 +274,7 @@ body {
     
     #hjMainWrap .hj-slide-wrap .hj-slide-image > a.hj-msp-learn {
         left: 50%;
-        top: 40%;
+        top: 60vw;
         bottom: initial;
         transform: translateX(-50%);
     }

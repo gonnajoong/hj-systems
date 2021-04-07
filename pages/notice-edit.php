@@ -48,6 +48,7 @@
                             id="ntContent"
                             placeholder="내용을 입력해주세요"></textarea>
                 </label>
+                <div id="hjImagePreview" class="hj-image-preview"></div>
                 <label for="ntImage">
                     <span>이미지</span>
                     <input type="file"
