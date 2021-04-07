@@ -49,6 +49,18 @@ body {
     height: 500px;
 }
 
+#hjMainWrap .hj-slide-wrap .hj-slide-image.slide-image-01 {
+    background-image: url('/images/banners/hj_illust_banner_03.jpg');
+}
+
+#hjMainWrap .hj-slide-wrap .hj-slide-image.slide-image-02 {
+    background-image: url('/images/banners/wacom-one_banner.jpg');
+}
+
+#hjMainWrap .hj-slide-wrap .hj-slide-image.slide-image-03 {
+    background-image: url('/images/banners/msp_banner.jpg');
+}
+
 #hjMainWrap .hj-slide-wrap .slick-dots {
     position: absolute;
     left: 50%;
@@ -105,6 +117,10 @@ body {
 #hjMainWrap .hj-slide-wrap .hj-slide-image > a.hj-msp-learn {
     left: 60px;
     bottom: 120px;
+}
+
+#hjMainWrap .hj-slide-wrap .hj-slide-image > a::after {
+    content: " >";
 }
 
 #hjMainWrap .hj-company-abbr-wrap {
@@ -211,6 +227,12 @@ body {
 
     #hjMainWrap .hj-slide-wrap .hj-slide-image {
         background-size: cover;
+        background-position: top;
+    }
+
+    #hjMainWrap .hj-company-abbr-wrap {
+        max-width: 100%;
+        margin-top: 40px;
     }
 
     #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list {
@@ -226,5 +248,38 @@ body {
 
     #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li:last-of-type {
         margin: 0;
+    }
+
+    /* 슬라이드 모바일 이미지 */
+    #hjMainWrap .hj-slide-wrap .hj-slide-image.slide-image-01 {
+        background-image: url('/images/counseling/leaflet01.jpg');
+    }
+    
+    #hjMainWrap .hj-slide-wrap .hj-slide-image.slide-image-02 {
+        background-image: url('/images/banners/wacom_one_banner_m.jpg');
+    }
+    
+    #hjMainWrap .hj-slide-wrap .hj-slide-image.slide-image-03 {
+        background-image: url('/images/banners/msp_banner_m.jpg');
+    }
+
+    /* 슬라이드 모바일 문구 */
+
+    #hjMainWrap .hj-slide-wrap .hj-slide-image > a.hj-dtc-133-learn {
+        right: 50%;
+        transform: translateX(50%);
+        top: 80vw;
+        bottom: initial;
+    }
+    
+    #hjMainWrap .hj-slide-wrap .hj-slide-image > a.hj-msp-learn {
+        left: 50%;
+        top: 40%;
+        bottom: initial;
+        transform: translateX(-50%);
+    }
+
+    #hjMainWrap .hj-slide-wrap .hj-slide-image > a::after {
+        content: "";
     }
 }

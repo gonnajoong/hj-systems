@@ -16,7 +16,7 @@
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="./js/libs/slick.min.js"></script>
 
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Alata&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="/assets/index.css" />
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -27,12 +27,12 @@
     <script type="text/javascript" src="/pages/layouts/header.js"></script>
     <section id="hjMainWrap" class="hj-main-wrap">
         <article class="hj-slide-wrap">
-            <div class="hj-slide-image" style="background-image: url('/images/banners/hj_illust_banner_03.jpg');"></div>
-            <div class="hj-slide-image" style="background-image: url('/images/banners/wacom-one_banner.jpg');">
-                <a class="hj-dtc-133-learn" href="http://www.hjsystems.co.kr/pages/product/dtc-133.php">제품 바로가기 ></a>
+            <div class="hj-slide-image slide-image-01"></div>
+            <div class="hj-slide-image slide-image-02">
+                <a class="hj-dtc-133-learn" href="http://www.hjsystems.co.kr/pages/product/dtc-133.php">제품 바로가기</a>
             </div>
-            <div class="hj-slide-image" style="background-image: url('/images/banners/msp_banner.jpg')">
-                <a class="hj-msp-learn" href="http://www.hjsystems.co.kr/pages/product/mobile-studio.php">제품 바로가기 ></a>
+            <div class="hj-slide-image slide-image-03">
+                <a class="hj-msp-learn" href="http://www.hjsystems.co.kr/pages/product/mobile-studio.php">제품 바로가기</a>
             </div>
         </article>
         <article class="hj-company-abbr-wrap">
