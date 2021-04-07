@@ -28,6 +28,7 @@ const headerWrap = $("#hjHeaderWrap");
 const hjNavList = $(".hj-nav-list");
 const hjNotNow = $(".hj-not-now");
 const hjHamburger = $(".hamburger");
+const hjFoldWrap = $(".hj-fold-wrap");
 
 headerWrap.on('mouseover', function(){
     headerWrap.addClass('hj-spread');
@@ -105,6 +106,23 @@ function scrollHeader(){
 }
 
 scrollHeader();
+
+hjFoldWrap.on('click', function(){
+    var _this = $(this);
+    if(_this.parent(".hj-nav-list").hasClass("is-show")){
+        $(".hj-fold-icon").removeClass("is-active");
+        $(".hj-nav-list").removeClass("is-show");
+
+        _this.children(".hj-fold-icon").removeClass("is-active");
+        _this.parent(".hj-nav-list").removeClass("is-show");
+    } else {
+        $(".hj-fold-icon").removeClass("is-active");
+        $(".hj-nav-list").removeClass("is-show");
+
+        _this.children(".hj-fold-icon").addClass("is-active");
+        _this.parent(".hj-nav-list").addClass("is-show")
+    }
+});
 
 // hjNotNow.on('click', function () {
 //     alert('아직 준비중인 페이지입니다.');

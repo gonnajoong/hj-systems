@@ -16,7 +16,7 @@
                 </button>
                 <span class="hj-reactive-menu-wrap">
                     <li class="hj-nav-list">
-                        <span>회사소개</span>
+                        <span class="hj-fold-wrap">회사소개<button class="hj-fold-icon"></button></span>
                         <ul class="hj-nav-list second-depth">
                             <li><a href="/intro.php">인사말</a></li>
                             <li><a href="/history.php">회사 연혁</a></li>
@@ -24,7 +24,7 @@
                         </ul>
                     </li>
                     <li class="hj-nav-list">
-                        <span>사업분야</span>
+                        <span class="hj-fold-wrap">사업분야<button class="hj-fold-icon"></button></span>
                         <ul class="hj-nav-list second-depth">
                             <li class="hj-not-now"><a href="/pages/business/business-part-01.php">학교 화상교육</a></li>
                             <li class="hj-not-now"><a href="/pages/business/business-part-02.php">VR 사업</a></li>
@@ -34,7 +34,7 @@
                         </ul>
                     </li>
                     <li class="hj-nav-list">
-                        <span>펜타블렛</span>
+                        <span class="hj-fold-wrap">펜타블렛<button class="hj-fold-icon"></button></span>
                         <ul class="hj-nav-list second-depth">
                         <li class="hj-not-now"><a href="/pages/product/one-by-wacom.php">원바이와콤</a></li>
                             <li class="hj-not-now"><a href="/pages/product/intuos.php">인튜어스</a></li>
@@ -42,7 +42,7 @@
                         </ul>
                     </li>
                     <li class="hj-nav-list">
-                        <span>액정타블렛</span>
+                        <span class="hj-fold-wrap">액정타블렛<button class="hj-fold-icon"></button></span>
                         <ul class="hj-nav-list second-depth">
                             <li class="hj-not-now"><a href="/pages/product/dtc-133.php">와콤원</a></li>
                             <li class="hj-not-now"><a href="/pages/product/cintiq.php">신티크</a></li>

@@ -27,10 +27,10 @@
     box-shadow: 0 -1px 0 0 #d4d4d4 inset;
 } */
 
-#hjHeaderWrap a {
+#hjHeaderWrap .second-depth a {
     color: #777;
 }
-#hjHeaderWrap a:hover {
+#hjHeaderWrap .second-depth a:hover {
     color: #222;
 }
 
@@ -103,6 +103,10 @@
     color: #222;
 }
 
+#hjHeaderWrap .hj-nav-wrap .hj-nav-list .hj-fold-icon {
+    display: none;
+}
+
 #hjHeaderWrap .hj-nav-wrap .hj-reactive-nav > .hj-nav-list::after {
     content: "";
     position: absolute;
@@ -126,7 +130,7 @@
     padding: 0 10px;
 }
 
-#hjHeaderWrap .hj-nav-wrap .hj-nav-list a {
+#hjHeaderWrap .hj-nav-wrap .hj-nav-list.second-depth a {
     display: block;
     padding: 0 10px;
     width: 100%;
@@ -206,6 +210,42 @@
         font-weight: bold;
     }
 
+    #hjHeaderWrap .hj-nav-wrap .hj-nav-list {
+        width: 100%;
+        height: 50px;
+        overflow: hidden;
+        transition: all .2s ease-in-out;
+    }
+
+    #hjHeaderWrap .hj-nav-wrap .hj-nav-list.is-show {
+        height: auto;
+        overflow: auto;
+    }
+
+    #hjHeaderWrap .hj-nav-wrap .hj-nav-list > span {
+        display: block;
+        line-height: 50px;
+        padding: 0 8px;
+    }
+
+    #hjHeaderWrap .hj-nav-wrap .hj-nav-list .hj-fold-icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-image: url(../../images/icons/angle-down-arrow.png);
+        background-size: 24px;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all .2s ease-in-out;
+    }
+
+    #hjHeaderWrap .hj-nav-wrap .hj-nav-list .hj-fold-icon.is-active {
+        transform: rotate(180deg);
+    }
+
     #hjHeaderWrap .hj-nav-wrap .hj-reactive-menu-wrap {
         position: absolute;
         top: 60px;
@@ -214,5 +254,15 @@
         flex-direction: column;
         align-items: flex-start;
         border-top: 1px solid #e1e1e1;
+    }
+
+    #hjHeaderWrap .hj-nav-wrap .hj-nav-list.second-depth {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: auto;
+        line-height: 40px;
+        font-size: 12px;
+        color: #222;
     }
 }
