@@ -24,7 +24,7 @@ hjLogin.on('click', function(e){
     };
 
     $.ajax({
-        url: '/sessions/login.php',
+        url: '/server/api/session/login.php',
         type: 'POST',
         data: form_data,
         dataType: 'json',

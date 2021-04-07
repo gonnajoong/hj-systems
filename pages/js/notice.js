@@ -25,7 +25,37 @@ var ntImage = $("#ntImage");
 var onChangeText = function(e, name){
     var val = e.val();
     state[name] = val;
-}
+};
+
+var uploadImage = function(e, name) {
+    if(!e[0].files.length) return;
+    var file = e[0].files[0];
+    var form = new FormData();
+
+    form.append('file', file);
+    form.append('fileName', file.name);
+    $.ajax({
+        url: '/server/api/image/post.php',
+        type: 'POST',
+        data: form,
+        dataType: 'json',
+        success: function(data){
+            if(data.data.status_code === 200) {
+                // var decodeData = JSON.stringify(data);
+                location.href = "/";
+            } else {
+                alert('success, 그러나 파일 업로드 실패');
+            }
+        },
+        error: function(err) {
+            var decodeErr = JSON.stringify(err);
+            console.log('error: '+ decodeErr);
+            alert('그냥 실패.');
+        }
+    });
+    return false
+    console.log(file, form);
+};
 
 ntTitle.on(changeConst, function(){
     onChangeText($(this), "noticeTitle");
@@ -40,19 +70,13 @@ ntContent.on(changeConst, function(){
 });
 
 ntImage.on(changeConst, function(){
-    // onChangeText($(this), "noticeImage");
+    uploadImage($(this), "noticeImage");
 });
 
 $("#hjSubmitButton").on("click", function(){
     
     var hjImageArr = [];
 
-    // var uploadImage = function(e) {
-    //     if(!e.target.files.length) {
-
-    //     }
-    // }
-    // uploadImage(ntImage);
     var allArr = {
         "ntTitle": ntTitle,
         "ntType": ntType,
