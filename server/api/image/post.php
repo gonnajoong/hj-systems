@@ -10,7 +10,7 @@ if (!$db_conn) {
 if(isset($_FILES['file']['name'])){
   // hash file
   $date = date("YmdHis", time());
-  $dir = "../../../upload/";
+  $dir = '../../../upload/';
   $file_name = $_FILES['file']['name'];
   $file_hash = $date.$file_name;
 
@@ -42,12 +42,25 @@ if(isset($_FILES['file']['name'])){
         NOW(),
         '');";
         $result = mysqli_query($db_conn, $sql);
-        $response = $location;
+
+        $find_sql = "SELECT * FROM images WHERE image_name_hash='$nt_file_name_hash';";
+        $find_result = mysqli_query($db_conn, $find_sql);
+        $image = array();
+
+        while ($row = $find_result->fetch_assoc()) {
+         $image['image_id'] = $row['image_id'];
+         $image['image_name_hash'] = $row['image_name_hash'];
+         }
+
+         $obj['location'] = $location;
+         $obj['image'] = $image;
+         $obj['response'] = $location;
+         
         mysqli_close($db_conn);
      }
   }
 
-  echo $response;
+  echo json_encode($obj, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);
   exit;
 }
 

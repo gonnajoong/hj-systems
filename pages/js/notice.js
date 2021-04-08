@@ -24,6 +24,7 @@ var ntTitle = $("#noticeTitle");
 var ntType = $("#ntType");
 var ntContent = $("#ntContent");
 var ntImage = $("#ntImage");
+var image = {};
 
 var onChangeText = function (e, name) {
     var val = e.val();
@@ -46,11 +47,14 @@ var uploadImage = function (e, name) {
         contentType: false,
         processData: false,
         success: function (response) {
-            if (response != 0) {
-                $("#img").attr("src", response);
+            var data = JSON.parse(response);
+            console.log(data.response);
+            if (data.response != 0) {
+                $("#img").attr("src", data.location);
                 $(".preview img").show(); // Display image element
                 hjImagePreview.css("display", "block");
                 hjUploadWrap.css("display", "none");
+                image = data.image;
             } else {
                 alert('file not uploaded');
             }
@@ -85,14 +89,6 @@ hjImageRemove.on("click", function () {
 });
 
 $("#hjSubmitButton").on("click", function () {
+    console.log(image);
 
-    var hjImageArr = [];
-
-    var allArr = {
-        "ntTitle": ntTitle,
-        "ntType": ntType,
-        "ntContent": ntContent,
-        "ntImage": ntImage
-    }
-    console.log(state);
 })
