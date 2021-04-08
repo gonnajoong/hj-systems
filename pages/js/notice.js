@@ -28,7 +28,9 @@ var onChangeText = function(e, name){
 };
 
 var uploadImage = function(e, name) {
-    if(!e[0].files.length) return;
+    if(!e[0].files.length) {
+        return alert('업로드를 다시 해주세요');
+    }
     var file = e[0].files[0];
     var form = new FormData();
 
@@ -36,25 +38,20 @@ var uploadImage = function(e, name) {
     form.append('fileName', file.name);
     $.ajax({
         url: '/server/api/image/post.php',
-        type: 'POST',
+        type: 'post',
         data: form,
-        dataType: 'json',
-        success: function(data){
-            if(data.data.status_code === 200) {
-                // var decodeData = JSON.stringify(data);
-                location.href = "/";
-            } else {
-                alert('success, 그러나 파일 업로드 실패');
+        contentType: false,
+        processData: false,
+        success: function(response){
+            if(response != 0){
+               $("#img").attr("src",response); 
+               $(".preview img").show(); // Display image element
+            }else{
+               alert('file not uploaded');
             }
-        },
-        error: function(err) {
-            var decodeErr = JSON.stringify(err);
-            console.log('error: '+ decodeErr);
-            alert('그냥 실패.');
-        }
+         },
     });
-    return false
-    console.log(file, form);
+    return false;
 };
 
 ntTitle.on(changeConst, function(){
@@ -69,7 +66,7 @@ ntContent.on(changeConst, function(){
     onChangeText($(this), "noticeContent");
 });
 
-ntImage.on(changeConst, function(){
+ntImage.on("change", function(){
     uploadImage($(this), "noticeImage");
 });
 

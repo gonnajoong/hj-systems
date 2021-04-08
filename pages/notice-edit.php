@@ -28,7 +28,7 @@
         <article>
             <h2 id="hjNoticeTitle">글 작성</h2>
         <!-- 수정, 삭제 query 로 변경 -->
-            <form method="get" action="" class="hj-notice-form">
+            <form method="post" action="" class="hj-notice-form" enctype="multipart/form-data">
                 <label for="noticeTitle">
                     <span>제목</span>
                     <input id="noticeTitle" class="hj-input-role" type="text" value="" placeholder="제목을 입력해주세요" require>
@@ -48,7 +48,9 @@
                             id="ntContent"
                             placeholder="내용을 입력해주세요"></textarea>
                 </label>
-                <div id="hjImagePreview" class="hj-image-preview"></div>
+                <div id="hjImagePreview" class="hj-image-preview">
+                    <img src="" id="img" width="100" height="100">
+                </div>
                 <label for="ntImage">
                     <span>이미지</span>
                     <input type="file"
