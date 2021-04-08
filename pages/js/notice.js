@@ -24,6 +24,7 @@ var ntTitle = $("#noticeTitle");
 var ntType = $("#ntType");
 var ntContent = $("#ntContent");
 var ntImage = $("#ntImage");
+var data = {};
 var image = {};
 
 var onChangeText = function (e, name) {
@@ -31,7 +32,7 @@ var onChangeText = function (e, name) {
     state[name] = val;
 };
 
-var uploadImage = function (e, name) {
+var uploadImage = function (e) {
     if (!e[0].files.length) {
         return alert('업로드를 다시 해주세요');
     }
@@ -47,8 +48,7 @@ var uploadImage = function (e, name) {
         contentType: false,
         processData: false,
         success: function (response) {
-            var data = JSON.parse(response);
-            console.log(data.response);
+            data = JSON.parse(response);
             if (data.response != 0) {
                 $("#img").attr("src", data.location);
                 $(".preview img").show(); // Display image element
@@ -76,7 +76,7 @@ ntContent.on(changeConst, function () {
 });
 
 ntImage.on("change", function () {
-    uploadImage($(this), "noticeImage");
+    uploadImage($(this));
 });
 
 hjImageRemove.on("click", function () {
@@ -89,6 +89,26 @@ hjImageRemove.on("click", function () {
 });
 
 $("#hjSubmitButton").on("click", function () {
-    console.log(image);
+    const {noticeTitle, noticeType, noticeContent} = state;
 
+    var createNotice = {};
+    createNotice.title = noticeTitle;
+    createNotice.type = noticeType;
+    createNotice.content = noticeContent ? noticeContent : null;
+    createNotice.image_id = image ? parseInt(image.image_id) : null;
+
+    console.log(createNotice);
+    $.ajax({
+        url: '/server/api/notice/post.php',
+        type: 'post',
+        data: createNotice,
+        dataType: 'json',
+        success: function(response){
+            if(response){
+                alert('글 작성을 성공했습니다.');
+            } else {
+                alert('글 작성에 실패했습니다.');
+            }
+        }
+    });
 })
