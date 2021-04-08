@@ -37,7 +37,7 @@
                             <th>작성일</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="hjNoticeList">
                         <tr>
                             <td>1</td>
                             <td><a href="/pages/notice-detail.php?id=1&type=notice">임시 제목</a></td>

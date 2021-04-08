@@ -17,6 +17,7 @@
     display: inline-block;
     width: 100%;
     max-width: 1600px;
+    margin-bottom: 100px;
 }
 
 .hj-notice-detail ul {

@@ -19,6 +19,7 @@ const changeConst = "propertychange change keyup paste input";
 const hjImagePreview = $("#hjImagePreview");
 const hjImageRemove = $("#hjImageRemove");
 const hjUploadWrap = $("#hjUploadWrap");
+const hjNoticeList = $("#hjNoticeList");
 
 var ntTitle = $("#noticeTitle");
 var ntType = $("#ntType");
@@ -117,16 +118,30 @@ $("#hjSubmitButton").on("click", function () {
     });
 });
 
-var gets = function(){
+function gets(){
     $.ajax({
-        url: '/server/api/notice/gets',
+        url: '/server/api/notice/gets.php',
         type: 'GET',
+        async: false,
         data: query,
         dataType: 'json',
         success: function(data){
+            if(data.count) {
+                hjNoticeList.html("");
+                for(var i=0; i<data.count; i++) {
+                    hjNoticeList.prepend("<tr><td>"+parseInt(i+1)+"</td><td><a href='/pages/notice-detail.php?id="+data[i].id+"'>"+data[i].title+"</a></td><td>"+data[i].updated_at+"</td></tr>");
+                }
+            } else {
+                hjNoticeList.prepend("<tr><td colspan='3'>등록된 글이 없습니다.</td></tr>");
+            }
             
+            // <tr>
+            //             <td>{index+1}</td>
+            //             <td>{item.title}</td>
+            //             <td>{item.updated_at}</td>
+            //         </tr>
         }
-    })
+    });
 };
 
 gets();

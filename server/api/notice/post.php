@@ -22,7 +22,7 @@ if(isset($_POST['title'])){
     '$image_id', 
     '$type',
     NOW(),
-    '',
+    NOW(),
     '')";
 
     $result = mysqli_query($db_conn, $sql);
