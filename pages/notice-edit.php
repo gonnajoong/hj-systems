@@ -48,10 +48,7 @@
                             id="ntContent"
                             placeholder="내용을 입력해주세요"></textarea>
                 </label>
-                <div id="hjImagePreview" class="hj-image-preview">
-                    <img src="" id="img" width="100" height="100">
-                </div>
-                <label for="ntImage">
+                <label for="ntImage" id="hjUploadWrap">
                     <span>이미지</span>
                     <input type="file"
                             class="hj-input-file"
@@ -59,6 +56,12 @@
                             id="ntImage"
                             accept="image/x-png,image/gif,image/jpeg" >
                 </label>
+                <div id="hjImagePreview" class="hj-image-preview">
+                    <span>
+                        <img src="" id="img" alt="업로드 이미지">
+                        <button id="hjImageRemove" class="hj-image-remove-button" type="button"></button>
+                    </span>
+                </div>
                 <button id="hjSubmitButton" type="button" class="hj-submit-button">
                     <span>작성</span>
                 </button>

@@ -36,11 +36,11 @@ if(isset($_FILES['file']['name'])){
         $nt_file_name_hash = $file_hash;
 
         $sql = "INSERT INTO images VALUES ('',
+        null,
         '$nt_file_name',
         '$nt_file_name_hash',
         NOW(),
         '');";
-
         $result = mysqli_query($db_conn, $sql);
         $response = $location;
         mysqli_close($db_conn);

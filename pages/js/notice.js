@@ -1,6 +1,6 @@
 var hjNotiCreate = ".hj-notice-create-button";
-$(document).on("click", hjNotiCreate, function(){
-    if(getCookie('HJ_SESSION')){
+$(document).on("click", hjNotiCreate, function () {
+    if (getCookie('HJ_SESSION')) {
         // 공지사항 등록 페이지로 이동
         location.href = "/pages/notice-edit.php";
     } else {
@@ -16,19 +16,22 @@ var state = {
 };
 
 const changeConst = "propertychange change keyup paste input";
+const hjImagePreview = $("#hjImagePreview");
+const hjImageRemove = $("#hjImageRemove");
+const hjUploadWrap = $("#hjUploadWrap");
 
 var ntTitle = $("#noticeTitle");
 var ntType = $("#ntType");
 var ntContent = $("#ntContent");
 var ntImage = $("#ntImage");
 
-var onChangeText = function(e, name){
+var onChangeText = function (e, name) {
     var val = e.val();
     state[name] = val;
 };
 
-var uploadImage = function(e, name) {
-    if(!e[0].files.length) {
+var uploadImage = function (e, name) {
+    if (!e[0].files.length) {
         return alert('업로드를 다시 해주세요');
     }
     var file = e[0].files[0];
@@ -42,36 +45,47 @@ var uploadImage = function(e, name) {
         data: form,
         contentType: false,
         processData: false,
-        success: function(response){
-            if(response != 0){
-               $("#img").attr("src",response); 
-               $(".preview img").show(); // Display image element
-            }else{
-               alert('file not uploaded');
+        success: function (response) {
+            if (response != 0) {
+                $("#img").attr("src", response);
+                $(".preview img").show(); // Display image element
+                hjImagePreview.css("display", "block");
+                hjUploadWrap.css("display", "none");
+            } else {
+                alert('file not uploaded');
             }
-         },
+        },
     });
     return false;
 };
 
-ntTitle.on(changeConst, function(){
+ntTitle.on(changeConst, function () {
     onChangeText($(this), "noticeTitle");
 });
 
-ntType.on(changeConst, function(){
+ntType.on(changeConst, function () {
     onChangeText($(this), "noticeType");
 });
 
-ntContent.on(changeConst, function(){
+ntContent.on(changeConst, function () {
     onChangeText($(this), "noticeContent");
 });
 
-ntImage.on("change", function(){
+ntImage.on("change", function () {
     uploadImage($(this), "noticeImage");
 });
 
-$("#hjSubmitButton").on("click", function(){
-    
+hjImageRemove.on("click", function () {
+    var _this = $(this);
+    // 이미지 제거
+    hjImagePreview.css("display", "none");
+    _this.prev().attr("src", "");
+    document.getElementById("ntImage").value = "";
+    hjUploadWrap.css("display", "flex");
+});
+
+$("#hjSubmitButton").on("click", function () {
+
     var hjImageArr = [];
 
     var allArr = {
