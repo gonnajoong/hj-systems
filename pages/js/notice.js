@@ -26,6 +26,10 @@ var ntContent = $("#ntContent");
 var ntImage = $("#ntImage");
 var data = {};
 var image = {};
+var query = {
+    pages: 1,
+    count: 1,
+};
 
 var onChangeText = function (e, name) {
     var val = e.val();
@@ -111,4 +115,18 @@ $("#hjSubmitButton").on("click", function () {
             }
         }
     });
-})
+});
+
+var gets = function(){
+    $.ajax({
+        url: '/server/api/notice/gets',
+        type: 'GET',
+        data: query,
+        dataType: 'json',
+        success: function(data){
+            
+        }
+    })
+};
+
+gets();
