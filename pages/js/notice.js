@@ -20,6 +20,7 @@ const hjImagePreview = $("#hjImagePreview");
 const hjImageRemove = $("#hjImageRemove");
 const hjUploadWrap = $("#hjUploadWrap");
 const hjNoticeList = $("#hjNoticeList");
+const ntAdminWrap = $("#ntAdminWrap");
 
 var ntTitle = $("#noticeTitle");
 var ntType = $("#ntType");
@@ -28,7 +29,7 @@ var ntImage = $("#ntImage");
 var data = {};
 var image = {};
 var query = {
-    pages: 1,
+    page: 1,
     count: 1,
 };
 var noticePath = '/pages/notice.php';
@@ -120,6 +121,7 @@ $("#hjSubmitButton").on("click", function () {
     });
 });
 
+console.log(query);
 function gets(){
     $.ajax({
         url: '/server/api/notice/gets.php',
@@ -133,7 +135,7 @@ function gets(){
                 hjNoticeList.html("");
                 for(var i=0; i<data.count; i++) {
                     console.log(data[i]);
-                    hjNoticeList.prepend("<tr><td>"+parseInt(i+1)+"</td><td><a href='/pages/notice-detail.php?id="+data[i].id+"'>"+data[i].title+"</a></td><td>"+data[i].updated_at+"</td></tr>");
+                    hjNoticeList.prepend("<tr><td>"+parseInt(i+1)+"</td><td><a href='/pages/notice-detail.php?id="+data[i].id+"&pages="+query.pages+"'>"+data[i].title+"</a></td><td>"+data[i].updated_at+"</td></tr>");
                 }
             } else {
                 hjNoticeList.prepend("<tr><td colspan='3'>등록된 글이 없습니다.</td></tr>");
@@ -192,6 +194,12 @@ function get(){
             }
         }
     });
+}
+
+if(getCookie('HJ_SESSION') !== null) {
+    ntAdminWrap.html("<a href=''><button class='hj-black'>수정</button></a><a href=''><button class='hj-black'>삭제</button></a>");
+} else {
+    ntAdminWrap.html("");
 }
 
 

@@ -47,6 +47,7 @@
                             name="ntContent"
                             id="ntContent"
                             placeholder="내용을 입력해주세요"></textarea>
+                            <!-- 텍스트에디터 추가 예정 -->
                 </label>
                 <label for="ntImage" id="hjUploadWrap">
                     <span>이미지</span>

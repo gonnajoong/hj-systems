@@ -38,11 +38,7 @@
                         </tr>
                     </thead>
                     <tbody id="hjNoticeList">
-                        <tr>
-                            <td>1</td>
-                            <td><a href="/pages/notice-detail.php?id=1&type=notice">임시 제목</a></td>
-                            <td>2020-01-20 16:30:22</td>
-                        </tr>
+                        
                     </tbody>
                 </table>
                 <!-- TODO 공지사항 목록 가져오는 스크립트 추가 및 공지사항 없을때 외형 추가할 것 -->
