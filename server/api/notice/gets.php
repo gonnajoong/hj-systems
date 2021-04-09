@@ -18,15 +18,15 @@
 
     $index = 0;
     while($row = $result->fetch_assoc()) {
-        $rows = array(
-            array(
+        array_push($rows,
+        array(
             "id" => $row["id"],
             "title" => $row['title'],
             "content" => $row['content'],
             "type" => $row['type'],
             "image_id" => $row['image_id'],
             "updated_at" => $row['updated_at'])
-        );
+    );
         $index++;
         $rows["count"] = $index;
     }

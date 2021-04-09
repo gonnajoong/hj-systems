@@ -30,13 +30,14 @@
         <article class="hj-notice-detail">
             <ul>
                 <li class="hj-notice-top">
-                    <span>공지</span>
-                    <span>제목 테스트</span>
-                    <span>2021-03-31 18:24:47</span>
+                    <span id="ntdType" >공지</span>
+                    <span id="ntdTitle">제목 테스트</span>
+                    <span id="ntdDate">2021-03-31 18:24:47</span>
                 </li>
                 <li class="hj-contents-wrap">
                     <!-- 이미지, 내용 출력 -->
-                    이미지 혹은 내용
+                    <img id="ntdImage" src="" alt="">
+                    <p id="ntdContent"></p>
                 </li>
             </ul>
             <div class="hj-button-wrap">

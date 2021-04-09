@@ -31,6 +31,8 @@ var query = {
     pages: 1,
     count: 1,
 };
+var noticePath = '/pages/notice.php';
+var noticeDetailPath = '/pages/notice-detail.php';
 
 var onChangeText = function (e, name) {
     var val = e.val();
@@ -126,9 +128,11 @@ function gets(){
         data: query,
         dataType: 'json',
         success: function(data){
+            console.log('배열 ',data);
             if(data.count) {
                 hjNoticeList.html("");
                 for(var i=0; i<data.count; i++) {
+                    console.log(data[i]);
                     hjNoticeList.prepend("<tr><td>"+parseInt(i+1)+"</td><td><a href='/pages/notice-detail.php?id="+data[i].id+"'>"+data[i].title+"</a></td><td>"+data[i].updated_at+"</td></tr>");
                 }
             } else {
@@ -144,4 +148,58 @@ function gets(){
     });
 };
 
-gets();
+function getQueryStringObject() {
+    var a = window.location.search.substr(1).split('&');
+    if (a == "") return {};
+    var b = {};
+    for (var i = 0; i < a.length; ++i) {
+        var p = a[i].split('=', 2);
+        if (p.length == 1)
+            b[p[0]] = "";
+        else
+            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+    }
+    return b;
+}
+
+function get(){
+    var getData = getQueryStringObject();
+    var ntdType = $("#ntdType");
+    var ntdTitle = $("#ntdTitle");
+    var ntdDate = $("#ntdDate");
+    var ntdImage = $("#ntdImage");
+    var ntdContent = $("#ntdContent");
+
+    var types = {"event":"이벤트", "notice": "공지사항"};
+
+    $.ajax({
+        url: '/server/api/notice/get.php',
+        type: 'GET',
+        data: getData,
+        dataType: 'json',
+        success: function(data){
+            var rows = data;
+
+            ntdType.html(types[rows.type]);
+            ntdTitle.html(rows.title);
+            ntdDate.html(rows.updated_at);
+            ntdContent.html(rows.content);
+            if(rows.image_name_hash){
+                ntdImage.css('display','inline-block');
+                ntdImage.attr('src', '/upload/'+rows.image_name_hash);
+            } else {
+                ntdImage.css('display','none');
+            }
+        }
+    });
+}
+
+
+if(window.location.pathname == noticePath) {
+    gets();
+}
+
+if(window.location.pathname == noticeDetailPath){
+    get();
+}
+// 조건문
