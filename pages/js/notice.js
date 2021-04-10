@@ -34,6 +34,7 @@ var query = {
 };
 var noticePath = '/pages/notice.php';
 var noticeDetailPath = '/pages/notice-detail.php';
+var ntPageNum = $('#ntPageNum');
 
 var onChangeText = function (e, name) {
     var val = e.val();
@@ -121,7 +122,6 @@ $("#hjSubmitButton").on("click", function () {
     });
 });
 
-console.log(query);
 function gets(){
     $.ajax({
         url: '/server/api/notice/gets.php',
@@ -134,8 +134,8 @@ function gets(){
             if(data.count) {
                 hjNoticeList.html("");
                 for(var i=0; i<data.count; i++) {
-                    console.log(data[i]);
-                    hjNoticeList.prepend("<tr><td>"+parseInt(i+1)+"</td><td><a href='/pages/notice-detail.php?id="+data[i].id+"&pages="+query.pages+"'>"+data[i].title+"</a></td><td>"+data[i].updated_at+"</td></tr>");
+                    console.log(data['rows'][i]);
+                    hjNoticeList.prepend("<tr><td>"+parseInt(i+1)+"</td><td><a href='/pages/notice-detail.php?id="+data['rows'][i].id+"&pages="+query.pages+"'>"+data['rows'][i].title+"</a></td><td>"+data['rows'][i].updated_at+"</td></tr>");
                 }
             } else {
                 hjNoticeList.prepend("<tr><td colspan='3'>등록된 글이 없습니다.</td></tr>");
