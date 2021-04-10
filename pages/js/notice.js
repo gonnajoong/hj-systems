@@ -1,4 +1,6 @@
 var hjNotiCreate = ".hj-notice-create-button";
+var ntDel = "#ntDel";
+
 $(document).on("click", hjNotiCreate, function () {
     if (getCookie('HJ_SESSION')) {
         // 공지사항 등록 페이지로 이동
@@ -37,6 +39,7 @@ var noticeDetailPath = '/pages/notice-detail.php';
 var ntPageNum = $('#ntPageNum');
 var ntBefore = $("#ntBefore");
 var ntAfter = $("#ntAfter");
+var ntList = $("#ntList");
 
 var onChangeText = function (e, name) {
     var val = e.val();
@@ -132,11 +135,10 @@ function gets(){
         data: query,
         dataType: 'json',
         success: function(data){
-            console.log('배열 ',data);
             if(data.count) {
                 hjNoticeList.empty();
                 for(var i=0; i<data.count; i++) {
-                    hjNoticeList.prepend("<tr><td>"+parseInt(i+1)+"</td><td><a href='/pages/notice-detail.php?id="+data['rows'][i].id+"&pages="+query.pages+"'>"+data['rows'][i].title+"</a></td><td>"+data['rows'][i].updated_at+"</td></tr>");
+                    hjNoticeList.prepend("<tr><td>"+parseInt(i+1)+"</td><td><a href='/pages/notice-detail.php?id="+data['rows'][i].id+"&page="+query.page+"'>"+data['rows'][i].title+"</a></td><td>"+data['rows'][i].updated_at+"</td></tr>");
                 }
                 // 이전 페이지, 다음 페이지
                 if(data.notice_start_num > 1){
@@ -199,11 +201,11 @@ function get(){
         dataType: 'json',
         success: function(data){
             var rows = data;
-
             ntdType.html(types[rows.type]);
             ntdTitle.html(rows.title);
             ntdDate.html(rows.updated_at);
             ntdContent.html(rows.content);
+            ntList.attr('href','/pages/notice.php?page='+getData.page+'');
             if(rows.image_name_hash){
                 ntdImage.css('display','inline-block');
                 ntdImage.attr('src', '/upload/'+rows.image_name_hash);
@@ -214,8 +216,33 @@ function get(){
     });
 }
 
+function put (){}
+
+function remove(){
+    var data = getQueryStringObject();
+    console.log(data);
+
+ $.ajax({
+     url: '/server/api/notice/delete.php',
+     type: 'DELETE',
+     data: parseInt(data),
+     dataType: 'json',
+     success: function() {
+        alert('삭제가 완료되었습니다.');
+     }
+ })
+};
+
 if(getCookie('HJ_SESSION') !== null) {
-    ntAdminWrap.html("<a href=''><button class='hj-black'>수정</button></a><a href=''><button class='hj-black'>삭제</button></a>");
+    ntAdminWrap.html("<a href=''><button class='hj-black'>수정</button></a><button id='ntDel' class='hj-black'>삭제</button>");
+    if(typeof ntDel !== 'undefined') {
+        $(document).on('click', ntDel, function(){
+            var checkConfirm = confirm('해당 게시글을\n삭제하시겠습니까?');
+            if(checkConfirm){
+                remove();
+            }
+        });
+    }
 } else {
     ntAdminWrap.html("");
 }
@@ -229,3 +256,7 @@ if(window.location.pathname == noticeDetailPath){
     get();
 }
 // 조건문
+
+// 페이징 로직 작동 이상없는지 테스트 예정,
+// 게시글 수정 api 작성 예정,
+// 게시글 삭제 api 작성 예정

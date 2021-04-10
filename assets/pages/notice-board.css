@@ -97,6 +97,10 @@
   margin: 100px 0;
 }
 
+.hj-notice-board-wrap .hj-board-wrap .hj-pagination-wrap .active {
+  text-decoration: underline;
+}
+
 .hj-notice-board-wrap .hj-board-wrap .hj-pagination-wrap ul {
   display: inline-flex;
   max-width: 200px;

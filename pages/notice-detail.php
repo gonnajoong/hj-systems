@@ -41,17 +41,15 @@
                 </li>
             </ul>
             <div class="hj-button-wrap">
-                <a href="">
-                    <button class="hj-white">목록</button>
+                <a href="" id="ntList">
+                    <button class="hj-white" type="button">목록</button>
                 </a>
                <span id="ntAdminWrap">
                  <!-- 로그인 유무에 따라 수정 및 삭제 버튼 등장 -->
                     <a href="" id="ntEdit">
                         <button class="hj-black">수정</button>
                     </a>
-                    <a href="" id="ntDel">
-                        <button class="hj-black">삭제</button>
-                    </a>
+                    <button class="hj-black">삭제</button>
                </span>
             </div>
         </article>
