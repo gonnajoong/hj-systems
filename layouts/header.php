@@ -51,7 +51,7 @@
                         </ul>
                     </li>
                     <li class="hj-nav-list">
-                        <span><a href="/pages/notice.php">공지사항</a></span>
+                        <span><a href="/pages/notice.php?page=1">공지사항</a></span>
                     </li>
                     <li class="hj-nav-list">
                         <span><a href="/pages/corporate-counseling.php">상담 문의</a></span>

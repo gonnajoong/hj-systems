@@ -35,6 +35,8 @@ var query = {
 var noticePath = '/pages/notice.php';
 var noticeDetailPath = '/pages/notice-detail.php';
 var ntPageNum = $('#ntPageNum');
+var ntBefore = $("#ntBefore");
+var ntAfter = $("#ntAfter");
 
 var onChangeText = function (e, name) {
     var val = e.val();
@@ -132,11 +134,27 @@ function gets(){
         success: function(data){
             console.log('배열 ',data);
             if(data.count) {
-                hjNoticeList.html("");
+                hjNoticeList.empty();
                 for(var i=0; i<data.count; i++) {
-                    console.log(data['rows'][i]);
                     hjNoticeList.prepend("<tr><td>"+parseInt(i+1)+"</td><td><a href='/pages/notice-detail.php?id="+data['rows'][i].id+"&pages="+query.pages+"'>"+data['rows'][i].title+"</a></td><td>"+data['rows'][i].updated_at+"</td></tr>");
                 }
+                // 이전 페이지, 다음 페이지
+                if(data.notice_start_num > 1){
+                    ntBefore.attr('href','?page='+data.notice_start_num - 1+'');
+                } else {
+                    ntBefore.css('display','none');
+                }
+                if(data.notice_end_page_num < data.notice_end_conut_num) {
+                    ntAfter.attr('href','?page='+data.notice_end_num + 1+'');
+                } else {
+                    ntAfter.css('display','none');
+                }
+                // 영역 종료
+
+                for(var i = 0; i <= data.notice_end_num - data.notice_start_num; i++) {
+                    ntPageNum.prepend("<a class='"+(data.notice_start_num + i == data.notice_page ? ' active' : '')+"' href='?page="+parseInt(data.notice_start_num + i)+"'>"+parseInt(data.notice_start_num + i)+"</a>");
+                }
+                
             } else {
                 hjNoticeList.prepend("<tr><td colspan='3'>등록된 글이 없습니다.</td></tr>");
             }

@@ -11,7 +11,7 @@
 
     $num_length = 5;
     $notice_size = 12;
-    $notice_page = $_GET['page'];
+    $notice_page = intval($_GET['page']);
     if(!$notice_page) $notice_page = 1;
 
     $notice_offset = ($notice_page - 1) * $notice_size;

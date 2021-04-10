@@ -48,19 +48,15 @@
                 <ul>
                 
                     <li>
-                        <a href="">이전</a>
+                        <a id="ntBefore" href="">이전</a>
                     </li>
 
                     <li id="ntPageNum">
-                        <a href="">1</a>
-                        <a href="">2</a>
-                        <a href="">3</a>
-                        <a href="">4</a>
-                        <a href="">5</a>
+                        <!-- page -->
                     </li>
 
                     <li>
-                        <a href="">다음</a>
+                        <a id="ntAfter" href="">다음</a>
                     </li>
                 </ul>
             </article>
