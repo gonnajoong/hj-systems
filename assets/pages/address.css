@@ -132,3 +132,13 @@
 #hjAddressWrap .hj-transport-table td:last-of-type {
   border-right: 0;
 }
+
+/* tablet */
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+
+}

@@ -49,3 +49,13 @@
     font-size: 28px;
     margin-top: 50px;
 }
+
+/* tablet */
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+
+}

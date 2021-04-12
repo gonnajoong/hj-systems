@@ -316,8 +316,3 @@ if(getCookie('HJ_SESSION') !== null && window.location.pathname == noticeEditPat
 } else {
     $(".hj-notice-form").append('<button id="hjSubmitButton" type="button" class="hj-submit-button"><span>작성</span></button>');
 }
-// 조건문
-
-// 페이징 로직 작동 이상없는지 테스트 예정,
-// 게시글 수정 api 작성 예정,
-// 게시글 삭제 api 작성 예정

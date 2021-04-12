@@ -102,3 +102,12 @@
     border-color: #000;
 }
 
+/* tablet */
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+
+}

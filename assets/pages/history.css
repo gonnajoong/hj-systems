@@ -78,3 +78,13 @@
 .hj-company-history-wrap .hj-history-list li > h3 {
   font-weight: 500;
 }
+
+/* tablet */
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+
+}

@@ -320,3 +320,13 @@
   border-right: 1px solid #e1e1e1;
   
 }
+
+/* tablet */
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+
+}

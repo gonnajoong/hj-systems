@@ -116,3 +116,13 @@
 .hj-notice-edit-wrap .hj-notice-form .hj-submit-button:hover span {
   color: #222;
 }
+
+/* tablet */
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+
+}
