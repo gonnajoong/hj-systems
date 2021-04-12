@@ -36,6 +36,7 @@ var query = {
 };
 var noticePath = '/pages/notice.php';
 var noticeDetailPath = '/pages/notice-detail.php';
+var noticeEditPath = '/pages/notice-edit.php';
 var ntPageNum = $('#ntPageNum');
 var ntBefore = $("#ntBefore");
 var ntAfter = $("#ntAfter");
@@ -201,31 +202,35 @@ function get(){
         dataType: 'json',
         success: function(data){
             var rows = data;
-            ntdType.html(types[rows.type]);
-            ntdTitle.html(rows.title);
-            ntdDate.html(rows.updated_at);
-            ntdContent.html(rows.content);
-            ntList.attr('href','/pages/notice.php?page='+getData.page+'');
-            if(rows.image_name_hash){
-                ntdImage.css('display','inline-block');
-                ntdImage.attr('src', '/upload/'+rows.image_name_hash);
-            } else {
-                ntdImage.css('display','none');
+            if(window.location.pathname == noticeDetailPath){
+                ntdType.html(types[rows.type]);
+                ntdTitle.html(rows.title);
+                ntdDate.html(rows.updated_at);
+                ntdContent.html(rows.content);
+                ntList.attr('href','/pages/notice.php?page='+getData.page+'');
+                if(rows.image_name_hash){
+                    ntdImage.css('display','inline-block');
+                    ntdImage.attr('src', '/upload/'+rows.image_name_hash);
+                } else {
+                    ntdImage.css('display','none');
+                }
             }
+            return rows;
         }
     });
 }
 
-function put (){}
+function put (){
+
+}
 
 function remove(){
     var data = getQueryStringObject();
-    console.log(data);
 
  $.ajax({
      url: '/server/api/notice/delete.php',
-     type: 'DELETE',
-     data: parseInt(data),
+     type: 'POST',
+     data: data,
      dataType: 'json',
      success: function() {
         alert('삭제가 완료되었습니다.');
@@ -234,12 +239,15 @@ function remove(){
 };
 
 if(getCookie('HJ_SESSION') !== null) {
-    ntAdminWrap.html("<a href=''><button class='hj-black'>수정</button></a><button id='ntDel' class='hj-black'>삭제</button>");
+    //삭제
+    data = getQueryStringObject();
+    ntAdminWrap.html("<a href='/pages/notice-edit.php?id="+data.id+"'><button class='hj-black'>수정</button></a><button id='ntDel' class='hj-black'>삭제</button>");
     if(typeof ntDel !== 'undefined') {
         $(document).on('click', ntDel, function(){
             var checkConfirm = confirm('해당 게시글을\n삭제하시겠습니까?');
             if(checkConfirm){
                 remove();
+                $(window),location.href = '/pages/notice.php?page='+data.page+'';
             }
         });
     }
@@ -247,13 +255,19 @@ if(getCookie('HJ_SESSION') !== null) {
     ntAdminWrap.html("");
 }
 
-
 if(window.location.pathname == noticePath) {
     gets();
 }
 
 if(window.location.pathname == noticeDetailPath){
     get();
+}
+
+if(getCookie('HJ_SESSION') !== null && window.location.pathname == noticeEditPath) {
+    // 수정
+    data = getQueryStringObject();
+    get();
+    console.log(rows);
 }
 // 조건문
 

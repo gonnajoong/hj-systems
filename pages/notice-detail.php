@@ -46,8 +46,8 @@
                 </a>
                <span id="ntAdminWrap">
                  <!-- 로그인 유무에 따라 수정 및 삭제 버튼 등장 -->
-                    <a href="" id="ntEdit">
-                        <button class="hj-black">수정</button>
+                    <a href="" >
+                        <button id="ntEdit" class="hj-black">수정</button>
                     </a>
                     <button class="hj-black">삭제</button>
                </span>

@@ -7,9 +7,10 @@
      exit();
  }
 
- $remove_id = $_GET['id'];
+ $remove_id = $_POST['id'];
  
  $removeSql = "DELETE FROM notice WHERE id=$remove_id";
+ print($removeSql);
 mysqli_query($db_conn, $removeSql);
 
 ?>
