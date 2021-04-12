@@ -11,10 +11,10 @@ $(document).on("click", hjNotiCreate, function () {
 });
 
 var state = {
-    noticeTitle: "",
-    noticeType: "",
-    noticeContent: "",
-    noticeImage: "",
+    noticeTitle: $("#noticeTitle").val(),
+    noticeType: $("#ntType").val(),
+    noticeContent: $("#ntContent").val(),
+    noticeImage: '',
 };
 
 const changeConst = "propertychange change keyup paste input";
@@ -34,6 +34,7 @@ var query = {
     page: 1,
     count: 1,
 };
+var ntEdit = {};
 var noticePath = '/pages/notice.php';
 var noticeDetailPath = '/pages/notice-detail.php';
 var noticeEditPath = '/pages/notice-edit.php';
@@ -102,8 +103,8 @@ hjImageRemove.on("click", function () {
     document.getElementById("ntImage").value = "";
     hjUploadWrap.css("display", "flex");
 });
-
-$("#hjSubmitButton").on("click", function () {
+var hjSubmitButton = "#hjSubmitButton";
+$(document).on("click", hjSubmitButton, function () {
     const {noticeTitle, noticeType, noticeContent} = state;
 
     var createNotice = {};
@@ -215,13 +216,43 @@ function get(){
                     ntdImage.css('display','none');
                 }
             }
-            return rows;
+
+            if(getCookie('HJ_SESSION') !== null && window.location.pathname == noticeEditPath){
+                $("#noticeTitle").val(data.title);
+                $("#ntType").val(data.type);
+                $("#ntContent").val(data.content);
+                if(typeof data.image_id !== undefined){
+                    $("#img").attr("src", "/upload/"+data.image_name_hash);
+                    $(".preview img").show(); // Display image element
+                    hjImagePreview.css("display", "block");
+                    hjUploadWrap.css("display", "none");
+                    return image = data.image_id;
+                }
+            }
         }
     });
 }
 
 function put (){
-
+    data = getQueryStringObject();
+    var putData = {
+        "id": data.id,
+        "title": data.id,
+        "type": data.id,
+        "content": data.id,
+        "id": data.id,
+    }
+    console.log(state);
+    // $.ajax({
+    //     url: '/server/api/notice/put.php',
+    //     type: 'POST',
+    //     data: putData,
+    //     dataType: 'json',
+    //     success: function(data){
+    //         console.log('put_data', data);
+            
+    //     }
+    // })
 }
 
 function remove(){
@@ -241,7 +272,7 @@ function remove(){
 if(getCookie('HJ_SESSION') !== null) {
     //삭제
     data = getQueryStringObject();
-    ntAdminWrap.html("<a href='/pages/notice-edit.php?id="+data.id+"'><button class='hj-black'>수정</button></a><button id='ntDel' class='hj-black'>삭제</button>");
+    ntAdminWrap.html("<a href='/pages/notice-edit.php?id="+data.id+"&state=edit'><button class='hj-black'>수정</button></a><button id='ntDel' class='hj-black'>삭제</button>");
     if(typeof ntDel !== 'undefined') {
         $(document).on('click', ntDel, function(){
             var checkConfirm = confirm('해당 게시글을\n삭제하시겠습니까?');
@@ -261,13 +292,24 @@ if(window.location.pathname == noticePath) {
 
 if(window.location.pathname == noticeDetailPath){
     get();
+    
 }
 
-if(getCookie('HJ_SESSION') !== null && window.location.pathname == noticeEditPath) {
+var queryString = getQueryStringObject();
+if(getCookie('HJ_SESSION') !== null && window.location.pathname == noticeEditPath && queryString.state === 'edit') {
     // 수정
-    data = getQueryStringObject();
+    $(".hj-notice-form").append('<button id="hjEditButton" type="button" class="hj-submit-button"><span>수정</span></button>');
     get();
-    console.log(rows);
+    var hjEditButton = '#hjEditButton';
+    $(document).on('click', hjEditButton, function(){
+        var is_confirm = confirm('수정 하시겠습니까?');
+        if(is_confirm) {
+            put();
+            console.log('image_',image);
+        }
+    });
+} else {
+    $(".hj-notice-form").append('<button id="hjSubmitButton" type="button" class="hj-submit-button"><span>작성</span></button>');
 }
 // 조건문
 

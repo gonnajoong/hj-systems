@@ -7,5 +7,17 @@
          exit();
      }
 
-     
+    $id = $_POST['id'];
+    $title = mysqli_real_escape_string($db_conn, $_POST["title"]);
+    $type = mysqli_real_escape_string($db_conn, $_POST["type"]);
+    $content = $_POST["content"] ? mysqli_real_escape_string($db_conn, $_POST["content"]) : null;
+    $image_id = $_POST["image_id"] ? mysqli_real_escape_string($db_conn, $_POST["image_id"]) : null;
+
+    $put = "UPDATE notice SET title=$title, content=$content, image_id=$image_id, type=$type, updated_at=NOW() WEHRE id=$id";
+    
+    $result = mysqli_query($db_conn, $put);
+    
+    $rows = array();
+
+    echo json_encode($rows, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);
 ?>

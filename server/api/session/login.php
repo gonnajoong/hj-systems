@@ -24,7 +24,7 @@
         if($passwordResult === true){
             //todo 쿠키 생성 코드 삽입할것
             $_SESSION['u_id'] = $row['u_id'];
-            setcookie("HJ_SESSION", $_SESSION['u_id'], time() + 3600, "/");
+            setcookie("HJ_SESSION", $_SESSION['u_id'], time() + 604800, "/");
             $message = '로그인 성공';
             $response['data'] = array('message' => $message, 'status_code' => 200);
             echo json_encode($response);

@@ -63,9 +63,7 @@
                         <button id="hjImageRemove" class="hj-image-remove-button" type="button"></button>
                     </span>
                 </div>
-                <button id="hjSubmitButton" type="button" class="hj-submit-button">
-                    <span>작성</span>
-                </button>
+                
             </form>
         </article>
     </section>

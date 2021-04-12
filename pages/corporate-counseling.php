@@ -26,7 +26,7 @@
     <section class="hj-text-list-wrap">
         <div class="hj-list-wrap">
             <article class="hj-image-list-wrap">
-                <img src="/images/counseling/counseling.jpg" alt="상담1">
+                <img src="/images/counseling/counseling_01.jpg" alt="상담1">
             </article>
         </div>
     </section>
