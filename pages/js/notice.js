@@ -108,7 +108,9 @@ hjImageRemove.on("click", function () {
 });
 var hjSubmitButton = "#hjSubmitButton";
 $(document).on("click", hjSubmitButton, function () {
-    const {noticeTitle, noticeType, noticeContent} = state;
+    const noticeTitle = state.noticeTitle;
+    const noticeType = state.noticeType;
+    const noticeContent = state.noticeContent;
 
     var createNotice = {};
     createNotice.title = noticeTitle;
