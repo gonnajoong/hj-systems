@@ -66,11 +66,14 @@ var uploadImage = function (e) {
         success: function (response) {
             data = JSON.parse(response);
             if (data.response != 0) {
+                console.log(data);
                 $("#img").attr("src", data.location);
                 $(".preview img").show(); // Display image element
                 hjImagePreview.css("display", "block");
                 hjUploadWrap.css("display", "none");
                 image = data.image;
+                $("#img").attr("data-image-id", image.image_id);
+
             } else {
                 alert('file not uploaded');
             }
@@ -113,7 +116,6 @@ $(document).on("click", hjSubmitButton, function () {
     createNotice.content = noticeContent ? noticeContent : null;
     createNotice.image_id = image ? parseInt(image.image_id) : null;
 
-    console.log(createNotice);
     $.ajax({
         url: '/server/api/notice/post.php',
         type: 'post',
@@ -203,6 +205,7 @@ function get(){
         dataType: 'json',
         success: function(data){
             var rows = data;
+            
             if(window.location.pathname == noticeDetailPath){
                 ntdType.html(types[rows.type]);
                 ntdTitle.html(rows.title);
@@ -226,7 +229,7 @@ function get(){
                     $(".preview img").show(); // Display image element
                     hjImagePreview.css("display", "block");
                     hjUploadWrap.css("display", "none");
-                    return image = data.image_id;
+                    $("#img").attr("data-image-id", rows.image_id);
                 }
             }
         }
@@ -237,22 +240,22 @@ function put (){
     data = getQueryStringObject();
     var putData = {
         "id": data.id,
-        "title": data.id,
-        "type": data.id,
-        "content": data.id,
-        "id": data.id,
+        "title": $("#noticeTitle").val(),
+        "type": $("#ntType").val(),
+        "content": $("#ntContent").val(),
+        "image_id": $("#img").data("imageId"),
     }
-    console.log(state);
-    // $.ajax({
-    //     url: '/server/api/notice/put.php',
-    //     type: 'POST',
-    //     data: putData,
-    //     dataType: 'json',
-    //     success: function(data){
-    //         console.log('put_data', data);
-            
-    //     }
-    // })
+    $.ajax({
+        url: '/server/api/notice/put.php',
+        type: 'POST',
+        data: putData,
+        dataType: 'json',
+        success: function(data){
+            console.log('put_data', data);
+            alert('수정이 완료되었습니다.');
+            $(window),location.href = '/pages/notice.php?page='+data.page+'';
+        }
+    })
 }
 
 function remove(){
