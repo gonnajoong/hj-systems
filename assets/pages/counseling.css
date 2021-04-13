@@ -27,5 +27,11 @@
 
 /* mobile */
 @media screen and (max-width: 768px) {
+  .hj-text-list-wrap {
+    padding: 60px 8px 200px;
+  }
 
+  .hj-text-list-wrap .hj-list-wrap .hj-image-list-wrap {
+    padding: 16px 0 100px;
+  }
 }
