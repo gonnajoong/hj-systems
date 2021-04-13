@@ -29,7 +29,7 @@
                 <div class="hj-product-image">
                 <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
                         <li class="hj-active"><button>인튜어스 프로</button></li>
-                        <li><button>상세 페이지</button></li>
+                        <li><button>상세 정보</button></li>
                         <li><button>제품 크기비교</button></li>
                         <li><button>제품 사양</button></li>
                         <!-- <li><button>분배기 or 젠더</button></li>

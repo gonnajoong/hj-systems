@@ -329,4 +329,12 @@
 /* mobile */
 @media screen and (max-width: 768px) {
 
+  .hj-page-in-slide-wrap {
+    width: 100%;
+  }
+
+  .hj-product-image .hj-move-top {
+    right: 10px;
+    bottom: 20%;
+  }
 }

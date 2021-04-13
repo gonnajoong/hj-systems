@@ -29,7 +29,7 @@
                 <div class="hj-product-image">
                     <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
                         <li class="hj-active"><button>와콤원</button></li>
-                        <li><button>상세 페이지</button></li>
+                        <li><button>상세 정보</button></li>
                         <li><button>제품구성 설치방법</button></li>
                         <li><button>제품 사양</button></li>
                         <!-- <li><button>분배기 or 젠더</button></li> -->
