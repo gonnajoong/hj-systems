@@ -124,5 +124,26 @@
 
 /* mobile */
 @media screen and (max-width: 768px) {
+  .hj-notice-edit-wrap {
+    padding: 60px 8px;
+  }
 
+  .hj-notice-edit-wrap article {
+    margin-bottom: 200px;
+  }
+
+  .hj-notice-edit-wrap article h2 {
+    font-size: 24px;
+    margin: 60px 0;
+  }
+
+  .hj-notice-edit-wrap .hj-notice-form {
+    font-size: 14px;
+  }
+
+  .hj-notice-edit-wrap .hj-notice-form label .hj-input-role {
+    font-size: 14px;
+    padding: 4px 8px;
+    line-height: 1.4;
+  }
 }
