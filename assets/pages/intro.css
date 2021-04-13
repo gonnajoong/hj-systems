@@ -57,5 +57,16 @@
 
 /* mobile */
 @media screen and (max-width: 768px) {
+    .hj-intro-wrap {
+        padding: 60px 8px 200px;
+    }
 
+    .hj-intro-wrap > h2 {
+        font-size: 24px;
+        margin: 60px 0;
+    }
+
+    .hj-intro-wrap > .hj-intro p {
+        font-size: 14px;
+    }
 }

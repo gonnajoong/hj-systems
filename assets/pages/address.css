@@ -140,5 +140,43 @@
 
 /* mobile */
 @media screen and (max-width: 768px) {
+  #hjAddressWrap {
+    padding: 60px 8px 200px;
+  }
 
+  #hjAddressWrap > h2 {
+    font-size: 24px;
+    margin: 60px 0;
+  }
+  
+  #hjAddressWrap .hj-address-map {
+    height: 200px;
+  }
+
+  #hjAddressWrap .hj-address-text {
+    margin: 12px 0;
+  }
+
+  #hjAddressWrap .hj-address-text li {
+    font-size: 14px;
+  }
+
+  #hjAddressWrap .hj-address-text + h3 {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+
+  #hjAddressWrap .hj-transport-table {
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  #hjAddressWrap .hj-transport-table th, #hjAddressWrap .hj-transport-table td {
+    padding: 8px 0 8px 4px;
+  }
+
+  #hjAddressWrap .hj-transport-table th {
+    width: 40%;
+  }
 }
