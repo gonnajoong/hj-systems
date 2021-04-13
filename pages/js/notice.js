@@ -117,6 +117,7 @@ $(document).on("click", hjSubmitButton, function () {
     createNotice.type = noticeType;
     createNotice.content = noticeContent ? noticeContent : null;
     createNotice.image_id = image ? parseInt(image.image_id) : null;
+    data = getQueryStringObject();
 
     $.ajax({
         url: '/server/api/notice/post.php',
@@ -126,6 +127,7 @@ $(document).on("click", hjSubmitButton, function () {
         success: function (response) {
             if (response) {
                 alert('글 작성을 성공했습니다.');
+                $(window), location.href = '/pages/notice.php?page=1';
             } else {
                 alert('글 작성에 실패했습니다.');
             }
@@ -171,12 +173,6 @@ function gets() {
             } else {
                 hjNoticeList.prepend("<tr><td colspan='3'>등록된 글이 없습니다.</td></tr>");
             }
-
-            // <tr>
-            //             <td>{index+1}</td>
-            //             <td>{item.title}</td>
-            //             <td>{item.updated_at}</td>
-            //         </tr>
         }
     });
 };
@@ -260,7 +256,6 @@ function put() {
         data: putData,
         dataType: 'json',
         success: function (data) {
-            console.log('put_data', data);
             alert('수정이 완료되었습니다.');
             $(window), location.href = '/pages/notice.php?page=' + data.page + '';
         }
