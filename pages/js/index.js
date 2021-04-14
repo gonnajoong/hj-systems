@@ -1,11 +1,10 @@
-if(resizer()){
-    // 상세페이지 스크립트
-
 const hjPageSlideButton = $("#hjPageSlideButton");
 const hjPageInSlideWrap = $("#hjPageInSlideWrap");
 const hjMoveTop = $(".hj-move-top");
 const hjProductSpecTable = $(".hj-product-spec-table");
 
+if(resizer()){
+    // 상세페이지 스크립트
 
 var hjPageSlideButton00 = hjPageSlideButton.children().eq(0);
 var hjPageSlideButton01 = hjPageSlideButton.children().eq(1);
@@ -30,7 +29,6 @@ var hjPageInSlideWrap05 = hjPageInSlideWrap.children().eq(5);
 //     fade: true,
 //     cssEase: 'linear',
 // });
-
 $(window).on('scroll', function(){
     if($(this).scrollTop() >= 100){
         hjMoveTop.css({
@@ -375,5 +373,24 @@ hjNonImageButton05.on('click', function(){
     }
 });
 } else {
-    console.log('모바일');
+    var mobilePathnames = window.location.pathname.split('/');
+
+    $(window).on('scroll', function(){
+        if(mobilePathnames[2] == 'business' || mobilePathnames[2] == 'product') {
+            $('#hjHeaderWrap').css('position', 'absolute');
+        }
+        if($(this).scrollTop() >= 60){
+            hjMoveTop.css({
+                "visibility": "visible",
+                "opacity": "1"
+            });
+            $('#hjNonImageButton').css({'position':'fixed', 'z-index':'10'});
+        } else {
+            hjMoveTop.css({
+                "visibility": "hidden",
+                "opacity": "0"
+            });
+            $('#hjNonImageButton').css({'position':'absolute', 'z-index':'1'});
+        }
+    });
 }

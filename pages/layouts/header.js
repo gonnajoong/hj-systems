@@ -50,8 +50,11 @@ if(resizer()){
 hjHamburger.on('click', function(){
     if(!hjHamburger.hasClass('is-active')){
         headerWrap.removeClass('hj-spread');
+        $('body').css('overflow', 'auto');
+
     } else {
         headerWrap.addClass('hj-spread');
+        $('body').css('overflow', 'hidden');
     }
 });
 
