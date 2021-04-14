@@ -67,9 +67,17 @@
 
 /* mobile */
 @media screen and (max-width: 768px) {
+  .business-part-wrap li {
+    margin-bottom: 34px;
+  }
+
+  .business-part-wrap li:last-of-type {
+    margin: 0;
+  }
+
   .business-part-wrap li > h2 {
     font-size: 24px;
-    margin: 0;
+    margin: 0 0 80px;
   }
 
   .business-part-wrap li .hj-business-sub-title {

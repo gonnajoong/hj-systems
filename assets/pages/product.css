@@ -191,10 +191,12 @@
   border-color: #009ffd;
 }
 
-.hj-page-slide-button.slick-dots li:hover button {
-  background-color: #009ffd;
-  color: #fff;
-  border-color: #009ffd;
+@media screen and (min-width: 1200px) {
+  .hj-page-slide-button.slick-dots li:hover button {
+    background-color: #009ffd;
+    color: #fff;
+    border-color: #009ffd;
+  }
 }
 
 .hj-page-detail-image {
@@ -387,6 +389,7 @@
   .hj-product-image .hj-move-top {
     right: 10px;
     bottom: 20%;
+    z-index: 10;
   }
 
   .hj-page-detail-image.hj-ready-image {
