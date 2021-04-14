@@ -29,28 +29,23 @@ const hjNavList = $(".hj-nav-list");
 const hjNotNow = $(".hj-not-now");
 const hjHamburger = $(".hamburger");
 const hjFoldWrap = $(".hj-fold-wrap");
-
-headerWrap.on('mouseover', function(){
-    headerWrap.addClass('hj-spread');
-    if(typeof hjPageSlideButton !== "undefined") {
-        if(hjPageSlideButton == true) {
-            return false;
-        } else {
-            hjPageSlideButton.addClass('position-move');
-        }
+var resizer = function(){
+    if($(window).width() > 768){
+        return true;
+    } else {
+        return false;
     }
-});
+}
 
-headerWrap.on('mouseleave', function(){
-    headerWrap.removeClass('hj-spread');
-    if(typeof hjPageSlideButton !== "undefined") {
-        if(hjPageSlideButton == true){
-            return false;
-        } else {
-            hjPageSlideButton.removeClass('position-move');
-        }
-    }
-});
+if(resizer()){
+    headerWrap.on('mouseover', function(){
+        headerWrap.addClass('hj-spread');
+    });
+    
+    headerWrap.on('mouseleave', function(){
+        headerWrap.removeClass('hj-spread');
+    });
+}
 
 hjHamburger.on('click', function(){
     if(!hjHamburger.hasClass('is-active')){
@@ -69,43 +64,6 @@ hjNavList.on('mouseleave', function(){
     hjNavList.removeClass('current');
     $(this).addClass('current');
 });
-
-function scrollHeader(){
-    $(window).on('scroll', function(){
-        if($(this).scrollTop() > 50) {
-            if(typeof hjPageSlideButton !== "undefined") {
-                if(hjPageSlideButton !== true) {
-                    hjPageSlideButton.addClass("slick-dots-fixed");
-                }
-            } else {
-                headerWrap.addClass("scroll-move");
-            }
-            
-            if(typeof hjNonImageButton !== "undefined") {
-                if(hjNonImageButton !== true) {
-                    hjNonImageButton.addClass("slick-dots-fixed");
-                }
-            } else {
-                headerWrap.addClass("scroll-move");
-            }
-        } else {
-            headerWrap.removeClass("scroll-move");
-            if(typeof hjPageSlideButton !== "undefined") {
-                if(hjPageSlideButton !== true) {
-                    hjPageSlideButton.removeClass("slick-dots-fixed");
-                }
-            }
-
-            if(typeof hjNonImageButton !== "undefined") {
-                if(hjNonImageButton !== true) {
-                    hjNonImageButton.removeClass("slick-dots-fixed");
-                }
-            }
-        }
-    });
-}
-
-scrollHeader();
 
 hjFoldWrap.on('click', function(){
     var _this = $(this);

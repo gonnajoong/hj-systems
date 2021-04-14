@@ -60,3 +60,25 @@
     height: 1300px;
 }
 
+/* tablet */
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .business-part-wrap li > h2 {
+    font-size: 24px;
+  }
+
+  .business-part-01-wrap .business-part-01,
+  .business-part-01-wrap .business-part-01-button-01,
+  .business-part-01-wrap .business-part-01-button-02,
+  .business-part-01-wrap .business-part-01-button-05 {
+    height: auto;
+  }
+
+  .business-part-wrap li > p {
+    font-size: 14px;
+  }
+}

@@ -1,4 +1,5 @@
-// 상세페이지 스크립트
+if(resizer()){
+    // 상세페이지 스크립트
 
 const hjPageSlideButton = $("#hjPageSlideButton");
 const hjPageInSlideWrap = $("#hjPageInSlideWrap");
@@ -373,3 +374,6 @@ hjNonImageButton05.on('click', function(){
         $('html, body').animate({scrollTop: 0 }, 'slow');
     }
 });
+} else {
+    console.log('모바일');
+}
