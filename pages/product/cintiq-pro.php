@@ -28,25 +28,25 @@
             <section class="hj-product-content-wrap">
                 <div class="hj-product-image">
                 <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
-                        <li class="hj-active"><button>신티크 프로</button></li>
-                        <li><button>신티크 프로 16"</button></li>
-                        <li><button>신티크 프로 24"</button></li>
-                        <li><button>신티크 프로 32"</button></li>
-                        <li><button>제품 사양</button></li>
+                        <li data-snav='1' class="hj-active"><button>신티크 프로</button></li>
+                        <li data-snav='2'><button>신티크 프로 16"</button></li>
+                        <li data-snav='3'><button>신티크 프로 24"</button></li>
+                        <li data-snav='4'><button>신티크 프로 32"</button></li>
+                        <li data-snav='5'><button>제품 사양</button></li>
                         <!-- <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
                     <ul id="hjPageInSlideWrap" class="hj-page-in-slide-wrap product-wrap cintiq-pro-wrap">
-                        <li class="hj-page-detail-image cintiq-pro hj-show"></li>
-                        <li class="hj-page-detail-image cintiq-pro-button-01">
+                        <li data-page='1' class="hj-page-detail-image cintiq-pro hj-show"></li>
+                        <li data-page='2' class="hj-page-detail-image cintiq-pro-button-01">
                             <img src="../../images/products/cintiq-pro/와콤_신티크_프로16_20181115.jpg" alt="신티크 프로">
                         </li>
-                        <li class="hj-page-detail-image cintiq-pro-button-02">
+                        <li data-page='3' class="hj-page-detail-image cintiq-pro-button-02">
                             <img src="../../images/products/cintiq-pro/와콤_신티크프로24_20180717.jpg" alt="신티크 프로">
                         </li>
-                        <li class="hj-page-detail-image cintiq-pro-button-03">
+                        <li data-page='4' class="hj-page-detail-image cintiq-pro-button-03">
                             <img src="../../images/products/cintiq-pro/신티크프로32_수정.jpg" alt="신티크 프로">
                         </li>
-                        <li class="hj-page-detail-image cintiq-pro-button-04">
+                        <li data-page='5' class="hj-page-detail-image cintiq-pro-button-04">
                         <table class="hj-product-spec-table">
                                 <tr class="hj-table-main-header hj-table-cintiq-pro">
                                     <th>제품명</th>

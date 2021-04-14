@@ -28,14 +28,14 @@
             <section class="hj-product-content-wrap">
                 <div class="hj-product-image">
                 <ul id="hjNonImageButton" class="hj-page-slide-button slick-dots">
-                        <li class="hj-active"><button>학교 화상교육</button></li>
-                        <li><button>취미생활</button></li>
-                        <li><button>번들 소프트웨어</button></li>
+                        <li data-snav='1' class="hj-active"><button>학교 화상교육</button></li>
+                        <li data-snav='2'><button>취미생활</button></li>
+                        <li data-snav='3'><button>번들 소프트웨어</button></li>
                         <!-- <li><button>제품 설치구성</button></li> -->
                         <!-- <li><button>학과 사례</button></li> -->
                     </ul>
                     <ul id="hjNonImageSlideWrap" class="hj-page-in-slide-wrap business-part-wrap business-part-01-wrap">
-                        <li class="hj-page-detail-image business-part-01 hj-show">
+                        <li data-page='1' class="hj-page-detail-image business-part-01 hj-show">
                             <h2>실시간 쌍방향 온라인 수업 필수템! 학생들을 위한 와콤 타블렛</h2>
                             <p>
                             듣기만 하던 수업에서 학생들이 직접 참여하는 수업으로,
@@ -105,7 +105,7 @@
                             </a>
                             <p>출처: https://wacomkoreablog.com/1275?category=837161 [Wacom Blog]</p>
                         </li>
-                        <li class="hj-page-detail-image business-part-01-button-01">
+                        <li data-page='2' id="" class="hj-page-detail-image business-part-01-button-01">
                             <p class="hj-business-sub-title align-center">집에서도 상상력과 창의력을 쑥쑥 키워줄</p>
                             <h2>아이들과 함께 사용하기 좋은 와콤 타블렛</h2>
                             <img src="/images/business-part/business-part-01/business-12.jpg" alt="사업분야 이미지">
@@ -154,7 +154,7 @@
                             <p>비록 마음껏 나가지 못하는 것이 답답한 요즘이지만, 오히려 아이의 호기심과 상상력을 자극하고 창의력을 마음껏 펼칠 수 있는 기회가 될 수 있는데요. 와콤 타블렛으로 자유로운 창작 활동은 물론 학습도구로도 유용하게 활용하며 이시기를 즐겁고 뜻깊게 보내보는 건 어떨까요? :)</p>
                             <p>출처: https://wacomkoreablog.com/1277?category=837161 [Wacom Blog]</p>
                         </li>
-                        <li class="hj-page-detail-image business-part-01-button-02">
+                        <li data-page='3' id="" class="hj-page-detail-image business-part-01-button-02">
                             <h2>와콤 타블렛 제품별 번들 소프트웨어 총정리</h2>
                             <p>와콤 타블렛을 구매하면 다양한 창작용, 교육용 소프트웨어를 무료로 사용할 수 있습니다. 와콤은 어도비, 클립스튜디오, 코렐 등 창작용 소프트웨어부터 익스플레인 에브리씽, 림누 등 교육용 소프트웨어까지 각 제품별로 다양한 프리미엄 소프트웨어를 번들로 제공합니다. 제품별로 제공되는 번들 소프트웨어의 종류를 소개합니다.</p>
                             <img src="/images/business-part/business-part-01/business-24.png" alt="번들 소프트웨어 이미지">

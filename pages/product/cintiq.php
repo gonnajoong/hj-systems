@@ -28,22 +28,22 @@
             <section class="hj-product-content-wrap">
                 <div class="hj-product-image">
                 <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
-                        <li class="hj-active"><button>신티크</button></li>
-                        <li><button>신티크 16"</button></li>
-                        <li><button>신티크 22"</button></li>
-                        <li><button>제품 사양</button></li>
+                        <li data-snav='1' class="hj-active"><button>신티크</button></li>
+                        <li data-snav='2'><button>신티크 16"</button></li>
+                        <li data-snav='3'><button>신티크 22"</button></li>
+                        <li data-snav='4'><button>제품 사양</button></li>
                         <!-- <li><button>분배기 or 젠더</button></li>
                         <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
                     <ul id="hjPageInSlideWrap" class="hj-page-in-slide-wrap product-wrap cintiq-wrap">
-                        <li class="hj-page-detail-image cintiq hj-show"></li>
-                        <li class="hj-page-detail-image cintiq-button-01">
+                        <li data-page='1' class="hj-page-detail-image cintiq hj-show"></li>
+                        <li data-page='2' class="hj-page-detail-image cintiq-button-01">
                             <img src="../../images/products/cintiq/Wacom-Cintiq-16_온라인상세페이지_0318.jpg" alt="신티크">
                         </li>
-                        <li class="hj-page-detail-image cintiq-button-02">
+                        <li data-page='3' class="hj-page-detail-image cintiq-button-02">
                             <img src="../../images/products/cintiq/Cintiq22_온라인상세페이지_20190722.jpg" alt="신티크">
                         </li>
-                        <li class="hj-page-detail-image cintiq-button-03">
+                        <li data-page='4' class="hj-page-detail-image cintiq-button-03">
                         <table class="hj-product-spec-table">
                                 <tr class="hj-table-main-header hj-table-cintiq">
                                     <th>제품명</th>

@@ -28,26 +28,26 @@
             <section class="hj-product-content-wrap">
                 <div class="hj-product-image">
                 <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
-                        <li class="hj-active"><button>MSP (모바일 스튜디오 프로)</button></li>
-                        <li><button>모바일 스튜디오 13"L</button></li>
-                        <li><button>모바일 스튜디오 13"H</button></li>
-                        <li><button>모바일 스튜디오 16"H</button></li>
-                        <li><button>제품 사양</button></li>
+                        <li data-snav='1' class="hj-active"><button>MSP (모바일 스튜디오 프로)</button></li>
+                        <li data-snav='2'><button>모바일 스튜디오 13"L</button></li>
+                        <li data-snav='3'><button>모바일 스튜디오 13"H</button></li>
+                        <li data-snav='4'><button>모바일 스튜디오 16"H</button></li>
+                        <li data-snav='5'><button>제품 사양</button></li>
                         <!-- <li><button>분배기 or 젠더</button></li> -->
                         <!-- <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
                     <ul id="hjPageInSlideWrap" class="hj-page-in-slide-wrap product-wrap mobile-studio-wrap">
-                        <li class="hj-page-detail-image msp hj-show"></li>
-                        <li class="hj-page-detail-image msp-button-01">
+                        <li data-page='1' class="hj-page-detail-image msp hj-show"></li>
+                        <li data-page='2' class="hj-page-detail-image msp-button-01">
                             <img src="../../images/products/msp/mobile_studio_13_DTH-W1321L_20191206.jpg" alt="모바일 스튜디오 프로">
                         </li>
-                        <li class="hj-page-detail-image msp-button-02">
+                        <li data-page='3' class="hj-page-detail-image msp-button-02">
                             <img src="../../images/products/msp/mobile_studio_13_DTH-W1321H_20200227.jpg" alt="모바일 스튜디오 프로">
                         </li>
-                        <li class="hj-page-detail-image msp-button-03">
+                        <li data-page='4' class="hj-page-detail-image msp-button-03">
                             <img src="../../images/products/msp/mobile_studio_16_DTH-W1621H_20191206.jpg" alt="모바일 스튜디오 프로">
                         </li>
-                        <li class="hj-page-detail-image msp-button-04">
+                        <li data-page='5' class="hj-page-detail-image msp-button-04">
                         <table class="hj-product-spec-table">
                                 <tr class="hj-table-main-header">
                                     <th>모델명</th>

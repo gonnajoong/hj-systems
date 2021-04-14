@@ -28,22 +28,22 @@
             <section class="hj-product-content-wrap">
                 <div class="hj-product-image">
                 <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
-                        <li class="hj-active"><button>인튜어스</button></li>
-                        <li><button>상세 정보</button></li>
-                        <li><button>제품 크기비교</button></li>
-                        <li><button>제품 사양</button></li>
+                        <li data-snav='1' class="hj-active"><button>인튜어스</button></li>
+                        <li data-snav='2'><button>상세 정보</button></li>
+                        <li data-snav='3'><button>제품 크기비교</button></li>
+                        <li data-snav='4'><button>제품 사양</button></li>
                         <!-- <li><button>분배기 or 젠더</button></li>
                         <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
                     <ul id="hjPageInSlideWrap" class="hj-page-in-slide-wrap product-wrap intuos-wrap">
-                        <li class="hj-page-detail-image intuos hj-show"></li>
-                        <li class="hj-page-detail-image intuos-button-01">
+                        <li data-page='1' class="hj-page-detail-image intuos hj-show"></li>
+                        <li data-page='2' class="hj-page-detail-image intuos-button-01">
                             <img src="../../images/products/intuos/와콤 인튜어스_온라인상세페이지_20210112.jpg" alt="인튜어스">
                         </li>
-                        <li class="hj-page-detail-image intuos-button-02">
+                        <li data-page='3' class="hj-page-detail-image intuos-button-02">
                             <img src="../../images/products/intuos/Wacom_intuos.jpg" alt="크기비교 이미지">
                         </li>
-                        <li class="hj-page-detail-image intuos-button-03">
+                        <li data-page='4' class="hj-page-detail-image intuos-button-03">
                         <table class="hj-product-spec-table">
                                 <tr class="hj-table-main-header hj-table-intuos">
                                     <th>제품 사양</th>

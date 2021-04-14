@@ -378,26 +378,37 @@ hjNonImageButton05.on('click', function(){
         if(mobilePathnames[2] == 'business' || mobilePathnames[2] == 'product') {
             $('#hjHeaderWrap').css('position', 'absolute');
         }
-        console.log(hjNonImageSlideWrap00.height());
         if($(this).scrollTop() >= 60){
             hjMoveTop.css({
                 "visibility": "visible",
                 "opacity": "1"
             });
             $('#hjNonImageButton').css({'position':'fixed', 'z-index':'10'});
+            $('#hjPageSlideButton').css({'position':'fixed', 'z-index':'10'});
         } else {
             hjMoveTop.css({
                 "visibility": "hidden",
                 "opacity": "0"
             });
             $('#hjNonImageButton').css({'position':'absolute', 'z-index':'1'});
+            $('#hjPageSlideButton').css({'position':'absolute', 'z-index':'1'});
         }
 
-        if($(window).scrollTop() <= hjNonImageSlideWrap00.offset().top) {
+        $('#hjNonImageSlideWrap > li').each(function() {
+            if($(window).scrollTop() > ($(this).offset().top - 61)) {
+                var page = $(this).data('page');
+                $('#hjNonImageButton li ').removeClass('hj-active');
+                $('#hjNonImageButton li[data-snav="'+page+'"]').addClass('hj-active');
+            }
+        });
 
-        } else if ($(window).scrollTop() <= hjNonImageSlideWrap00.offset().top) {
-
-        }
+        $('#hjPageInSlideWrap > li').each(function() {
+            if($(window).scrollTop() > ($(this).offset().top - 61)) {
+                var page = $(this).data('page');
+                $('#hjPageSlideButton li ').removeClass('hj-active');
+                $('#hjPageSlideButton li[data-snav="'+page+'"]').addClass('hj-active');
+            }
+        });
     });
 
     hjNonImageButton00.on('click', function(){

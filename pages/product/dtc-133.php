@@ -28,19 +28,19 @@
             <section class="hj-product-content-wrap">
                 <div class="hj-product-image">
                     <ul id="hjPageSlideButton" class="hj-page-slide-button slick-dots">
-                        <li class="hj-active"><button>와콤원</button></li>
-                        <li><button>상세 정보</button></li>
-                        <li><button>제품구성 설치방법</button></li>
-                        <li><button>제품 사양</button></li>
+                        <li data-snav='1' class="hj-active"><button>와콤원</button></li>
+                        <li data-snav='2'><button>상세 정보</button></li>
+                        <li data-snav='3'><button>제품구성 설치방법</button></li>
+                        <li data-snav='4'><button>제품 사양</button></li>
                         <!-- <li><button>분배기 or 젠더</button></li> -->
                         <!-- <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
                     <ul id="hjPageInSlideWrap" class="hj-page-in-slide-wrap product-wrap dtc-133-wrap">
-                        <li class="hj-page-detail-image dtc-133 hj-show"></li>
-                        <li class="hj-page-detail-image dtc-133-button-01">
+                        <li data-page='1' class="hj-page-detail-image dtc-133 hj-show"></li>
+                        <li data-page='2' class="hj-page-detail-image dtc-133-button-01">
                             <img src="../../images/products/dtc-133/와콤원_온라인상세페이지_non creative_20210118.jpg" alt="와콤원">
                         </li>
-                        <li class="hj-page-detail-image dtc-133-button-02">
+                        <li data-page='3' class="hj-page-detail-image dtc-133-button-02">
                             <img src="../../images/products/dtc-133/dtc_133_guide_01.jpg" alt="설치 방법">
                             <button class="hj-submit-button">
                                 <a href="../../pdfs/B2B 와콤원 멀티스크린연결방법_전단_20210107.pdf" download>와콤원 멀티스크린 가이드 다운로드</a>
@@ -49,7 +49,7 @@
                                 <a href="../../pdfs/210121_와콤 원 전단지_A4.pdf" download>와콤원 연결 가이드 다운로드</a>
                             </button>
                         </li>
-                        <li class="hj-page-detail-image dtc-133-button-03">
+                        <li data-page='4' class="hj-page-detail-image dtc-133-button-03">
                             <table class="hj-product-spec-table">
                                 <tr class="hj-table-main-header">
                                     <th>제품명</th>

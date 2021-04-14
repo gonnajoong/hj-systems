@@ -28,34 +28,34 @@
             <section class="hj-product-content-wrap">
                 <div class="hj-product-image">
                 <ul id="hjNonImageButton" class="hj-page-slide-button slick-dots">
-                        <li class="hj-active"><button>기관 및 기업</button></li>
-                        <li><button>소프트웨어 구성</button></li>
-                        <li><button>안내</button></li>
-                        <li><button>제품 설치구성</button></li>
-                        <li><button>학과 사례</button></li>
+                        <li data-snav='1' class="hj-active"><button>기관 및 기업</button></li>
+                        <li data-snav='2'><button>소프트웨어 구성</button></li>
+                        <li data-snav='3'><button>안내</button></li>
+                        <li data-snav='4'><button>제품 설치구성</button></li>
+                        <li data-snav='5'><button>학과 사례</button></li>
                     </ul>
                     <ul id="hjNonImageSlideWrap" class="hj-page-in-slide-wrap business-part-wrap business-part-02-wrap disable-class">
-                        <li class="hj-page-detail-image business-part-03 hj-ready-image hj-show">
+                        <li data-page='1' class="hj-page-detail-image business-part-03 hj-ready-image hj-show">
                             <div>
                                 준비중인 페이지 입니다.
                             </div>
                         </li>
-                        <li class="hj-page-detail-image business-part-button-01 hj-ready-image">
+                        <li data-page='2' class="hj-page-detail-image business-part-button-01 hj-ready-image">
                             <div>
                                 준비중인 페이지 입니다.
                             </div>
                         </li>
-                        <li class="hj-page-detail-image business-part-button-02 hj-ready-image">
+                        <li data-page='3' class="hj-page-detail-image business-part-button-02 hj-ready-image">
                             <div>
                                 준비중인 페이지 입니다.
                             </div>
                         </li>
-                        <li class="hj-page-detail-image business-part-button-03 hj-ready-image">
+                        <li data-page='4' class="hj-page-detail-image business-part-button-03 hj-ready-image">
                             <div>
                                 준비중인 페이지 입니다.
                             </div>
                         </li>
-                        <li class="hj-page-detail-image business-part-button-04 hj-ready-image">
+                        <li data-page='5' class="hj-page-detail-image business-part-button-04 hj-ready-image">
                             <div>
                                 준비중인 페이지 입니다.
                             </div>
