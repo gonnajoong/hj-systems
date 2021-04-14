@@ -374,10 +374,16 @@
     transform: none;
     opacity: 1;
     visibility: visible;
+    height: 100%;
+    width: 100%;
   }
 
   .hj-page-in-slide-wrap > li:first-of-type {
-    padding-top: 60px;
+    padding-top: 400px;
+  }
+
+  .hj-page-in-slide-wrap > li img {
+    width: 100%;
   }
 
   .hj-page-in-slide-wrap {
