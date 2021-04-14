@@ -3,8 +3,8 @@ const hjPageInSlideWrap = $("#hjPageInSlideWrap");
 const hjMoveTop = $(".hj-move-top");
 const hjProductSpecTable = $(".hj-product-spec-table");
 
-if(resizer()){
-    // 상세페이지 스크립트
+const hjNonImageButton = $("#hjNonImageButton");
+const hjNonImageSlideWrap = $("#hjNonImageSlideWrap");
 
 var hjPageSlideButton00 = hjPageSlideButton.children().eq(0);
 var hjPageSlideButton01 = hjPageSlideButton.children().eq(1);
@@ -19,6 +19,27 @@ var hjPageInSlideWrap02 = hjPageInSlideWrap.children().eq(2);
 var hjPageInSlideWrap03 = hjPageInSlideWrap.children().eq(3);
 var hjPageInSlideWrap04 = hjPageInSlideWrap.children().eq(4);
 var hjPageInSlideWrap05 = hjPageInSlideWrap.children().eq(5);
+
+var hjNonImageButton00 = hjNonImageButton.children().eq(0);
+var hjNonImageButton01 = hjNonImageButton.children().eq(1);
+var hjNonImageButton02 = hjNonImageButton.children().eq(2);
+var hjNonImageButton03 = hjNonImageButton.children().eq(3);
+var hjNonImageButton04 = hjNonImageButton.children().eq(4);
+var hjNonImageButton05 = hjNonImageButton.children().eq(5);
+
+var hjNonImageSlideWrap00 = hjNonImageSlideWrap.children().eq(0);
+var hjNonImageSlideWrap01 = hjNonImageSlideWrap.children().eq(1);
+var hjNonImageSlideWrap02 = hjNonImageSlideWrap.children().eq(2);
+var hjNonImageSlideWrap03 = hjNonImageSlideWrap.children().eq(3);
+var hjNonImageSlideWrap04 = hjNonImageSlideWrap.children().eq(4);
+var hjNonImageSlideWrap05 = hjNonImageSlideWrap.children().eq(5);
+
+hjMoveTop.on('click', function(){
+    $('html, body').animate({scrollTop: 0 }, 'slow');
+});
+
+if(resizer()){
+    // 상세페이지 스크립트
 
 // hjPageInSlideWrap.slick({
 //     infinite: true,
@@ -41,10 +62,6 @@ $(window).on('scroll', function(){
             "opacity": "0"
         });
     }
-});
-
-hjMoveTop.on('click', function(){
-    $('html, body').animate({scrollTop: 0 }, 'slow');
 });
 
 hjPageInSlideWrap.css('height', hjPageInSlideWrap00.height()+'px');
@@ -223,24 +240,6 @@ hjPageSlideButton05.on('click', function(){
     }
 });
 
-const hjNonImageButton = $("#hjNonImageButton");
-const hjNonImageSlideWrap = $("#hjNonImageSlideWrap");
-
-
-var hjNonImageButton00 = hjNonImageButton.children().eq(0);
-var hjNonImageButton01 = hjNonImageButton.children().eq(1);
-var hjNonImageButton02 = hjNonImageButton.children().eq(2);
-var hjNonImageButton03 = hjNonImageButton.children().eq(3);
-var hjNonImageButton04 = hjNonImageButton.children().eq(4);
-var hjNonImageButton05 = hjNonImageButton.children().eq(5);
-
-var hjNonImageSlideWrap00 = hjNonImageSlideWrap.children().eq(0);
-var hjNonImageSlideWrap01 = hjNonImageSlideWrap.children().eq(1);
-var hjNonImageSlideWrap02 = hjNonImageSlideWrap.children().eq(2);
-var hjNonImageSlideWrap03 = hjNonImageSlideWrap.children().eq(3);
-var hjNonImageSlideWrap04 = hjNonImageSlideWrap.children().eq(4);
-var hjNonImageSlideWrap05 = hjNonImageSlideWrap.children().eq(5);
-
 // 사업분야 버튼 ( 이미지 Height 기준점이 아님 )
 
 hjNonImageSlideWrap.css('height', hjNonImageSlideWrap00.height()+'px');
@@ -379,6 +378,7 @@ hjNonImageButton05.on('click', function(){
         if(mobilePathnames[2] == 'business' || mobilePathnames[2] == 'product') {
             $('#hjHeaderWrap').css('position', 'absolute');
         }
+        console.log(hjNonImageSlideWrap00.height());
         if($(this).scrollTop() >= 60){
             hjMoveTop.css({
                 "visibility": "visible",
@@ -392,5 +392,121 @@ hjNonImageButton05.on('click', function(){
             });
             $('#hjNonImageButton').css({'position':'absolute', 'z-index':'1'});
         }
+
+        if($(window).scrollTop() <= hjNonImageSlideWrap00.offset().top) {
+
+        } else if ($(window).scrollTop() <= hjNonImageSlideWrap00.offset().top) {
+
+        }
     });
+
+    hjNonImageButton00.on('click', function(){
+        $(this).addClass('hj-active');
+        hjNonImageButton01.removeClass('hj-active');
+        hjNonImageButton02.removeClass('hj-active');
+        hjNonImageButton03.removeClass('hj-active');
+        hjNonImageButton04.removeClass('hj-active');
+        hjNonImageButton05.removeClass('hj-active');
+
+        hjNonImageSlideWrap00.addClass('hj-show');
+        hjNonImageSlideWrap01.removeClass('hj-show');
+        hjNonImageSlideWrap02.removeClass('hj-show');
+        hjNonImageSlideWrap03.removeClass('hj-show');
+        hjNonImageSlideWrap04.removeClass('hj-show');
+        hjNonImageSlideWrap05.removeClass('hj-show');
+
+        $('html, body').animate({scrollTop: (hjNonImageSlideWrap00.offset().top - 60) }, 'slow');
+    });
+    
+    hjNonImageButton01.on('click', function(){
+        $(this).addClass('hj-active');
+        hjNonImageButton00.removeClass('hj-active');
+        hjNonImageButton02.removeClass('hj-active');
+        hjNonImageButton03.removeClass('hj-active');
+        hjNonImageButton04.removeClass('hj-active');
+        hjNonImageButton05.removeClass('hj-active');
+
+        hjNonImageSlideWrap00.removeClass('hj-show');
+        hjNonImageSlideWrap01.addClass('hj-show');
+        hjNonImageSlideWrap02.removeClass('hj-show');
+        hjNonImageSlideWrap03.removeClass('hj-show');
+        hjNonImageSlideWrap04.removeClass('hj-show');
+        hjNonImageSlideWrap05.removeClass('hj-show');
+
+        $('html, body').animate({scrollTop: (hjNonImageSlideWrap01.offset().top - 60) }, 'slow');
+    });
+    
+    hjNonImageButton02.on('click', function(){
+        $(this).addClass('hj-active');
+        hjNonImageButton00.removeClass('hj-active');
+        hjNonImageButton01.removeClass('hj-active');
+        hjNonImageButton03.removeClass('hj-active');
+        hjNonImageButton04.removeClass('hj-active');
+        hjNonImageButton05.removeClass('hj-active');
+
+        hjNonImageSlideWrap00.removeClass('hj-show');
+        hjNonImageSlideWrap01.removeClass('hj-show');
+        hjNonImageSlideWrap02.addClass('hj-show');
+        hjNonImageSlideWrap03.removeClass('hj-show');
+        hjNonImageSlideWrap04.removeClass('hj-show');
+        hjNonImageSlideWrap05.removeClass('hj-show');
+
+        $('html, body').animate({scrollTop: (hjNonImageSlideWrap02.offset().top - 60) }, 'slow');
+    });
+    
+    hjNonImageButton03.on('click', function(){
+        $(this).addClass('hj-active');
+        hjNonImageButton00.removeClass('hj-active');
+        hjNonImageButton01.removeClass('hj-active');
+        hjNonImageButton02.removeClass('hj-active');
+        hjNonImageButton04.removeClass('hj-active');
+        hjNonImageButton05.removeClass('hj-active');
+
+        hjNonImageSlideWrap00.removeClass('hj-show');
+        hjNonImageSlideWrap01.removeClass('hj-show');
+        hjNonImageSlideWrap02.removeClass('hj-show');
+        hjNonImageSlideWrap03.addClass('hj-show');
+        hjNonImageSlideWrap04.removeClass('hj-show');
+        hjNonImageSlideWrap05.removeClass('hj-show');
+
+        $('html, body').animate({scrollTop: (hjNonImageSlideWrap03.offset().top - 60) }, 'slow');
+    });
+    
+    hjNonImageButton04.on('click', function(){
+        $(this).addClass('hj-active');
+        hjNonImageButton00.removeClass('hj-active');
+        hjNonImageButton01.removeClass('hj-active');
+        hjNonImageButton02.removeClass('hj-active');
+        hjNonImageButton03.removeClass('hj-active');
+        hjNonImageButton05.removeClass('hj-active');
+
+        hjNonImageSlideWrap00.removeClass('hj-show');
+        hjNonImageSlideWrap01.removeClass('hj-show');
+        hjNonImageSlideWrap02.removeClass('hj-show');
+        hjNonImageSlideWrap03.removeClass('hj-show');
+        hjNonImageSlideWrap04.addClass('hj-show');
+        hjNonImageSlideWrap05.removeClass('hj-show');
+
+        $('html, body').animate({scrollTop: (hjNonImageSlideWrap04.offset().top - 60) }, 'slow');
+    });
+    
+    hjNonImageButton05.on('click', function(){
+        $(this).addClass('hj-active');
+        hjNonImageButton00.removeClass('hj-active');
+        hjNonImageButton01.removeClass('hj-active');
+        hjNonImageButton02.removeClass('hj-active');
+        hjNonImageButton03.removeClass('hj-active');
+        hjNonImageButton04.removeClass('hj-active');
+
+        hjNonImageSlideWrap00.removeClass('hj-show');
+        hjNonImageSlideWrap01.removeClass('hj-show');
+        hjNonImageSlideWrap02.removeClass('hj-show');
+        hjNonImageSlideWrap03.removeClass('hj-show');
+        hjNonImageSlideWrap04.removeClass('hj-show');
+        hjNonImageSlideWrap05.addClass('hj-show');
+
+        $('html, body').animate({scrollTop: (hjNonImageSlideWrap05.offset().top - 60) }, 'slow');
+    });
+
+
 }

@@ -69,6 +69,12 @@
 @media screen and (max-width: 768px) {
   .business-part-wrap li > h2 {
     font-size: 24px;
+    margin: 0;
+  }
+
+  .business-part-wrap li .hj-business-sub-title {
+    font-size: 18px;
+    margin: 12px 0;
   }
 
   .business-part-01-wrap .business-part-01,

@@ -139,7 +139,7 @@
                             <p>학업 노트를 작성하고, 수학 문제를 풀고, 스케치북을 사용하듯 그림을 그리고 색칠을 하는 것까지 와콤 원 하나로 모두 가능하다는 것 역시 큰 장점입니다. 언제든지 펜으로 자신이 생각하고 느끼는 것을 마음껏 표현할 수 있으니 상상력과 창의력도 쑥쑥 자라겠죠! :)</p>
                             <p class="hj-text-under"><strong><a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=27230919&memberNo=39210295">▶ 와콤 원 자세히 보기</a></strong></p>
                             <P class="hj-text-under"><strong>원 바이 와콤 (One by Wacom) 소형</strong></p>
-                            <img src="/images/business-part/business-part-01/business-22.jpg" alt="사업분야 이미지">
+                            <img src="/images/business-part/business-part-01/business-22.png" alt="사업분야 이미지">
                             <p><strong>원 바이 와콤</strong>은 와콤 원과 다르게 화면이 없이 마우스 패드 형태로 되어 있어서 적응하는 시간이 조금 필요하지만, 작고 컴팩트하면서 매우 경제적인 것이 장점인 펜 타블렛입니다.</p>
                             <p>실제 펜을 사용하듯 빠르고 자연스러운 필기와 사용감을 갖추면서 내구성이 좋고, 복잡한 기능 없이 펜 타블렛의 핵심 기능만 알차게 담아 아이들이 사용하기에도 좋은 실속형 제품이죠. 정확한 펜 터치로 정밀한 작업도 가능해 아이들이 자신의 생각과 감성을 표현하기에도 적합합니다.</p>
                             <p>또한 A4 용지의 절반 정도밖에 되지 않는 크기에 250g의 가벼우면서도 슬림한 두께로 노트북과 함께 언제든 휴대하고 다니며 외부에서 사용할 수 있다는 것도 빼놓을 수 없겠네요! :)</p>
