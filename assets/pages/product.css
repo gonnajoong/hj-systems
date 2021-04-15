@@ -386,6 +386,10 @@
     padding-top: 400px;
   }
 
+  .business-part-wrap > li:first-of-type {
+    padding-top: 60px;
+  }
+
   .hj-page-in-slide-wrap > li img {
     width: 100%;
   }
