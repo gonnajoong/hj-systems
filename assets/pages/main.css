@@ -172,7 +172,7 @@ body {
     width: 64px;
     height: 64px;
     border-radius: 6px;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
