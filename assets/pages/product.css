@@ -254,6 +254,10 @@
   border-bottom: 1px solid #e1e1e1;
 }
 
+.hj-m-table {
+  display: none;
+}
+
 .hj-product-spec-table tr {
   border-bottom: 1px solid #e1e1e1;
 }
@@ -369,7 +373,7 @@
   }
 
   .hj-page-in-slide-wrap > li {
-    position: static;
+    position: relative;
     left: 0;
     transform: none;
     opacity: 1;
@@ -400,5 +404,35 @@
 
   .hj-page-detail-image.hj-ready-image {
     position: absolute;
+  }
+
+  .hj-product-spec-table {
+    display: none;
+  }
+
+  .hj-m-table {
+    display: table;
+    text-align: left;
+    font-size: 14px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    line-height: 1.5;
+  }
+
+  .hj-m-table tr {
+    border-bottom: 1px solid #e1e1e1;
+  }
+
+  .hj-m-table tr:last-of-type {
+    border-bottom: 0;
+  }
+
+  .hj-m-table th {
+    font-weight: bold;
+    padding: 10px 8px 10px;
+  }
+
+  .hj-m-table td {
+    padding: 10px 0;
   }
 }

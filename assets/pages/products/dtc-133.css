@@ -55,3 +55,19 @@
   width: 100%;
   height: 811px;
 }
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .dtc-133-button-02 {
+    padding-bottom: 100px;
+  }
+
+  .dtc-133-button-02 .hj-submit-button {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .dtc-133-button-02 .hj-submit-button:nth-of-type(1) {
+    bottom: 50px;
+  }
+}
