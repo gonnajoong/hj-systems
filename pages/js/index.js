@@ -62,6 +62,11 @@ if (resizer()) {
                 "opacity": "0"
             });
         }
+        if ($(this).scrollTop() >= 110) {
+            $("#hjPageSlideButton").addClass('slick-dots-fixed');
+        } else {
+            $("#hjPageSlideButton").removeClass('slick-dots-fixed');
+        }
     });
 
     hjPageInSlideWrap.css('height', hjPageInSlideWrap00.height() + 'px');

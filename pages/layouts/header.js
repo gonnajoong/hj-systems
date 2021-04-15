@@ -1,4 +1,4 @@
-if(!AOS.init()) {
+if (!AOS.init()) {
     AOS.init();
 }
 
@@ -13,15 +13,15 @@ if(!AOS.init()) {
    * @param {Array|Object|NodeList} scope=null - Object/NodeList/Array that forEach is iterating over, to use as the this value when executing callback.
    * @returns {}
    */
- var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
+var forEach = function (t, o, r) { if ("[object Object]" === Object.prototype.toString.call(t)) for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t); else for (var e = 0, l = t.length; l > e; e++)o.call(r, t[e], e, t) };
 
 var hamburgers = document.querySelectorAll(".hamburger");
 if (hamburgers.length > 0) {
-  forEach(hamburgers, function(hamburger) {
-    hamburger.addEventListener("click", function() {
-      this.classList.toggle("is-active");
-    }, false);
-  });
+    forEach(hamburgers, function (hamburger) {
+        hamburger.addEventListener("click", function () {
+            this.classList.toggle("is-active");
+        }, false);
+    });
 }
 
 const headerWrap = $("#hjHeaderWrap");
@@ -29,48 +29,47 @@ const hjNavList = $(".hj-nav-list");
 const hjNotNow = $(".hj-not-now");
 const hjHamburger = $(".hamburger");
 const hjFoldWrap = $(".hj-fold-wrap");
-var resizer = function(){
-    if($(window).width() > 768){
+var resizer = function () {
+    if ($(window).width() > 768) {
         return true;
     } else {
         return false;
     }
 }
 
-if(resizer()){
-    headerWrap.on('mouseover', function(){
+if (resizer()) {
+    headerWrap.on('mouseover', function () {
         headerWrap.addClass('hj-spread');
     });
-    
-    headerWrap.on('mouseleave', function(){
+
+    headerWrap.on('mouseleave', function () {
         headerWrap.removeClass('hj-spread');
     });
 }
 
-hjHamburger.on('click', function(){
-    if(!hjHamburger.hasClass('is-active')){
+hjHamburger.on('click', function () {
+    if (!hjHamburger.hasClass('is-active')) {
         headerWrap.removeClass('hj-spread');
         $('body').css('overflow', 'auto');
-
     } else {
         headerWrap.addClass('hj-spread');
         $('body').css('overflow', 'hidden');
     }
 });
 
-hjNavList.on('mouseover', function(){
+hjNavList.on('mouseover', function () {
     hjNavList.removeClass('current');
     $(this).addClass('current');
 });
 
-hjNavList.on('mouseleave', function(){
+hjNavList.on('mouseleave', function () {
     hjNavList.removeClass('current');
     $(this).addClass('current');
 });
 
-hjFoldWrap.on('click', function(){
+hjFoldWrap.on('click', function () {
     var _this = $(this);
-    if(_this.parent(".hj-nav-list").hasClass("is-show")){
+    if (_this.parent(".hj-nav-list").hasClass("is-show")) {
         $(".hj-fold-icon").removeClass("is-active");
         $(".hj-nav-list").removeClass("is-show");
 
@@ -84,8 +83,3 @@ hjFoldWrap.on('click', function(){
         _this.parent(".hj-nav-list").addClass("is-show")
     }
 });
-
-// hjNotNow.on('click', function () {
-//     alert('아직 준비중인 페이지입니다.');
-//     return false;
-// });
