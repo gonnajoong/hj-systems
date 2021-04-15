@@ -41,7 +41,10 @@
                     <a href="http://www.hjsystems.co.kr/pages/business/business-part-01.php">
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-01"></div>
-                            <p class="hj-abbr-title">학교 화상교육 바로가기</p>
+                            <p class="hj-abbr-title">학교 화상교육</p>
+                            <span class="hj-sub-abbr-content">
+                                실시간 쌍방향 온라인 수업 필수템! 학생들을 위한 와콤 타블렛! 자세한 내용을 확인하시려면 클릭해주세요.
+                            </span>
                         </span>
                     </a>
                 </li>
@@ -49,7 +52,10 @@
                     <a href="http://www.hjsystems.co.kr/pages/product/dtc-133.php">
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-02"></div>
-                            <p class="hj-abbr-title">Wacom One 바로가기</p>
+                            <p class="hj-abbr-title">Wacom One</p>
+                            <span class="hj-sub-abbr-content">
+                            창작의 새로운 가능성을 열어주는 13형 액정타블렛, 와콤 원(Wacom One) 지금 바로 확인해보세요
+                            </span>
                         </span>
                     </a>
                 </li>
@@ -57,7 +63,10 @@
                     <a href="http://www.hjsystems.co.kr/pages/notice.php">
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-03"></div>
-                            <p class="hj-abbr-title">이벤트 및 공지사항 바로가기</p>
+                            <p class="hj-abbr-title">이벤트 및 공지사항</p>
+                            <span class="hj-sub-abbr-content">
+                                에이치제이시스템즈의 이벤트 및 공지사항을 알아볼 수 있는 페이지입니다.
+                            </span>
                         </span>
                     </a>
                 </li>
@@ -65,7 +74,10 @@
                     <a href="http://www.hjsystems.co.kr/pages/corporate-counseling.php">
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-04"></div>
-                            <p class="hj-abbr-title">상담 문의 바로가기</p>
+                            <p class="hj-abbr-title">상담 문의</p>
+                            <span class="hj-sub-abbr-content">
+                                안녕하세요 에이치제이시스템즈의 상담을 원하시는 고객분들은 이곳으로 이동 부탁드립니다.
+                            </span>
                         </span>
                     </a>
                 </li>

@@ -133,45 +133,55 @@ body {
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list {
     display: flex;
     align-content: center;
-    margin-right: -20px;
 }
 
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li {
-    margin-right: 20px;
     width: 100%;
-    transition: all .25s cubic-bezier(.5,-.75,.7,2);
+    height: 300px;
 }
 
-#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li:hover {
-    transform: translateY(-20px);
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li:nth-of-type(1) {
+    background-color: #fafafa;
+}
+
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li:nth-of-type(2) {
+    background-color: #f2f2f2;
+}
+
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li:nth-of-type(3) {
+    background-color: #e9e9e9;
+}
+
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li:nth-of-type(4) {
+    background-color: #dadada;
 }
 
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr {
-    display: block;
+    display: flex;
     width: 100%;
     height: 100%;
     overflow: hidden;
-    border: 1px solid #d4d4d4;
-    border-radius: 6px;
-    text-align: center;
-    padding: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 54px 12px 12px 64px;
 }
 
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .hj-abbr-img {
     display: block;
-    width: 100%;
-    height: 160px;
+    width: 64px;
+    height: 64px;
     border-radius: 6px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin-bottom: 16px;
 }
 
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .hj-abbr-title {
     font-size: 18px;
     font-weight: 500;
-    padding: 0 10px;
+    margin-top: 18px;
+    color: #333;
 }
 
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .hj-abbr-contents {
@@ -181,18 +191,26 @@ body {
     padding: 0 10px;
 }
 
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .hj-sub-abbr-content {
+    display: block;
+    text-align: left;
+    color: #666;
+    margin-top: 14px;
+    line-height: 1.4;
+}
+
 /*제품군 이미지 스타일*/
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-01 {
-    background-image: url("/images/business-part/business-part-01/business-01.jpg");
+    background-image: url("/images/icons/open-book.png");
 }
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-02 {
-    background-image: url("/images/products/dtc-133/one_2.jpg");
+    background-image: url("/images/icons/graphic-tablet.png");
 }
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-03 {
-    background-image: url("/images/icons/notice.png");
+    background-image: url("/images/icons/megaphone.png");
 }
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-04 {
-    background-image: url("/images/icons/comerce.png");
+    background-image: url("/images/icons/counseling.png");
 }
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-05 {
     background-image: url("/images/products/stylus/bamboo sketch gallery 4.png");
@@ -281,5 +299,9 @@ body {
 
     #hjMainWrap .hj-slide-wrap .hj-slide-image > a::after {
         content: "";
+    }
+
+    #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr {
+        padding: 54px 34px 12px;
     }
 }
