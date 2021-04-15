@@ -414,13 +414,17 @@
     display: table;
     text-align: left;
     font-size: 14px;
-    border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     line-height: 1.5;
   }
 
   .hj-m-table tr {
     border-bottom: 1px solid #e1e1e1;
+  }
+
+  .hj-m-table tr:first-of-type th {
+    background-color: #e8323e;
+    color: #fff;
   }
 
   .hj-m-table tr:last-of-type {
@@ -430,6 +434,7 @@
   .hj-m-table th {
     font-weight: bold;
     padding: 10px 8px 10px;
+    width: 30%;
   }
 
   .hj-m-table td {

@@ -150,6 +150,304 @@
                                     </td>
                                 </tr>
                             </table>
+                            <table class="hj-m-table">
+                                <tr class="hj-table-main-header">
+                                    <th>제품 사양</th>
+                                    <th>소형 USB</th>
+                                </tr>
+                                <tr>
+                                    <th>모델명</th>
+                                    <td>블랙: CTL-4100</td>
+                                </tr>
+                                <tr>
+                                    <th>필압레벨</th>
+                                    <td>최고 4096 레벨</td>
+                                </tr>
+                                <tr>
+                                    <th>인식 방식</th>
+                                    <td>전자유도 방식</td>
+                                </tr>
+                                <tr>
+                                    <th>익스프레스키</th>
+                                    <td>4개</td>
+                                </tr>
+                                <tr>
+                                    <th>무선기능</th>
+                                    <td>지원 안함</td>
+                                </tr>
+                                <tr>
+                                    <th>전지</th>
+                                    <td>없음</td>
+                                </tr>
+                                <tr>
+                                    <th>블루투스 무선 연결</th>
+                                    <td>지원 안함</td>
+                                </tr>
+                                <tr>
+                                    <th>충전 시간</th>
+                                    <td>지원 안함</td>
+                                </tr>
+                                <tr>
+                                    <th>크기<br/>(가장 두꺼운 부분)</th>
+                                    <td>200 x 160 x 8.8mm</td>
+                                </tr>
+                                <tr>
+                                    <th>작업 영역</th>
+                                    <td>152 x 95mm</td>
+                                </tr>
+                                <tr>
+                                    <th>무게</th>
+                                    <td>230g</td>
+                                </tr>
+                                <tr>
+                                    <th>시스템 요구 사항</th>
+                                    <td>Windows®7 이상 (Windows 10 S 제외) Mac OS X 10.11 이상</td>
+                                </tr>
+                                <tr>
+                                    <th>연결</th>
+                                    <td>
+                                        <ul>
+                                            <li>· PC에 표준 탑재된 USB 케이블</li>
+                                            <li>· 인터넷 접속 (와콤 드라이버, 번들 소프트웨어 다운로드용)</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>제품 구성</th>
+                                    <td>
+                                        <ul>
+                                            <li>· 펜 타블렛 본체 · Wacom Pen 4K · USB 케이블 (케이블 밴드포함, 1.5m)</li>
+                                            <li>· 3개의 여분 표준 펜심 (펜 속에 포함) · 펜심 제거툴 (펜 끝에 위치) · 퀵 스타트 가이드</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="hj-m-table">
+                                <tr class="hj-table-main-header">
+                                    <th>제품 사양</th>
+                                    <th>중형 USB</th>
+                                </tr>
+                                <tr>
+                                    <th>모델명</th>
+                                    <td>블랙: CTL-6100</td>
+                                </tr>
+                                <tr>
+                                    <th>필압레벨</th>
+                                    <td>최고 4096 레벨</td>
+                                </tr>
+                                <tr>
+                                    <th>인식 방식</th>
+                                    <td>전자유도 방식</td>
+                                </tr>
+                                <tr>
+                                    <th>익스프레스키</th>
+                                    <td>4개</td>
+                                </tr>
+                                <tr>
+                                    <th>무선기능</th>
+                                    <td>지원 안함</td>
+                                </tr>
+                                <tr>
+                                    <th>전지</th>
+                                    <td>없음</td>
+                                </tr>
+                                <tr>
+                                    <th>블루투스 무선 연결</th>
+                                    <td>지원 안함</td>
+                                </tr>
+                                <tr>
+                                    <th>충전 시간</th>
+                                    <td>지원 안함</td>
+                                </tr>
+                                <tr>
+                                    <th>크기<br/>(가장 두꺼운 부분)</th>
+                                    <td>264 x 200 x 8.8mm</td>
+                                </tr>
+                                <tr>
+                                    <th>작업 영역</th>
+                                    <td>216 x 135mm</td>
+                                </tr>
+                                <tr>
+                                    <th>무게</th>
+                                    <td>390g</td>
+                                </tr>
+                                <tr>
+                                    <th>시스템 요구 사항</th>
+                                    <td>Windows®7 이상 (Windows 10 S 제외) Mac OS X 10.11 이상</td>
+                                </tr>
+                                <tr>
+                                    <th>연결</th>
+                                    <td>
+                                        <ul>
+                                            <li>· PC에 표준 탑재된 USB 케이블</li>
+                                            <li>· 인터넷 접속 (와콤 드라이버, 번들 소프트웨어 다운로드용)</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>제품 구성</th>
+                                    <td>
+                                        <ul>
+                                            <li>· 펜 타블렛 본체 · Wacom Pen 4K · USB 케이블 (케이블 밴드포함, 1.5m)</li>
+                                            <li>· 3개의 여분 표준 펜심 (펜 속에 포함) · 펜심 제거툴 (펜 끝에 위치) · 퀵 스타트 가이드</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="hj-m-table">
+                                <tr class="hj-table-main-header">
+                                    <th>제품 사양</th>
+                                    <th>소형 블루투스</th>
+                                </tr>
+                                <tr>
+                                    <th>모델명</th>
+                                    <td>
+                                        블랙: CTL-4100WL/K<br>
+                                        그린: CTL-4100WL/E<br>
+                                        핑크: CTL-4100WL/P
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>필압레벨</th>
+                                    <td>최고 4096 레벨</td>
+                                </tr>
+                                <tr>
+                                    <th>인식 방식</th>
+                                    <td>전자유도 방식</td>
+                                </tr>
+                                <tr>
+                                    <th>익스프레스키</th>
+                                    <td>4개</td>
+                                </tr>
+                                <tr>
+                                    <th>무선기능</th>
+                                    <td>지원 (블루투스 연결)</td>
+                                </tr>
+                                <tr>
+                                    <th>전지</th>
+                                    <td>리튬 전지</td>
+                                </tr>
+                                <tr>
+                                    <th>블루투스 무선 연결</th>
+                                    <td>최대 15시간</td>
+                                </tr>
+                                <tr>
+                                    <th>충전 시간</th>
+                                    <td>약 3.5시간</td>
+                                </tr>
+                                <tr>
+                                    <th>크기<br/>(가장 두꺼운 부분)</th>
+                                    <td>200 x 160 x 8.8mm</td>
+                                </tr>
+                                <tr>
+                                    <th>작업 영역</th>
+                                    <td>152 x 95mm</td>
+                                </tr>
+                                <tr>
+                                    <th>무게</th>
+                                    <td>250g</td>
+                                </tr>
+                                <tr>
+                                    <th>시스템 요구 사항</th>
+                                    <td>Windows®7 이상 (Windows 10 S 제외) Mac OS X 10.11 이상</td>
+                                </tr>
+                                <tr>
+                                    <th>연결</th>
+                                    <td>
+                                        <ul>
+                                            <li>· 블루투스 무선 연결</li>
+                                            <li>· PC에 표준 탑재된 USB케이블</li>
+                                            <li>· 인터넷 접속 (와콤 드라이버, 번들 소프트웨어 다운로드용)</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>제품 구성</th>
+                                    <td>
+                                        <ul>
+                                            <li>· 펜 타블렛 본체 · Wacom Pen 4K · USB 케이블 (케이블 밴드포함, 1.5m)</li>
+                                            <li>· 3개의 여분 표준 펜심 (펜 속에 포함) · 펜심 제거툴 (펜 끝에 위치) · 퀵 스타트 가이드</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="hj-m-table">
+                            <tr class="hj-table-main-header">
+                                    <th>제품 사양</th>
+                                    <th>중형 블루투스</th>
+                                </tr>
+                                <tr>
+                                    <th>모델명</th>
+                                    <td>
+                                        블랙: CTL-6100WL/K<br>
+                                        그린: CTL-6100WL/E<br>
+                                        핑크: CTL-6100WL/P
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>필압레벨</th>
+                                    <td>최고 4096 레벨</td>
+                                </tr>
+                                <tr>
+                                    <th>인식 방식</th>
+                                    <td>전자유도 방식</td>
+                                </tr>
+                                <tr>
+                                    <th>익스프레스키</th>
+                                    <td>4개</td>
+                                </tr>
+                                <tr>
+                                    <th>무선기능</th>
+                                    <td>지원 (블루투스 연결)</td>
+                                </tr>
+                                <tr>
+                                    <th>전지</th>
+                                    <td>리튬 전지</td>
+                                </tr>
+                                <tr>
+                                    <th>블루투스 무선 연결</th>
+                                    <td>최대 15시간</td>
+                                </tr>
+                                <tr>
+                                    <th>충전 시간</th>
+                                    <td>약 3.5시간</td>
+                                </tr>
+                                <tr>
+                                    <th>크기<br/>(가장 두꺼운 부분)</th>
+                                    <td>264 x 200 x 8.8mm</td>
+                                </tr>
+                                <tr>
+                                    <th>작업 영역</th>
+                                    <td>216 x 135mm</td>
+                                </tr>
+                                <tr>
+                                    <th>무게</th>
+                                    <td>410g</td>
+                                </tr>
+                                <tr>
+                                    <th>시스템 요구 사항</th>
+                                    <td>Windows®7 이상 (Windows 10 S 제외) Mac OS X 10.11 이상</td>
+                                </tr>
+                                <tr>
+                                    <th>연결</th>
+                                    <td>
+                                        <ul>
+                                            <li>· 블루투스 무선 연결</li>
+                                            <li>· PC에 표준 탑재된 USB케이블</li>
+                                            <li>· 인터넷 접속 (와콤 드라이버, 번들 소프트웨어 다운로드용)</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>제품 구성</th>
+                                    <td>
+                                        <ul>
+                                            <li>· 펜 타블렛 본체 · Wacom Pen 4K · USB 케이블 (케이블 밴드포함, 1.5m)</li>
+                                            <li>· 3개의 여분 표준 펜심 (펜 속에 포함) · 펜심 제거툴 (펜 끝에 위치) · 퀵 스타트 가이드</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
                         </li>
                         <!-- <li class="hj-page-detail-image intuos-button-04"></li>
                         <li class="hj-page-detail-image intuos-button-05"></li> -->
