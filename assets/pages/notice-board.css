@@ -24,69 +24,45 @@
   border-bottom: 1px solid #ccc;
 }
 
-.hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table th,
-.hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table td {
+.hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table th {
   padding: 20px 0;
 }
 
+.hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table td a {
+  padding: 20px 0;
+  display: block;
+}
+
 .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table thead tr {
-  background-color: #fcfcfc;
+  background-color: #f5f5f5;
   border-bottom: 1px solid #ccc;
 }
 
-.hj-notice-board-wrap
-  .hj-board-wrap
-  .hj-board-list-wrap
-  table
-  thead
-  tr
-  th:nth-of-type(1),
-.hj-notice-board-wrap
-  .hj-board-wrap
-  .hj-board-list-wrap
-  table
-  tbody
-  tr
-  td:nth-of-type(1) {
+.hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table thead tr th:nth-of-type(1),
+.hj-notice-board-wrap  .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(1) {
   padding-left: 18px;
-  width: 5%;
+  width: 10%;
   text-align: left;
 }
 
-.hj-notice-board-wrap
-  .hj-board-wrap
-  .hj-board-list-wrap
-  table
-  thead
-  tr
-  th:nth-of-type(2),
-.hj-notice-board-wrap
-  .hj-board-wrap
-  .hj-board-list-wrap
-  table
-  tbody
-  tr
-  td:nth-of-type(2) {
-  width: 80%;
+.hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table thead tr th:nth-of-type(2),
+.hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(2) {
+  width: 75%;
   text-align: left;
 }
 
-.hj-notice-board-wrap
-  .hj-board-wrap
-  .hj-board-list-wrap
-  table
-  thead
-  tr
-  th:nth-of-type(3),
-.hj-notice-board-wrap
-  .hj-board-wrap
-  .hj-board-list-wrap
-  table
-  tbody
-  tr
-  td:nth-of-type(3) {
+.hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table thead tr th:nth-of-type(3),
+.hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(3) {
   padding-right: 18px;
   width: 15%;
+}
+
+.hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr:last-of-type {
+  border: 0;
 }
 
 .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody a:hover {
@@ -102,12 +78,23 @@
 }
 
 .hj-notice-board-wrap .hj-board-wrap .hj-pagination-wrap ul {
-  display: inline-flex;
+  display: inline-block;
+  width: 100%;
   max-width: 200px;
 }
 
 .hj-notice-board-wrap .hj-board-wrap .hj-pagination-wrap ul li:nth-of-type(2) {
+  width: 100%;
+  max-width: 160px;
   margin: 0 10px;
+}
+
+.hj-notice-board-wrap .hj-board-wrap .hj-pagination-wrap ul li:nth-of-type(2) a {
+  margin-left: 16px;
+}
+
+.hj-notice-board-wrap .hj-board-wrap .hj-pagination-wrap ul li:nth-of-type(2) a:first-of-type {
+  margin: 0;
 }
 
 .hj-notice-board-wrap .hj-board-list-wrap::after {
@@ -168,13 +155,8 @@
     white-space: nowrap;
     overflow: hidden;
     display: block;
-    max-width: 160px;
-  }
-
-  .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(1),
-  .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(2),
-  .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(3) {
-    padding: 20px 0;
+    width: 100%;
+    max-width: 360px;
   }
 
   .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(1) {padding-left: 8px;}
@@ -192,5 +174,41 @@
 
   .hj-notice-board-wrap .hj-board-wrap .hj-pagination-wrap {
     margin: 80px 0 200px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(2) a {
+    max-width: 260px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(2) a {
+    max-width: 220px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(2) a {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(2) a {
+    max-width: 180px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(2) a {
+    max-width: 160px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(2) a {
+    max-width: 140px;
   }
 }

@@ -32,7 +32,7 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>번호</th>
+                            <th>분류</th>
                             <th>제목</th>
                             <th>작성일</th>
                         </tr>

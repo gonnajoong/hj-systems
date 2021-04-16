@@ -43,6 +43,8 @@ var ntBefore = $("#ntBefore");
 var ntAfter = $("#ntAfter");
 var ntList = $("#ntList");
 
+var types = { "event": "이벤트", "notice": "공지" };
+
 var onChangeText = function (e, name) {
     var val = e.val();
     state[name] = val;
@@ -139,6 +141,7 @@ $(document).on("click", hjSubmitButton, function () {
 });
 
 function gets() {
+    query = getQueryStringObject();
     $.ajax({
         url: '/server/api/notice/gets.php',
         type: 'GET',
@@ -154,7 +157,7 @@ function gets() {
                     }
                 }
                 for (var i = 0; i < data.count; i++) {
-                    hjNoticeList.prepend("<tr><td>" + parseInt(i + 1) + "</td><td><a href='/pages/notice-detail.php?id=" + data['rows'][i].id + "&page=" + query.page + "'>" + data['rows'][i].title + "</a></td><td>" + data['rows'][i].updated_at + "</td></tr>");
+                    hjNoticeList.prepend("<tr><td>" + types[data['rows'][i].type] + "</td><td><a href='/pages/notice-detail.php?id=" + data['rows'][i].id + "&page=" + query.page + "'>" + data['rows'][i].title + "</a></td><td>" + data['rows'][i].updated_at + "</td></tr>");
                 }
                 // 이전 페이지, 다음 페이지
                 if (data.notice_start_num > 1) {
@@ -170,7 +173,7 @@ function gets() {
                 // 영역 종료
 
                 for (var i = 0; i <= data.notice_end_num - data.notice_start_num; i++) {
-                    ntPageNum.prepend("<a class='" + (data.notice_start_num + i == data.notice_page ? ' active' : '') + "' href='?page=" + parseInt(data.notice_start_num + i) + "'>" + parseInt(data.notice_start_num + i) + "</a>");
+                    ntPageNum.append("<a class='" + (data.notice_start_num + i == data.notice_page ? ' active' : '') + "' href='?page=" + parseInt(data.notice_start_num + i) + "'>" + parseInt(data.notice_start_num + i) + "</a>");
                 }
 
             } else {
@@ -202,7 +205,7 @@ function get() {
     var ntdImage = $("#ntdImage");
     var ntdContent = $("#ntdContent");
 
-    var types = { "event": "이벤트", "notice": "공지사항" };
+    
 
     $.ajax({
         url: '/server/api/notice/get.php',

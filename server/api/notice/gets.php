@@ -7,16 +7,13 @@
         exit();
     }
 
-    $count = $_GET['count'];
-
     $num_length = 5;
     $notice_size = 12;
-    $notice_page = intval($_GET['page']);
+    $notice_page = $_GET['page'];
     if(!$notice_page) $notice_page = 1;
 
     $notice_offset = ($notice_page - 1) * $notice_size;
     $notice_count = mysqli_num_rows(mysqli_query($db_conn, "SELECT * FROM notice;"));
-    
     
     
     $gets = "SELECT * FROM notice ORDER BY updated_at ASC LIMIT $notice_size OFFSET $notice_offset";
