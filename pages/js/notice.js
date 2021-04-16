@@ -108,9 +108,11 @@ hjImageRemove.on("click", function () {
 });
 var hjSubmitButton = "#hjSubmitButton";
 $(document).on("click", hjSubmitButton, function () {
+    var contentVal = oEditors.getById["ntContent"].exec("UPDATE_CONTENTS_FIELD", []);
+
     const noticeTitle = state.noticeTitle;
     const noticeType = state.noticeType;
-    const noticeContent = state.noticeContent;
+    const noticeContent = $("#ntContent").val();
 
     var createNotice = {};
     createNotice.title = noticeTitle;
@@ -299,7 +301,27 @@ if (window.location.pathname == noticePath) {
 
 if (window.location.pathname == noticeDetailPath) {
     get();
+}
 
+var oEditors = [];
+if (window.location.pathname == noticeEditPath) {
+    nhn.husky.EZCreator.createInIFrame({
+        oAppRef: oEditors,
+        elPlaceHolder: "ntContent",  //textarea ID
+        sSkinURI: "/smartEditor/SmartEditor2Skin.html",
+        htParams: {
+            bUseToolbar: true,				// 툴바 사용 여부 (true:사용/ false:사용하지 않음)
+            bUseVerticalResizer: true,		// 입력창 크기 조절바 사용 여부 (true:사용/ false:사용하지 않음)
+            bUseModeChanger: false,			// 모드 탭(Editor | HTML | TEXT) 사용 여부 (true:사용/ false:사용하지 않음)
+            //bSkipXssFilter : true,		// client-side xss filter 무시 여부 (true:사용하지 않음 / 그외:사용)
+            // aAdditionalFontList: aAdditionalFontSet,		// 추가 글꼴 목록
+            fOnBeforeUnload: function () {
+                //alert("완료!");
+            },
+            // I18N_LOCALE: sLang
+        }, //boolean
+        fCreator: "createSEditor2",
+    });
 }
 
 var queryString = getQueryStringObject();

@@ -1,6 +1,7 @@
 <?php
     $query = "SELECT * FROM `company`;";
     $db_conn = @mysqli_connect("211.47.74.38", "hjsystems", "hj191001#!", "dbhjsystems");
+    // $db_conn = @mysqli_connect("localhost", "root", "root", "dbhjsystems");
     if (!$db_conn) {
         $error = mysqli_connect_error();
         $errno = mysqli_connect_errno();

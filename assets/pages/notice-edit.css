@@ -49,8 +49,7 @@
 }
 
 .hj-notice-edit-wrap .hj-notice-form label textarea.hj-input-role {
-  resize: none;
-  height: 200px;
+  display: none;
 }
 
 .hj-notice-edit-wrap .hj-notice-form .hj-image-preview {
