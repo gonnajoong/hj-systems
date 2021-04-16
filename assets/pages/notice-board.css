@@ -45,6 +45,12 @@
   text-align: left;
 }
 
+.hj-notice-board-wrap  .hj-board-wrap .hj-board-list-wrap table tbody tr .hj-empty-notice {
+  padding: 60px 0;
+  width: 100%;
+  text-align: center !important;
+}
+
 .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table thead tr th:nth-of-type(2),
 .hj-notice-board-wrap .hj-board-wrap .hj-board-list-wrap table tbody tr td:nth-of-type(2) {
   width: 75%;

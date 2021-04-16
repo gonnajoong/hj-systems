@@ -162,13 +162,9 @@ function gets() {
                 // 이전 페이지, 다음 페이지
                 if (data.notice_start_num > 1) {
                     ntBefore.attr('href', '?page=' + data.notice_start_num - 1 + '');
-                } else {
-                    ntBefore.css('display', 'none');
                 }
                 if (data.notice_end_page_num < data.notice_end_conut_num) {
                     ntAfter.attr('href', '?page=' + data.notice_end_num + 1 + '');
-                } else {
-                    ntAfter.css('display', 'none');
                 }
                 // 영역 종료
 
@@ -177,7 +173,9 @@ function gets() {
                 }
 
             } else {
-                hjNoticeList.prepend("<tr><td colspan='3'>등록된 글이 없습니다.</td></tr>");
+                hjNoticeList.prepend("<tr><td class='hj-empty-notice' colspan='3'>등록된 글이 없습니다.</td></tr>");
+                ntBefore.css('display', 'none');
+                ntAfter.css('display', 'none');
             }
         }
     });
