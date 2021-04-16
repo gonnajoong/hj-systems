@@ -193,10 +193,13 @@ body {
 
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .hj-sub-abbr-content {
     display: block;
+    width: 100%;
     text-align: left;
     color: #666;
     margin-top: 14px;
     line-height: 1.4;
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    word-break: keep-all;
 }
 
 /*제품군 이미지 스타일*/

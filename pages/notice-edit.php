@@ -14,7 +14,7 @@
       <script src="../js/libs/jquery-3.5.1.min.js"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="../js/libs/slick.min.js"></script>
-      <script src="/smarteditor/js/service/HuskyEZCreator.js" type="text/javascript"></script>
+      <script src="http://www.hjsystems.co.kr/smarteditor/js/service/HuskyEZCreator.js" type="text/javascript"></script>
 
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../assets/index.css" />

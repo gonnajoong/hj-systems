@@ -106,6 +106,7 @@ hjImageRemove.on("click", function () {
     document.getElementById("ntImage").value = "";
     hjUploadWrap.css("display", "flex");
 });
+
 var hjSubmitButton = "#hjSubmitButton";
 $(document).on("click", hjSubmitButton, function () {
     var contentVal = oEditors.getById["ntContent"].exec("UPDATE_CONTENTS_FIELD", []);
@@ -231,7 +232,7 @@ function get() {
                 $("#noticeTitle").val(data.title);
                 $("#ntType").val(data.type);
                 $("#ntContent").val(data.content);
-                if (typeof data.image_id !== undefined) {
+                if (typeof data.image_id !== undefined && data.image_id !== null) {
                     $("#img").attr("src", "/upload/" + data.image_name_hash);
                     $(".preview img").show(); // Display image element
                     hjImagePreview.css("display", "block");
@@ -245,12 +246,13 @@ function get() {
 
 function put() {
     data = getQueryStringObject();
+    var contentVal = oEditors.getById["ntContent"].exec("UPDATE_CONTENTS_FIELD", []);
     var putData = {
         "id": data.id,
         "title": $("#noticeTitle").val(),
         "type": $("#ntType").val(),
         "content": $("#ntContent").val(),
-        "image_id": $("#img").data("imageId"),
+        "image_id": $("#img").data("imageId") ? $("#img").data("imageId") : null,
     }
     $.ajax({
         url: '/server/api/notice/put.php',
@@ -308,7 +310,7 @@ if (window.location.pathname == noticeEditPath) {
     nhn.husky.EZCreator.createInIFrame({
         oAppRef: oEditors,
         elPlaceHolder: "ntContent",  //textarea ID
-        sSkinURI: "/smartEditor/SmartEditor2Skin.html",
+        sSkinURI: "http://www.hjsystems.co.kr/smarteditor/SmartEditor2Skin.html",
         htParams: {
             bUseToolbar: true,				// 툴바 사용 여부 (true:사용/ false:사용하지 않음)
             bUseVerticalResizer: true,		// 입력창 크기 조절바 사용 여부 (true:사용/ false:사용하지 않음)
