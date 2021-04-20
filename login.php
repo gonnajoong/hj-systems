@@ -9,6 +9,12 @@
       <link rel="shortcut icon" href="images/favicon/favicon-96.png">
       <link rel="shortcut icon" href="images/favicon/favicon-152.png">
 
+      <meta property="og:type" content="website"/>
+<meta property="og:url" content="http://hjsystems.co.kr"/>
+<meta property="og:image" content="/images/thumbnail.jpg"/>
+<meta property="og:title" content="에이치제이시스템즈 | HJ SYSTEMS"/>
+<meta property="og:description" content="안녕하세요 와콤 타블렛 총판 에이치제이시스템즈 입니다."/>
+
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <script src="./js/libs/jquery-3.5.1.min.js"></script>
