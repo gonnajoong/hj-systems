@@ -72,6 +72,23 @@ function deleteCookie(name) {
     setCookie(name, "", -1);
 }
 
+function searchToObject() {
+    var pairs = window.location.search.substring(1).split("&"),
+      obj = {},
+      pair,
+      i;
+  
+    for ( i in pairs ) {
+      if ( pairs[i] === "" ) continue;
+  
+      pair = pairs[i].split("=");
+      obj[ decodeURIComponent( pair[0] ) ] = decodeURIComponent( pair[1] );
+    }
+    return obj;
+  }
+
+  var queryObj = searchToObject();
+
 if(getCookie('HJ_SESSION') !== null) {
     hjFooterButton.text("로그아웃");
     hjFooterButton.attr("href", "#");
@@ -85,6 +102,10 @@ if(getCookie('HJ_SESSION') !== null) {
     // hjNoticeCreateButton.css("display", "none");
 }
 
+if(getCookie('HJ_SESSION') == null && typeof queryObj.admin === 'undefined') {
+    hjFooterButton.remove();
+}
+
 
 hjFooterButton.on('click', function(e){
     e.preventDefault();
@@ -96,4 +117,3 @@ hjFooterButton.on('click', function(e){
         location.href = "/login.php";
     }
 });
-
