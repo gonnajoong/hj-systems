@@ -51,6 +51,12 @@
                         </ul>
                     </li>
                     <li class="hj-nav-list">
+                        <span class="hj-fold-wrap">신제품<button class="hj-fold-icon"></button></span>
+                        <ul class="hj-nav-list second-depth">
+                            <li class="hj-not-now"><a href="/pages/product/dth-271.php">신티크 프로 27</a></li>
+                        </ul>
+                    </li>
+                    <li class="hj-nav-list">
                         <span><a href="/pages/notice.php?page=1">공지사항</a></span>
                     </li>
                     <li class="hj-nav-list">
