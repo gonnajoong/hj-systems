@@ -27,8 +27,8 @@
                         <span class="hj-fold-wrap">사업분야<button class="hj-fold-icon"></button></span>
                         <ul class="hj-nav-list second-depth">
                             <li class="hj-not-now"><a href="/pages/business/business-part-01.php">학교 화상교육</a></li>
-                            <li class="hj-not-now"><a href="/pages/business/business-part-02.php">VR 사업</a></li>
-                            <li class="hj-not-now"><a href="/pages/business/business-part-03.php">기관 및 기업</a></li>
+                            <li class="hj-not-now hide-nav"><a href="/pages/business/business-part-02.php">보호 필름</a></li>
+                            <li class="hj-not-now hide-nav"><a href="/pages/business/business-part-03.php">기관 및 기업</a></li>
                             <!-- <li class="hj-not-now"><a href="/admin/pages/business/business-part-04.html"></a></li>
                             <li class="hj-not-now"><a href="/admin/pages/business/business-part-05.html"></a></li> -->
                         </ul>

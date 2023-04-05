@@ -24,7 +24,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../../assets/index.css" />
 
-    <title>HJ SYSTEMS | 사업분야</title>
+    <title>HJ SYSTEMS | 보호필름</title>
 </head>
 <body>
     <?php @include("../../layouts/header.php");?>
@@ -34,7 +34,7 @@
             <section class="hj-product-content-wrap">
                 <div class="hj-product-image">
                 <ul id="hjNonImageButton" class="hj-page-slide-button slick-dots">
-                        <li data-snav='1' class="hj-active"><button>VR 사업</button></li>
+                        <li data-snav='1' class="hj-active"><button>보호필름</button></li>
                         <li data-snav='2'><button>소프트웨어 구성</button></li>
                         <li data-snav='3'><button>안내</button></li>
                         <li data-snav='4'><button>제품 설치구성</button></li>
