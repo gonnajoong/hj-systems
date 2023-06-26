@@ -95,4 +95,17 @@
   .business-part-wrap li > p {
     font-size: 14px;
   }
+
+  .hj-product-detail-wrap
+  .hj-product-detail
+  .hj-business-content-wrap {
+    padding: 0px 16px 200px 16px;
+  }
+
+  .hj-product-detail-wrap
+  .hj-product-detail
+  .hj-business-content-wrap
+  .hj-img-business {
+    width: 100%;
+  }
 }

@@ -133,6 +133,10 @@
   border-right: 0;
 }
 
+#hjAddressWrap .hj-transport-table strong {
+  font-weight: bold;
+}
+
 /* tablet */
 @media screen and (max-width: 1200px) {
     

@@ -41,7 +41,7 @@
             <ul class="hj-address-text">
                 <li>
                     <strong>주소 :</strong>
-                    <p>서울시 강서구 양천로 551-24 한화 비즈메트로2차 706호</p>
+                    <p>서울특별시 영등포구 63로 40(여의도동) 라이프오피스텔 905호</p>
                 </li>
                 <li>
                     <strong>전화 :</strong>
@@ -68,7 +68,7 @@
                 </tr>
                 <tr>
                     <td><i class="hj-icon hj-9th-metro"></i>9호선</td>
-                    <td>증미역 1번 출구</td>
+                    <td>샛강역 3번 출구</td>
                 </tr>
             </table>
             <table  class="hj-transport-table">
@@ -77,23 +77,23 @@
                     <th>정거장</th>
                 </tr>
                 <tr>
-                    <td><i class="hj-icon hj-blue-bus"></i>660 - 가양역.현대아파트 방면</td>
-                    <td>이마트.강서소방서, 이마트.증미역</td>
+                    <td><i class="hj-icon hj-blue-bus"></i>261</td>
+                    <td>여의동주민센터 <strong>승차</strong> > 63빌딩.가톨릭대학교여의도성모병원 <strong>하차</strong></td>
                 </tr>
                 <tr>
-                    <td><i class="hj-icon hj-blue-bus"></i>672 - 가양역.현대아파트 방면</td>
-                    <td>이마트.강서소방서, 이마트.증미역</td>
+                    <td><i class="hj-icon hj-green-bus"></i>5633</td>
+                    <td>샛강역.앙카라공원 <strong>승차</strong> > 63빌딩.가톨릭대학교여의도성모병원 <strong>하차</strong></td>
                 </tr>
                 <tr>
-                    <td><i class="hj-icon hj-green-bus"></i>6642 - 강서구청별관 방면</td>
-                    <td>이마트.강서소방서, 이마트.증미역</td>
+                    <td><i class="hj-icon hj-green-bus"></i>5634</td>
+                    <td>진주아파트 <strong>승차</strong> > 63빌딩.가톨릭대학교여의도성모병원 <strong>하차</strong></td>
                 </tr>
             </table>
         </section>
         <script type="text/javascript">
             var mapContainer = document.getElementById('hjKakaoMap'), // 지도를 표시할 div
     mapOption = {
-        center: new kakao.maps.LatLng(37.55886395335532, 126.86194486828924), // 지도의 중심좌표
+        center: new kakao.maps.LatLng(37.519602592976184, 126.93915884165797), // 지도의 중심좌표
         level: 3 // 지도의 확대 레벨
     };
 
@@ -114,7 +114,7 @@ map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
 map.setZoomable(false);
 
 // 마커가 표시될 위치입니다
-var markerPosition  = new kakao.maps.LatLng(37.55886395335532, 126.86194486828924);
+var markerPosition  = new kakao.maps.LatLng(37.519602592976184, 126.93915884165797);
 
 // 마커를 생성합니다
 var marker = new kakao.maps.Marker({
