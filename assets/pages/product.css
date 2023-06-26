@@ -384,6 +384,10 @@
     border: 0;
   }
 
+  .hj-product-content-wrap .hj-business-content-wrap .hj-img-business {
+    width: 100%;
+  }
+
   .hj-page-in-slide-wrap > li {
     position: relative;
     left: 0;

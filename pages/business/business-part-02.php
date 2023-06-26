@@ -33,7 +33,7 @@
         <article class="hj-product-detail">
             <section class="hj-product-content-wrap hj-business-content-wrap">
                 <h2 class="hj-product-business-title">와콤 신티크 프로 24인치 보호필름</h2>
-                <img src="../../images/safeshield/DTK-2420.jpg" alt="dtk2420_safeshield">
+                <img class="hj-img-business" src="../../images/safeshield/DTK-2420.jpg" alt="dtk2420_safeshield">
             </section>
         </article>
     </section>
