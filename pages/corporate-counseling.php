@@ -24,7 +24,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../assets/index.css" />
 
-    <title>HJ SYSTEMS | 기업상담</title>
+    <title>HJ SYSTEMS | B2B 특가 문의</title>
 </head>
 <body>
     <?php @include("../layouts/header.php");?>
@@ -32,7 +32,7 @@
     <section class="hj-text-list-wrap">
         <div class="hj-list-wrap">
             <article class="hj-image-list-wrap">
-                <img src="/images/counseling/counseling_01.jpg" alt="상담1">
+                <img src="/images/counseling/counseling_02.jpg" alt="상담2">
             </article>
         </div>
     </section>
