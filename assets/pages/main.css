@@ -50,7 +50,7 @@ body {
 }
 
 #hjMainWrap .hj-slide-wrap .hj-slide-image.slide-image-01 {
-    background-image: url('/images/banners/hj_illust_banner_03.jpg');
+    background-image: url('/images/banners/intro_banner_pc.jpg');
 }
 
 #hjMainWrap .hj-slide-wrap .hj-slide-image.slide-image-02 {
@@ -273,7 +273,7 @@ body {
 
     /* 슬라이드 모바일 이미지 */
     #hjMainWrap .hj-slide-wrap .hj-slide-image.slide-image-01 {
-        background-image: url('/images/counseling/leaflet01.jpg');
+        background-image: url('/images/banners/intro_banner_m.jpg');
     }
     
     #hjMainWrap .hj-slide-wrap .hj-slide-image.slide-image-02 {
