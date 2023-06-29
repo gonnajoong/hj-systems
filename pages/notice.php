@@ -24,7 +24,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../assets/index.css" />
 
-    <title>HJ SYSTEMS | 공지사항</title>
+    <title>HJ SYSTEMS | 프로모션</title>
 </head>
 <body>
     <?php @include("../layouts/header.php");?>
@@ -32,7 +32,7 @@
     <section class="hj-notice-board-wrap">
         <div class="hj-board-wrap">
             <article class="hj-board-title">
-                <h2>이벤트 및 공지사항</h2>
+                <h2>프로모션</h2>
             </article>
             <article class="hj-board-list-wrap">
                 <table>
