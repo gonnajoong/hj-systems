@@ -26,10 +26,10 @@
                     <li class="hj-nav-list">
                         <span class="hj-fold-wrap">사업분야<button class="hj-fold-icon"></button></span>
                         <ul class="hj-nav-list second-depth">
-                            <li class="hj-not-now"><a href="/pages/business/business-part-01.php">와콤 에듀케이션</a></li>
-                            <li class="hj-not-now"><a href="/pages/business/business-part-02.php">타블렛 보호필름</a></li>
-                            <li class="hj-not-now"><a href="/pages/business/business-part-03.php">주변기기</a></li>
-                            <li class="hj-not-now"><a href="/pages/business/business-part-04.php">와콤 엔터프라이즈</a></li>
+                            <li class="hj-not-now"><a href="/pages/business/business-part-01.php">와콤 엔터프라이즈</a></li>
+                            <li class="hj-not-now"><a href="/pages/business/business-part-02.php">와콤 에듀케이션</a></li>
+                            <li class="hj-not-now"><a href="/pages/business/business-part-03.php">타블렛 보호필름</a></li>
+                            <li class="hj-not-now"><a href="/pages/business/business-part-04.php">주변기기</a></li>
                             <!-- <li class="hj-not-now"><a href="/admin/pages/business/business-part-04.html"></a></li>
                             <li class="hj-not-now"><a href="/admin/pages/business/business-part-05.html"></a></li> -->
                         </ul>
