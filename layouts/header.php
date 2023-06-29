@@ -54,7 +54,7 @@
                         <span class="hj-fold-wrap"><a href="#" onclick="alert('현재 준비중입니다.');">쇼핑몰</a><button class="hj-fold-icon"></button></span>
                     </li>
                     <li class="hj-nav-list">
-                        <span><a href="/pages/notice.php?page=1">공지사항</a></span>
+                        <span><a href="/pages/notice.php?page=1">프로모션</a></span>
                     </li>
                     <li class="hj-nav-list">
                         <span><a href="/pages/corporate-counseling.php">B2B 특가 문의</a></span>
