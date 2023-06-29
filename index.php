@@ -38,7 +38,7 @@
                 <a class="hj-dtc-133-learn" href="http://www.hjsystems.co.kr/pages/product/dtc-133.php">제품 바로가기</a>
             </div>
             <div class="hj-slide-image slide-image-03">
-                <a class="hj-msp-learn" href="http://www.hjsystems.co.kr/pages/product/mobile-studio.php">제품 바로가기</a>
+                <a class="hj-msp-learn" href="http://www.hjsystems.co.kr/pages/product/dth-271.php">제품 바로가기</a>
             </div>
         </article>
         <article class="hj-company-abbr-wrap">

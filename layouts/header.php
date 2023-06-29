@@ -50,7 +50,7 @@
                             <li class="hj-not-now"><a href="/pages/product/dtc-133.php">와콤원</a></li>
                             <li class="hj-not-now"><a href="/pages/product/cintiq.php">신티크</a></li>
                             <li class="hj-not-now"><a href="/pages/product/cintiq-pro.php">신티크 프로</a></li>
-                            <li class="hj-not-now"><a href="/pages/product/dth-271.php">신티크 27"</a></li>
+                            <li class="hj-not-now"><a href="/pages/product/dth-271.php">신티크 프로 27</a></li>
                         </ul>
                     </li>
                     <li class="hj-nav-list">

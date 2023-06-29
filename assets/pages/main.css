@@ -58,7 +58,7 @@ body {
 }
 
 #hjMainWrap .hj-slide-wrap .hj-slide-image.slide-image-03 {
-    background-image: url('/images/banners/msp_banner.jpg');
+    background-image: url('/images/banners/cintiq_pro_27_banner_pc.jpg');
 }
 
 #hjMainWrap .hj-slide-wrap .slick-dots {
@@ -281,7 +281,7 @@ body {
     }
     
     #hjMainWrap .hj-slide-wrap .hj-slide-image.slide-image-03 {
-        background-image: url('/images/banners/msp_banner_m.jpg');
+        background-image: url('/images/banners/cintiq_pro_27_banner_m.jpg');
     }
 
     /* 슬라이드 모바일 문구 */
