@@ -32,8 +32,9 @@
     <section class="hj-product-detail-wrap">
         <article class="hj-product-detail">
             <section class="hj-product-content-wrap hj-business-content-wrap">
-                <h2 class="hj-product-business-title">주변기기</h2>
-                <img class="hj-img-business" src="../../images/safeshield/DTK-2420.jpg" alt="dtk2420_safeshield">
+                <h2 class="hj-product-business-title">타블렛알못 금손되기 프로젝트 #7 와콤 원을 갤럭시탭에 연결해보자</h2>
+                <img class="hj-img-business" src="../../images/business-part/business-part-04/guide.jpg" alt="가이드">
+                <p>출처: https://wacomkorea.tistory.com/1372 [Wacom Blog]</p>
             </section>
         </article>
     </section>

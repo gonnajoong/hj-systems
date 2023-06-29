@@ -32,8 +32,9 @@
     <section class="hj-product-detail-wrap">
         <article class="hj-product-detail">
             <section class="hj-product-content-wrap hj-business-content-wrap">
-                <h2 class="hj-product-business-title">와콤 신티크 프로 24인치 보호필름</h2>
-                <img class="hj-img-business" src="../../images/safeshield/DTK-2420.jpg" alt="dtk2420_safeshield">
+                <h2 class="hj-product-business-title">와콤과 함께 살펴보는 K웹툰 산업, 다큐멘터리 <웹툰, K-컬쳐의 중심이 되기까지></h2>
+                <img class="hj-img-business" src="../../images/business-part/business-enterprise/enterprise.jpg" alt="엔터프라이즈">
+                <p>출처: https://wacomkoreablog.com/1591 [Wacom Blog]</p>
             </section>
         </article>
     </section>
