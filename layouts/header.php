@@ -37,7 +37,8 @@
                     <li class="hj-nav-list">
                         <span class="hj-fold-wrap">펜타블렛<button class="hj-fold-icon"></button></span>
                         <ul class="hj-nav-list second-depth">
-                        <li class="hj-not-now"><a href="/pages/product/one-by-wacom.php">원바이와콤</a></li>
+                            <li class="hj-not-now"><a href="/pages/product/pen-tablet-guide.php">펜타블렛 활용사례</a></li>
+                            <li class="hj-not-now"><a href="/pages/product/one-by-wacom.php">원바이와콤</a></li>
                             <li class="hj-not-now"><a href="/pages/product/intuos.php">인튜어스</a></li>
                             <li class="hj-not-now"><a href="/pages/product/intuos-pro.php">인튜어스 프로</a></li>
                         </ul>

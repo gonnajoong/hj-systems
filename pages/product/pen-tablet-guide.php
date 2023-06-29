@@ -41,23 +41,23 @@
                         <li><button>구매 및 견적 상담</button></li> -->
                     </ul>
                     <ul id="hjPageInSlideWrap" class="hj-page-in-slide-wrap product-wrap cintiq-wrap">
-                        <li data-page='1' class="hj-page-detail-image tablet-guide hj-show">
-                            <h2>와콤, 동명대학교 웹툰애니메이션학과에 ‘와콤 신티크 프로 27 풀세트’ 구축</h2>
+                        <li data-page='1' class="hj-page-detail-image pen-tablet-guide hj-show">
+                            <h2>영화∙애니메이션 등 영상문화산업의 메카 - 광주CGI센터</h2>
                             
-                            <img src="/images/products/guide/case-1.jpg" alt="케이스1"/>
-                            <!-- <p>출처: <a href="https://wacomkoreablog.com/1618">https://wacomkoreablog.com/1618</a> [Wacom Blog]</p> -->
+                            <img src="/images/products/guide/pen-case-1.jpg" alt="케이스1"/>
+                            <!-- <p>출처: <a href="https://wacomkoreablog.com/536">https://wacomkoreablog.com/536</a> [Wacom Blog]</p> -->
                         </li>
-                        <li data-page='2' class="hj-page-detail-image tablet-guide-button-01">
-                            <h2>장애인 복지관 최초로 웹툰 클래스 개설한 충현복지관</h2>
+                        <li data-page='2' class="hj-page-detail-image pen-tablet-guide-button-01">
+                            <h2>‘인튜어스 프로’로 테크니컬 아티스트 키운다! - GG스쿨</h2>
                             
-                            <img src="/images/products/guide/case-2.jpg" alt="케이스2"/>
-                            <!-- <p>출처: <a href="https://wacomkoreablog.com/1165">https://wacomkoreablog.com/1165</a> [Wacom Blog]</p> -->
+                            <img src="/images/products/guide/pen-case-2.jpg" alt="케이스2"/>
+                            <!-- <p>출처: <a href="https://wacomkoreablog.com/458">https://wacomkoreablog.com/458</a> [Wacom Blog]</p> -->
                         </li>
-                        <li data-page='3' class="hj-page-detail-image tablet-guide-button-02">
-                            <h2>해밀초, 와콤 원 타블렛을 활용한 하이브리드 학습환경에서 VR∙AR 기반 협력 학습 모델 시도로 교육업계 ‘주목’</h2>
+                        <li data-page='3' class="hj-page-detail-image pen-tablet-guide-button-02">
+                            <h2>“제2의 마리메코(Marimekko) 디자이너 키운다” - 한국폴리텍대학 섬유패션스쿨</h2>
                             
-                            <img src="/images/products/guide/case-3.jpg" alt="케이스3"/>
-                            <!-- <p>출처: <a href="https://wacomkoreablog.com/1362">https://wacomkoreablog.com/1362</a> [Wacom Blog]</p> -->
+                            <img src="/images/products/guide/pen-case-3.jpg" alt="케이스3"/>
+                            <!-- <p>출처: <a href="https://wacomkoreablog.com/828">https://wacomkoreablog.com/828</a> [Wacom Blog]</p> -->
                         </li>
                         <!-- <li class="hj-page-detail-image cintiq-button-04"></li>
                         <li class="hj-page-detail-image cintiq-button-05"></li> -->
