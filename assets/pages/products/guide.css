@@ -1,0 +1,49 @@
+.tablet-guide-wrap {
+  padding-top: 50px;
+}
+
+.tablet-guide {
+    text-align: center;
+    width: 100%;
+    height: 5850px;
+  }
+  .tablet-guide h2 {
+    font-weight: bold;
+    font-size: 36px;
+  }
+  
+  .tablet-guide-button-01 {
+    text-align: center;
+    width: 890px;
+  }
+  .tablet-guide-button-01 h2 {
+    font-weight: bold;
+    font-size: 36px;
+  }
+  
+  .tablet-guide-button-02 {
+    text-align: center;
+    width: 890px;
+  }
+  .tablet-guide-button-02 h2 {
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .tablet-guide-button-03 {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    height: 800px;
+  }
+  .tablet-guide-button-04 {
+    width: 100%;
+    height: 811px;
+  }
+  .tablet-guide-button-05 {
+    width: 100%;
+    height: 811px;
+    background-image: url("../../../images/products/cintiq/button-05.jpg");
+  }
+  
