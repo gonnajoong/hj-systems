@@ -44,7 +44,7 @@
         <article class="hj-company-abbr-wrap">
             <ul class="hj-company-abbr-list">
                 <li data-aos="fade-up" data-aos-duration="400">
-                    <a href="http://www.hjsystems.co.kr/pages/business/business-part-01.php">
+                    <a href="http://www.hjsystems.co.kr/pages/product/pen-tablet-guide.php">
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-01"></div>
                             <p class="hj-abbr-title">판 타블렛 사례</p>
@@ -55,7 +55,7 @@
                     </a>
                 </li>
                 <li data-aos="fade-up" data-aos-duration="700">
-                    <a href="http://www.hjsystems.co.kr/pages/product/dtc-133.php">
+                    <a href="http://www.hjsystems.co.kr/pages/product/tablet-guide.php">
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-02"></div>
                             <p class="hj-abbr-title">액정타블렛 사례</p>
@@ -69,9 +69,9 @@
                     <a href="http://www.hjsystems.co.kr/pages/notice.php?page=1">
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-03"></div>
-                            <p class="hj-abbr-title">B2B 가격문의</p>
+                            <p class="hj-abbr-title">프로모션</p>
                             <span class="hj-sub-abbr-content">
-                                에이치제이시스템즈의 이벤트 및 공지사항을 알아볼 수 있는 페이지입니다.
+                                에이치제이시스템즈의 프로모션을 알아볼 수 있는 페이지입니다.
                             </span>
                         </span>
                     </a>
