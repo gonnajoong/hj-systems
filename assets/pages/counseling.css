@@ -34,4 +34,7 @@
   .hj-text-list-wrap .hj-list-wrap .hj-image-list-wrap {
     padding: 16px 0 100px;
   }
+  .hj-text-list-wrap .hj-list-wrap .hj-image-list-wrap img {
+    width: 100%;
+ }
 }

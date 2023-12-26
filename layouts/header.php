@@ -39,6 +39,7 @@
                         <ul class="hj-nav-list second-depth">
                             <li class="hj-not-now"><a href="/pages/product/pen-tablet-guide.php">펜타블렛 활용사례</a></li>
                             <li class="hj-not-now"><a href="/pages/product/one-by-wacom.php">원바이와콤</a></li>
+                            <li class="hj-not-now"><a href="/pages/product/wacom-one-family.php">와콤원 패밀리</a></li>
                             <li class="hj-not-now"><a href="/pages/product/intuos.php">인튜어스</a></li>
                             <li class="hj-not-now"><a href="/pages/product/intuos-pro.php">인튜어스 프로</a></li>
                         </ul>
@@ -60,7 +61,7 @@
                         <span><a href="/pages/notice.php?page=1">프로모션</a></span>
                     </li>
                     <li class="hj-nav-list">
-                        <span><a href="/pages/corporate-counseling.php">B2B 특가 문의</a></span>
+                        <span><a href="/pages/corporate-counseling.php">B2B 특가 최저가 공급</a></span>
                     </li>
                 </span>
             </ul>

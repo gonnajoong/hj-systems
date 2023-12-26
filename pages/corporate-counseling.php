@@ -32,7 +32,7 @@
     <section class="hj-text-list-wrap">
         <div class="hj-list-wrap">
             <article class="hj-image-list-wrap">
-                <img src="/images/counseling/counseling_02.jpg" alt="상담2">
+                <img src="/images/counseling/counseling_02.png" alt="상담2">
             </article>
         </div>
     </section>
