@@ -1,0 +1,33 @@
+.wacom-one-family-display {
+    background-image: url("../../../images/products/wacom-one-family-display/displaytablet.jpg");
+    width: 100%;
+    height: 955px;
+  }
+  
+  .wacom-one-family-display-button-01 {
+    padding-top: 32px;
+    width: 890px;
+  }
+  
+  .wacom-one-family-display-button-02 {
+    padding-top: 32px;
+    text-align: center;
+    width: 100%;
+  }
+  .wacom-one-family-display-button-03 {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .wacom-one-family-display-button-04 {
+    background-image: url("../../../images/products/wacom-one-family-display/button-04.jpg");
+    width: 100%;
+    height: 811px;
+  }
+  .wacom-one-family-display-button-05 {
+    width: 100%;
+    height: 811px;
+    background-image: url("../../../images/products/wacom-one-family-display/button-05.jpg");
+  }
+  
