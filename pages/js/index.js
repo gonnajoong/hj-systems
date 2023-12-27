@@ -145,6 +145,11 @@ if (resizer()) {
                 hjPageInSlideWrap.css('height', (imgHeight.height()) + 'px');
                 $('html, body').animate({ scrollTop: 0 }, 'slow');
             }
+            if (hjPageInSlideWrap.hasClass('cintiq-pro-family-wrap')) {
+                var imgHeight = hjPageInSlideWrap02.children('img');
+                hjPageInSlideWrap.css('height', (imgHeight.height()) + 'px');
+                $('html, body').animate({ scrollTop: 0 }, 'slow');
+            }
             if (hjPageInSlideWrap.hasClass('cintiq-wrap')) {
                 var imgHeight = hjPageInSlideWrap02.children('img');
                 hjPageInSlideWrap.css('height', (imgHeight.height()) + 'px');
@@ -177,6 +182,10 @@ if (resizer()) {
                 hjPageInSlideWrap.css('height', (imgHeight.height()) + 'px');
                 $('html, body').animate({ scrollTop: 0 }, 'slow');
             } else if (hjPageInSlideWrap.hasClass('cintiq-pro-wrap')) {
+                var imgHeight = hjPageInSlideWrap03.children('img');
+                hjPageInSlideWrap.css('height', (imgHeight.height()) + 'px');
+                $('html, body').animate({ scrollTop: 0 }, 'slow');
+            } else if (hjPageInSlideWrap.hasClass('cintiq-pro-family-wrap')) {
                 var imgHeight = hjPageInSlideWrap03.children('img');
                 hjPageInSlideWrap.css('height', (imgHeight.height()) + 'px');
                 $('html, body').animate({ scrollTop: 0 }, 'slow');
@@ -214,6 +223,14 @@ if (resizer()) {
                 hjPageInSlideWrap.css('height', tableHeight + 102 + 'px');
                 $('html, body').animate({ scrollTop: 0 }, 'slow');
             } else if (hjPageInSlideWrap.hasClass('cintiq-pro-wrap')) {
+                var imgHeight = hjPageInSlideWrap04.children('img');
+                hjPageInSlideWrap.css('height', (imgHeight.height()) + 'px');
+                $('html, body').animate({ scrollTop: 0 }, 'slow');
+            }  else if (hjPageInSlideWrap.hasClass('cintiq-pro-family-wrap')) {
+                var tableHeight = hjProductSpecTable.height();
+                hjPageInSlideWrap.css('height', tableHeight + 102 + 'px');
+                $('html, body').animate({ scrollTop: 0 }, 'slow');
+            } else if (hjPageInSlideWrap.hasClass('cintiq-pro-family-wrap')) {
                 var imgHeight = hjPageInSlideWrap04.children('img');
                 hjPageInSlideWrap.css('height', (imgHeight.height()) + 'px');
                 $('html, body').animate({ scrollTop: 0 }, 'slow');

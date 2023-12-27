@@ -52,7 +52,7 @@
                             <li class="hj-not-now"><a href="/pages/product/wacom-one-family-display.php">와콤원 패밀리</a></li>
                             <li class="hj-not-now"><a href="/pages/product/cintiq.php">신티크</a></li>
                             <li class="hj-not-now"><a href="/pages/product/cintiq-pro.php">신티크 프로</a></li>
-                            <li class="hj-not-now"><a href="/pages/product/dth-271.php">신티크 프로 27</a></li>
+                            <li class="hj-not-now"><a href="/pages/product/cintiq-pro-family.php">신티크 프로 패밀리</a></li>
                         </ul>
                     </li>
                     <li class="hj-nav-list">
