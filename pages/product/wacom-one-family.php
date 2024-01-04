@@ -83,8 +83,7 @@
                                 <tr>
                                     <th>연결</th>
                                     <td colspan="2">
-                                        Windows® 7 or later, OS X 10. 10 or later, standard USB<br>
-                                        Type-A 포트, 드라이버 다운로드를 위한 인터넷 연결 필수
+                                        USB-C 포트, 블루투스 무선 연결
                                     </td>
                                 </tr>
                                 <tr>
@@ -142,8 +141,7 @@
                                 </tr>
                                 <tr>
                                     <th>연결</th>
-                                    <td>Windows® 7 or later, OS X 10. 10 or later, standard USB<br>
-                                        Type-A 포트, 드라이버 다운로드를 위한 인터넷 연결 필수</td>
+                                    <td>USB-C 포트, 블루투스 무선 연결</td>
                                 </tr>
                                 <tr>
                                     <th>블루투스 무선 연결</th>
@@ -192,10 +190,7 @@
                                 </tr>
                                 <tr>
                                     <th>연결</th>
-                                    <td>
-                                        Windows® 7 or later, OS X 10. 10 or later, standard USB<br>
-                                        Type-A 포트, 드라이버 다운로드를 위한 인터넷 연결 필수
-                                    </td>
+                                    <td>USB-C 포트, 블루투스 무선 연결</td>
                                 </tr>
                                 <tr>
                                     <th>블루투스 무선 연결</th>
