@@ -59,7 +59,11 @@
                         <span class="hj-fold-wrap"><a href="#" onclick="alert('현재 준비중입니다.');">쇼핑몰</a><button class="hj-fold-icon"></button></span>
                     </li>
                     <li class="hj-nav-list">
-                        <span><a href="/pages/notice.php?page=1">프로모션</a></span>
+                        <span class="hj-fold-wrap">프로모션<button class="hj-fold-icon"></button></span>
+                        <ul class="hj-nav-list second-depth">
+                            <li class="hj-not-now"><a href="/pages/notice.php?page=1">프로모션</a></li>
+                            <li class="hj-not-now" onclick="alert('준비중인 페이지 입니다.');"><a href="#">기업 구매 상담</a></li>
+                        </ul>
                     </li>
                     <li class="hj-nav-list">
                         <span><a href="/pages/corporate-counseling.php">B2B 특가 최저가 공급</a></span>
