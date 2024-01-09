@@ -66,9 +66,22 @@
                     </a>
                 </li>
                 <li data-aos="fade-up" data-aos-duration="900">
-                    <a href="http://www.hjsystems.co.kr/pages/notice.php?page=1">
+                    <a href="http://www.hjsystems.co.kr/pages/consumer-counseling.php">
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-03"></div>
+                            <p class="hj-abbr-title">기업 구매 상담</p>
+                            <span class="hj-sub-abbr-content">
+                                와콤의 비즈니스 전문가들이 귀사의 작업 환경과 예산에 맞는
+                                적합한 제품을 선택할 수 있도록 안내해드리는 것은 물론,
+                                특별한 할인가격으로 와콤의 제품을 만날 수 있도록 도와드립니다.
+                            </span>
+                        </span>
+                    </a>
+                </li>
+                <li data-aos="fade-up" data-aos-duration="1300">
+                    <a href="http://www.hjsystems.co.kr/pages/notice.php?page=1">
+                        <span class="hj-company-abbr">
+                            <div class="hj-abbr-img main-04"></div>
                             <p class="hj-abbr-title">프로모션</p>
                             <span class="hj-sub-abbr-content">
                                 에이치제이시스템즈의 프로모션을 알아볼 수 있는 페이지입니다.
@@ -76,10 +89,10 @@
                         </span>
                     </a>
                 </li>
-                <li data-aos="fade-up" data-aos-duration="1300">
+                <li data-aos="fade-up" data-aos-duration="1700">
                     <a href="http://www.hjsystems.co.kr/pages/corporate-counseling.php">
                         <span class="hj-company-abbr">
-                            <div class="hj-abbr-img main-04"></div>
+                            <div class="hj-abbr-img main-05"></div>
                             <p class="hj-abbr-title">대리점 모집 문의</p>
                             <span class="hj-sub-abbr-content">
                                 안녕하세요 에이치제이시스템즈의 상담을 원하시는 고객분들은 이곳으로 이동 부탁드립니다.
@@ -87,13 +100,7 @@
                         </span>
                     </a>
                 </li>
-                <!-- <li data-aos="fade-up" data-aos-duration="1100">
-                    <span class="hj-company-abbr">
-                        <div class="hj-abbr-img stylus"></div>
-                        <p class="hj-abbr-title">스타일러스</p>
-                        <span class="hj-abbr-contents">스타일러스(Stylus)는 펜의 자연스러운 느낌을 손으로 느끼며 편안하고 정확하게 디지털로 그림을 그리고, 필기하고, 아이디어를 표현 할 수 있는 펜입니다.</span>
-                    </span>
-                </li> -->
+                
             </ul>
         </article>
     </section>

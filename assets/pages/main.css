@@ -137,7 +137,7 @@ body {
 
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li {
     width: 100%;
-    height: 300px;
+    height: 350px;
 }
 
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li:nth-of-type(1) {
@@ -154,6 +154,10 @@ body {
 
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li:nth-of-type(4) {
     background-color: #dadada;
+}
+
+#hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li:nth-of-type(5) {
+    background-color: #cacaca;
 }
 
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr {
@@ -210,15 +214,15 @@ body {
     background-image: url("/images/icons/drawing-tablet.png");
 }
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-03 {
-    background-image: url("/images/icons/megaphone.png");
+    background-image: url("/images/icons/company.png");
 }
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-04 {
-    background-image: url("/images/icons/counseling.png");
+    background-image: url("/images/icons/megaphone.png");
 }
 #hjMainWrap .hj-company-abbr-wrap .hj-company-abbr-list li .hj-company-abbr .main-05 {
-    background-image: url("/images/products/stylus/bamboo sketch gallery 4.png");
+    background-image: url("/images/icons/counseling.png");
 }
-
+/* <a href="https://www.flaticon.com/kr/free-icons/" title="회사 아이콘">회사 아이콘  제작자: Freepik - Flaticon</a> */
 /* tablet */
 @media screen and (max-width: 1200px) {
     #hjMainWrap .hj-slide-wrap .slick-arrow {
