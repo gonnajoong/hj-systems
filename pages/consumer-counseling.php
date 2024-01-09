@@ -29,63 +29,70 @@
 <body>
     <?php @include("../layouts/header.php");?>
     <script type="text/javascript" src="../../pages/layouts/header.js"></script>
-    <section class="hj-text-list-wrap">
-        <div class="hj-list-wrap">
+    <section class="hj-form-list-wrap">
+        <div class="hj-form-main-wrap">
             <article class="hj-checklist-wrap">
+                <h2>기업 구매 상담</h2>
                 <div class="hj-form-text">
-                    <p>와콤의 비즈니스 솔루션에 대한 자세한 상담을 원하시면 아래 양식을 기입해주세요.</p>
-                    <p>와콤 전문가가 곧 연락 드리겠습니다.</p>
+                    <p>와콤의 비즈니스 솔루션에 대한 자세한 상담을 원하시면 아래 양식을 기입해주세요.
+                        <br>와콤 전문가가 곧 연락 드리겠습니다.
+                    </p>
                 </div>
                 <h2>고객정보</h2>
-                <form action="">
-                    <label for="">
-                        <span>이름</span>
-                        <input type="text">
-                    </label>
-                    <label for="">
-                        <span>기업명</span>
-                        <input type="text">
-                    </label>
-                    <label for="">
-                        <span>직책</span>
-                        <input type="text">
-                    </label>
-                    <label for="">
-                        <span>연락처</span>
-                        <input type="text">
-                    </label>
-                    <label for="">
-                        <span>이메일 주소</span>
-                        <input type="text">
-                    </label>
-                    <label for="">
-                        <span>주소</span>
-                        <input type="text">
-                    </label>
-                    <label for="">
-                        <span>관심제품</span>
-                        <span>
-                            <input type="checkbox"><span>액정 타블렛</span>
-                            <input type="checkbox"><span>펜 타블렛</span>
-                        </span>
-                    </label>
-                    <h2>문의 내용</h2>
-                    <label for="">
-                        <span>제목</span>
-                        <input type="text">
-                    </label>
-                    <label for="">
-                        <span>내용</span>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </label>
-                    <label for="">
-                        <span>관심제품</span>
-                        <span>
-                            <input type="checkbox"><span>와콤의 <a href="">이용 약관</a> 을 확인 하였으며, 이에 동의합니다. (필수)</span>
-                        </span>
-                    </label>
-                    <button>신청하기</button>
-                </form>
+                <div class="hj-form-flex-wrap">
+                    <form action="" class="hj-form-wrap">
+                        <label for="" class="hj-form-label-style">
+                            <span class="hj-form-label-title">이름</span>
+                            <input type="text">
+                        </label>
+                        <label for="" class="hj-form-label-style">
+                            <span class="hj-form-label-title">기업명</span>
+                            <input type="text">
+                        </label>
+                        <label for="" class="hj-form-label-style">
+                            <span class="hj-form-label-title">직책</span>
+                            <input type="text">
+                        </label>
+                        <label for="" class="hj-form-label-style">
+                            <span class="hj-form-label-title">연락처</span>
+                            <input type="text">
+                        </label>
+                        <label for="" class="hj-form-label-style">
+                            <span class="hj-form-label-title">이메일 주소</span>
+                            <input type="text">
+                        </label>
+                        <label for="" class="hj-form-label-style">
+                            <span class="hj-form-label-title">주소</span>
+                            <input type="text">
+                        </label>
+                        <label for="" class="hj-form-label-style">
+                            <span class="hj-form-label-title">관심제품</span>
+                            <span>
+                                <input type="checkbox" id="liquid_tablet"><label for="liquid_tablet">액정 타블렛</label>
+                                <input type="checkbox" id="pen_tablet"><label for="pen_tablet">펜 타블렛</label>
+                            </span>
+                        </label>
+                        <h2>문의 내용</h2>
+                        <label for="" class="hj-form-label-style">
+                            <span class="hj-form-label-title">제목</span>
+                            <input type="text">
+                        </label>
+                        <label for="" class="hj-form-label-style">
+                            <span class="hj-form-label-title">내용</span>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </label>
+                        <label for="" class="hj-form-label-style">
+                            <span>
+                                <input type="checkbox"><span>와콤의 <a href="">이용 약관</a> 을 확인 하였으며, 이에 동의합니다. (필수)</span>
+                            </span>
+                        </label>
+                        <label for="" class="hj-form-label-style button-box">
+                            <button class="hj-form-submit-button">신청하기</button>
+                        </label>
+                    </form>
+                <div class="hj-systems-form-image-1"></div>
+                </div>
+
             </article>
         </div>
     </section>

@@ -54,3 +54,9 @@ button {
   display: block;
   color: #fff;
 }
+
+.hj-form-submit-button {
+  border: 1px solid #2b478b;
+  display: inline-block;
+  color: #2b478b;
+}
