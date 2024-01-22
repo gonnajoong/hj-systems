@@ -68,8 +68,8 @@
                         <label for="" class="hj-form-label-style">
                             <span class="hj-form-label-title">관심제품</span>
                             <span>
-                                <input type="checkbox" id="liquid_tablet"><label for="liquid_tablet">액정 타블렛</label>
-                                <input type="checkbox" id="pen_tablet"><label for="pen_tablet">펜 타블렛</label>
+                                <input class="hj-check-box" type="checkbox" id="liquid_tablet"><label for="liquid_tablet">액정 타블렛</label>
+                                <input class="hj-check-box" type="checkbox" id="pen_tablet"><label for="pen_tablet">펜 타블렛</label>
                             </span>
                         </label>
                         <h2>문의 내용</h2>
@@ -83,7 +83,11 @@
                         </label>
                         <label for="" class="hj-form-label-style">
                             <span>
-                                <input type="checkbox"><span>와콤의 <a href="">이용 약관</a> 을 확인 하였으며, 이에 동의합니다. (필수)</span>
+                                <input class="hj-check-box" type="checkbox" id="terms_essential"><label for="terms_essential">위와 같이 본인의 개인정보를 수집 이용하는 것에  <a href="" class="hj-terms-link">동의</a>  합니다.(필수)</label>
+                            </span>
+                            <br>
+                            <span>
+                                <input class="hj-check-box" type="checkbox" id="service_terms_essential"><label for="service_terms_essential">광고성 정보 수신 <a href="" class="hj-terms-link">동의</a>(이벤트, 프로모션 등 광고성 정보 안내)(선택)</label>
                             </span>
                         </label>
                         <label for="" class="hj-form-label-style button-box">

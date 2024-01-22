@@ -60,3 +60,7 @@ button {
   display: inline-block;
   color: #2b478b;
 }
+
+.hj-check-box {
+  margin-right: 10px;
+}

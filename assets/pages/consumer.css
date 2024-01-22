@@ -62,3 +62,8 @@
     margin-bottom: 20px;
     text-align: center;
   }
+
+  .hj-terms-link {
+    color: rgb(0, 145, 255);
+    text-decoration: underline;
+  }
