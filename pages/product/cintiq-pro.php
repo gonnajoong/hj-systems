@@ -58,23 +58,23 @@
                                 </tr>
                                 <tr>
                                     <th>모델명</th>
-                                    <td>DTH-1620</td>
+                                    <td>DTH-167</td>
                                     <td>DTK-2420/KO</td>
                                     <td>DTH-2420/KO</td>
                                 </tr>
                                 <tr>
                                     <th>화면 크기/ 해상도</th>
-                                    <td>39.6m (15.6") / 최대 3,840 x 2,160 Ultra HD</td>
+                                    <td>39.6m (15.6") / 최대 3,840 x 2,160 Ultra HD / 16:9</td>
                                     <td colspan="2">59.94cm(23.6인치)/4K : Ultra HD (3840x2160)</td>
                                 </tr>
                                 <tr>
                                     <th>작업 영역</th>
-                                    <td>345 x 194mm</td>
+                                    <td>344 x 194mm</td>
                                     <td colspan="2">522 x 294mm*</td>
                                 </tr>
                                 <tr>
                                     <th>제품 크기</th>
-                                    <td>410 x 265 x 17.5mm</td>
+                                    <td>410 x 266 x 22mm</td>
                                     <td colspan="2">677 x 394 x 47mm</td>
                                 </tr>
                                 <tr>

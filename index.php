@@ -100,7 +100,6 @@
                         </span>
                     </a>
                 </li>
-                
             </ul>
         </article>
     </section>
