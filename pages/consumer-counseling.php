@@ -20,6 +20,7 @@
       <script src="../js/libs/jquery-3.5.1.min.js"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="../js/libs/slick.min.js"></script>
+      <script src="./js/email.js"></script>
 
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../assets/index.css" />
@@ -40,59 +41,61 @@
                 </div>
                 <h2>고객정보</h2>
                 <div class="hj-form-flex-wrap">
-                    <form action="" class="hj-form-wrap">
-                        <label for="" class="hj-form-label-style">
-                            <span class="hj-form-label-title">이름</span>
-                            <input type="text">
-                        </label>
-                        <label for="" class="hj-form-label-style">
-                            <span class="hj-form-label-title">기업명</span>
-                            <input type="text">
-                        </label>
-                        <label for="" class="hj-form-label-style">
-                            <span class="hj-form-label-title">직책</span>
-                            <input type="text">
-                        </label>
-                        <label for="" class="hj-form-label-style">
-                            <span class="hj-form-label-title">연락처</span>
-                            <input type="text">
-                        </label>
-                        <label for="" class="hj-form-label-style">
-                            <span class="hj-form-label-title">이메일 주소</span>
-                            <input type="text">
-                        </label>
-                        <label for="" class="hj-form-label-style">
-                            <span class="hj-form-label-title">주소</span>
-                            <input type="text">
-                        </label>
-                        <label for="" class="hj-form-label-style">
-                            <span class="hj-form-label-title">관심제품</span>
+                    <form method="POST" id="emailForm" class="hj-form-wrap">
+                        <span class="hj-form-label-style">
+                            <label for="Name" class="hj-form-label-title">이름</label>
+                            <input type="text" class="hj-email-input" id="Name" required>
+                        </span>
+                        <span class="hj-form-label-style">
+                            <label for="CompanyName" class="hj-form-label-title">기업명</label>
+                            <input type="text" class="hj-email-input" id="CompanyName" required>
+                        </span>
+                        <span class="hj-form-label-style">
+                            <label for="Position" class="hj-form-label-title">직책</label>
+                            <input type="text" class="hj-email-input" id="Position" required>
+                        </span>
+                        <span class="hj-form-label-style">
+                            <label for="Contact" class="hj-form-label-title">연락처</label>
+                            <input type="text" class="hj-email-input" id="Contact" requiredc>
+                        </span>
+                        <span class="hj-form-label-style">
+                            <label for="EmailAddress" class="hj-form-label-title">이메일 주소</label>
+                            <input type="email" class="hj-email-input" id="EmailAddress" required>
+                        </span>
+                        <span class="hj-form-label-style">
+                            <label for="Address" class="hj-form-label-title">주소</label>
+                            <input type="text" class="hj-email-input" id="Address" required>
+                        </span>
+                        <span class="hj-form-label-style">
+                            <label class="hj-form-label-title">관심제품</label>
                             <span>
                                 <input class="hj-check-box" type="checkbox" id="liquid_tablet"><label for="liquid_tablet">액정 타블렛</label>
                                 <input class="hj-check-box" type="checkbox" id="pen_tablet"><label for="pen_tablet">펜 타블렛</label>
                             </span>
-                        </label>
+                        </span>
                         <h2>문의 내용</h2>
-                        <label for="" class="hj-form-label-style">
-                            <span class="hj-form-label-title">제목</span>
-                            <input type="text">
-                        </label>
-                        <label for="" class="hj-form-label-style">
-                            <span class="hj-form-label-title">내용</span>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-                        </label>
-                        <label for="" class="hj-form-label-style">
+                        <span class="hj-form-label-style">
+                            <label for="InquiryTitle" class="hj-form-label-title">제목</label>
+                            <input type="text" class="hj-email-input" id="InquiryTitle" required>
+                        </span>
+                        <span class="hj-form-label-style">
+                            <label for="InquiryContents" class="hj-form-label-title">내용</label>
+                            <textarea name="" id="InquiryContents" cols="30" rows="10" required></textarea>
+                        </span>
+                        <span class="hj-form-label-style">
                             <span>
-                                <input class="hj-check-box" type="checkbox" id="terms_essential"><label for="terms_essential">위와 같이 본인의 개인정보를 수집 이용하는 것에  <a href="" class="hj-terms-link">동의</a>  합니다.(필수)</label>
+                                <input class="hj-check-box" type="checkbox" id="terms_essential">
+                                <label for="terms_essential">위와 같이 본인의 개인정보를 수집 이용하는 것에 <a href="" class="hj-terms-link">동의</a>  합니다.(필수)</label>
                             </span>
                             <br>
                             <span>
-                                <input class="hj-check-box" type="checkbox" id="service_terms_essential"><label for="service_terms_essential">광고성 정보 수신 <a href="" class="hj-terms-link">동의</a>(이벤트, 프로모션 등 광고성 정보 안내)(선택)</label>
+                                <input class="hj-check-box" type="checkbox" id="service_terms_essential">
+                                <label for="service_terms_essential">광고성 정보 수신 <a href="" class="hj-terms-link">동의</a>(이벤트, 프로모션 등 광고성 정보 안내)(선택)</label>
                             </span>
-                        </label>
-                        <label for="" class="hj-form-label-style button-box">
-                            <button class="hj-form-submit-button">신청하기</button>
-                        </label>
+                        </span>
+                        <span class="hj-form-label-style button-box">
+                            <button class="hj-form-submit-button" id="FormSubmitButton" type="submit">신청하기</button>
+                        </span>
                     </form>
                 <div class="hj-systems-form-image-1"></div>
                 </div>
