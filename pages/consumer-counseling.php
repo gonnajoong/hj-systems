@@ -43,8 +43,8 @@
                 <div class="hj-form-flex-wrap">
                     <form method="POST" id="emailForm" class="hj-form-wrap">
                         <span class="hj-form-label-style">
-                            <label for="Name" class="hj-form-label-title">이름</label>
-                            <input type="text" class="hj-email-input" id="Name" required>
+                            <label for="ConsumerName" class="hj-form-label-title">이름</label>
+                            <input type="text" class="hj-email-input" id="ConsumerName" required>
                         </span>
                         <span class="hj-form-label-style">
                             <label for="CompanyName" class="hj-form-label-title">기업명</label>
