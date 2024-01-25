@@ -20,6 +20,8 @@
       <script src="../js/libs/jquery-3.5.1.min.js"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="../js/libs/slick.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
       <script src="./js/email.js"></script>
 
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -64,7 +66,11 @@
                         </span>
                         <span class="hj-form-label-style">
                             <label for="Address" class="hj-form-label-title">주소</label>
-                            <input type="text" class="hj-email-input" id="Address" required>
+                            <input type="text" class="hj-email-input" id="Address" required readonly>
+                        </span>
+                        <span class="hj-form-label-style">
+                            <label for="DetailAddress" class="hj-form-label-title">상세주소</label>
+                            <input type="text" class="hj-email-input" id="DetailAddress" required>
                         </span>
                         <span class="hj-form-label-style">
                             <label class="hj-form-label-title">관심제품</label>

@@ -1,17 +1,31 @@
 $(document).ready(function(){
-    $("#FormSubmitButton").click(function(){
+
+    $("#Address").click(function(event){
+        event.preventDefault();
+        console.log(123);
+        new daum.Postcode({
+            oncomplete: function(data) {
+                // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분입니다.
+                // 예제를 참고하여 다양한 활용법을 확인해 보세요.
+                console.log(data);
+                $("#Address").val(data.address);
+            }
+        }).open();
+    });
+
+    $("#FormSubmitButton").click(function(event){
+        event.preventDefault();
         sendit();
-        return;
     });
 
     function sendit() {
-        var mailForm = $("#emailForm").val();
         var ConsumerName = $("#ConsumerName").val();
         var CompanyName = $("#CompanyName").val();
         var Position = $("#Position").val();
         var Contact = $("#Contact").val();
         var EmailAddress = $("#EmailAddress").val();
         var Address = $("#Address").val();
+        var DetailAddress = $("#DetailAddress").val();
         var LiquidTablet = $("#liquid_tablet").is(":checked");
         var PenTablet = $("#pen_tablet").is(":checked");
         var InquiryTitle = $("#InquiryTitle").val()
@@ -59,52 +73,64 @@ $(document).ready(function(){
             (TermsEssential || ServiceTermsEssential)
             ){
         alert("모든검증과정거침");
-        
+        if(LiquidTablet) {
+            LiquidTablet = "액정 타블렛";
+        } else {
+            LiquidTablet = "";
+        }
+
+        if(PenTablet) {
+            PenTablet = "펜 타블렛";
+        } else {
+            PenTablet = "";
+        }
+
         var consumerName = ConsumerName;
         var companyName = CompanyName;
         var position = Position;
         var contact = Contact;
         var emailAddress = EmailAddress;
         var address = Address;
+        var detailAddress = DetailAddress;
         var liquidTablet = LiquidTablet;
         var penTablet = PenTablet;
         var inquiryTitle = InquiryTitle;
         var inquiryContents = InquiryContents;
         var termsEssential = TermsEssential;
         var serviceTermsEssential = ServiceTermsEssential;
-        var url = './php/email.php';
-        $.ajax({    
-        method: "POST", // post방식
-        url: url,
-        dataType: 'json', // 데이터를 json방식으로 가져온다.
-        data: { "ConsumerName": consumerName,
-        "CompanyName": companyName,
-        "Position": position,
-        "Contact": contact,
-        "EmailAddress": emailAddress,
-        "Address": address,
-        "LiquidTablet": liquidTablet,
-        "PenTablet": penTablet,
-        "InquiryTitle": inquiryTitle,
-        "InquiryContents": inquiryContents,
-        "TermsEssential": termsEssential,
-        "ServiceTermsEssential": serviceTermsEssential},
-        success: function(data){
-        alert(1);
-        if(data != "false"){
-        alert("메일이 성공적으로 전송되었습니다.");
-        location.href="index.html";
-        //form.action = "index.php";
-        //form.submit();     
-        //location.href="index.php"; 
-        }else{
-            alert("시스템 오류 입니다."); 
-        }
-        
-        
-        }
-        
-        })
+       
+        var data = {
+            service_id: 'service_m1kchix',
+            template_id: 'template_kh4bp52',
+            user_id: 'KegavohxMfuy0cc5a',
+            template_params: {
+                "ConsumerName": consumerName,
+                "CompanyName": companyName,
+                "Position": position,
+                "Contact": contact,
+                "EmailAddress": emailAddress,
+                "Address": address+" "+detailAddress,
+                "LiquidTablet": liquidTablet,
+                "PenTablet": penTablet,
+                "InquiryTitle": inquiryTitle,
+                "InquiryContents": inquiryContents,
+                "TermsEssential": termsEssential,
+                "ServiceTermsEssential": serviceTermsEssential
+                // 'g-recaptcha-response': '03AHJ_ASjnLA214KSNKFJAK12sfKASfehbmfd...'
+            }
+        };
+         
+        $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+            type: 'POST',
+            data: JSON.stringify(data),
+            contentType: 'application/json'
+        }).done(function() {
+            alert('문의내용을 전송 했습니다.');
+        }).fail(function(error) {
+            alert('Oops... ' + JSON.stringify(error));
+        });
+        return;
+
     }else{ alert("빈칸이 있거나 시스템 장애가 있습니다.");}
         
         //$mailto="받는주소";
@@ -113,4 +139,5 @@ $(document).ready(function(){
         // $content="sususususususususususussu";
         // $result=mail($mailto, $subject, $content);
     } 
+
 });
