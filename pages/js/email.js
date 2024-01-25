@@ -72,7 +72,6 @@ $(document).ready(function(){
             InquiryContents &&
             (TermsEssential || ServiceTermsEssential)
             ){
-        alert("모든검증과정거침");
         if(LiquidTablet) {
             LiquidTablet = "액정 타블렛";
         } else {
