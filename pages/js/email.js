@@ -72,8 +72,7 @@ $(document).ready(function(){
         var inquiryContents = InquiryContents;
         var termsEssential = TermsEssential;
         var serviceTermsEssential = ServiceTermsEssential;
-        var url = 'test.php';
-        
+        var url = './php/email.php';
         $.ajax({    
         method: "POST", // post방식
         url: url,
@@ -90,9 +89,8 @@ $(document).ready(function(){
         "InquiryContents": inquiryContents,
         "TermsEssential": termsEssential,
         "ServiceTermsEssential": serviceTermsEssential},
-
         success: function(data){
-        
+        alert(1);
         if(data != "false"){
         alert("메일이 성공적으로 전송되었습니다.");
         location.href="index.html";

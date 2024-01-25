@@ -62,7 +62,7 @@
                         <span class="hj-fold-wrap">프로모션<button class="hj-fold-icon"></button></span>
                         <ul class="hj-nav-list second-depth">
                             <li class="hj-not-now"><a href="/pages/notice.php?page=1">프로모션</a></li>
-                            <li class="hj-not-now"><a href="/pages/consumer-counseling.php">기업 구매 상담</a></li>
+                            <li class="hj-not-now"><a href="#">기업 구매 상담</a></li>
                         </ul>
                     </li>
                     <li class="hj-nav-list">

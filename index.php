@@ -66,7 +66,7 @@
                     </a>
                 </li>
                 <li data-aos="fade-up" data-aos-duration="900">
-                    <a href="http://www.hjsystems.co.kr/pages/consumer-counseling.php">
+                    <a href="#">
                         <span class="hj-company-abbr">
                             <div class="hj-abbr-img main-03"></div>
                             <p class="hj-abbr-title">기업 구매 상담</p>
