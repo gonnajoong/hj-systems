@@ -91,12 +91,12 @@
                         <span class="hj-form-label-style">
                             <span>
                                 <input class="hj-check-box" type="checkbox" id="terms_essential">
-                                <label for="terms_essential">위와 같이 본인의 개인정보를 수집 이용하는 것에 <a href="" class="hj-terms-link">동의</a>  합니다.(필수)</label>
+                                <label for="terms_essential">위와 같이 본인의 개인정보를 수집 이용하는 것에 <a  onClick="window.open('./essential/terms-essential.html','개인정보 수집 동의','width=400px,height=800px');return false" class="hj-terms-link" target="_blank">동의</a>  합니다.(필수)</label>
                             </span>
                             <br>
                             <span>
                                 <input class="hj-check-box" type="checkbox" id="service_terms_essential">
-                                <label for="service_terms_essential">광고성 정보 수신 <a href="" class="hj-terms-link">동의</a>(이벤트, 프로모션 등 광고성 정보 안내)(선택)</label>
+                                <label for="service_terms_essential">광고성 정보 수신 <a onClick="window.open('./essential/service-terms-essential.html','광고성 정보 수신 동의','width=400px,height=800px');return false" class="hj-terms-link" target="_blank">동의</a>(이벤트, 프로모션 등 광고성 정보 안내)(선택)</label>
                             </span>
                         </span>
                         <span class="hj-form-label-style button-box">
