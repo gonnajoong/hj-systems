@@ -44,6 +44,7 @@ $(document).ready(function(){
         }
         else if(!Contact) {
          alert("연락처를 입력해주세요");
+        //  연락처 양식에 맞는지 가려야 함
         }
         else if(!EmailAddress) {
         alert("이메일을 입력해주세요");
@@ -126,15 +127,29 @@ $(document).ready(function(){
         }).done(function() {
             // alert('문의내용을 전송 했습니다.');
             // // 데이터베이스에 추가 할 영역
-            // $.ajax('../server/api/email/put.php', {
-            //     type: 'POST',
-            //     data: JSON.stringify(data),
-            //     contentType: 'application/json'
-            // }).done(function(){
-            //     alert('데이터 베이스 적용 성공');
-            // }).fail(function(error){
-            //     alert('데이터 베이스 적용 실패 :'+error);
-            // });
+            $.ajax('../server/api/email/put.php', {
+                type: 'POST',
+                // data: JSON.stringify(data),
+                data:{
+                    "ConsumerName": consumerName,
+                    "CompanyName": companyName,
+                    "Position": position,
+                    "Contact": contact,
+                    "EmailAddress": emailAddress,
+                    "Address": address+" "+detailAddress,
+                    "LiquidTablet": liquidTablet,
+                    "PenTablet": penTablet,
+                    "InquiryTitle": inquiryTitle,
+                    "InquiryContents": inquiryContents,
+                    "TermsEssential": termsEssential,
+                    "ServiceTermsEssential": serviceTermsEssential
+                },
+                contentType: 'application/json'
+            }).done(function(){
+                alert('데이터 베이스 적용 성공');
+            }).fail(function(error){
+                alert('데이터 베이스 적용 실패 :'+error);
+            });
         }).fail(function(error) {
             alert('Oops... ' + JSON.stringify(error));
         });
