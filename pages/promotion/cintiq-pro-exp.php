@@ -22,7 +22,7 @@
       <script src="../../js/libs/slick.min.js"></script>
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
       <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-      <script src="../js/email.js"></script>
+      <script src="../js/promotion_1.js"></script>
 
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../../assets/index.css" />
@@ -42,53 +42,51 @@
                 <h2>고객정보</h2>
                 <div class="hj-form-normal-wrap">
                     <form method="POST" id="emailForm" class="hj-form-wrap">
-                        
-                        <span class="hj-form-label-style">
-                            <label for="ConsumerName" class="hj-form-label-title">신청 업체명</label>
-                            <input type="text" class="hj-email-input" id="ConsumerName" required>
+                        <span class="hj-form-label-style hj-form-normal-label">
+                            <label for="CompanyName" class="hj-form-label-title">신청 업체명</label>
+                            <input type="text" class="hj-email-input hj-normal-form-input" id="CompanyName" required>
                         </span>
-                        <span class="hj-form-label-style">
-                            <label for="CompanyName" class="hj-form-label-title">담당자</label>
-                            <input type="text" class="hj-email-input" id="CompanyName" required>
+                        <span class="hj-form-label-style hj-form-normal-label">
+                            <label for="PersonName" class="hj-form-label-title">담당자</label>
+                            <input type="text" class="hj-email-input hj-normal-form-input" id="PersonName" required>
                         </span>
-                        <span class="hj-form-label-style">
-                            <label for="Position" class="hj-form-label-title">연락처</label>
-                            <input type="text" class="hj-email-input" id="Position" required>
+                        <span class="hj-form-label-style hj-form-normal-label">
+                            <label for="PhoneNum" class="hj-form-label-title">연락처</label>
+                            <input type="text" class="hj-email-input hj-normal-form-input" id="PhoneNum" required>
                         </span>
-                        <span class="hj-form-label-style">
-                            <label for="Contact" class="hj-form-label-title">이메일</label>
-                            <input type="text" class="hj-email-input" id="Contact" requiredc>
+                        <span class="hj-form-label-style hj-form-normal-label">
+                            <label for="EmailAddress" class="hj-form-label-title">이메일</label>
+                            <input type="text" class="hj-email-input hj-normal-form-input" id="EmailAddress" requiredc>
                         </span>
-                        <span class="hj-form-label-style">
+                        <span class="hj-form-label-style hj-form-normal-label">
                             <label class="hj-form-label-title">데모 신청 장비</label>
                             <span>
-                                <label for="liquid_tablet">신티크 프로 17' SET</label><input class="hj-check-box" type="checkbox" id="liquid_tablet">
-                                <label for="pen_talet">신티크 프로 22' SET</label><input class="hj-check-box" type="checkbox" id="pen_tablet">
-                                <label for="pen_tablet">신티크 프로 27' SET</label><input class="hj-check-box" type="checkbox" id="pen_tablet">
+                                <label for="CintiqPro_17">신티크 프로 17' SET</label><input class="hj-check-box hj-normal-checklist" type="checkbox" id="CintiqPro_17">
+                                <label for="CintiqPro_22">신티크 프로 22' SET</label><input class="hj-check-box hj-normal-checklist" type="checkbox" id="CintiqPro_22">
+                                <label for="CintiqPro_27">신티크 프로 27' SET</label><input class="hj-check-box hj-normal-checklist" type="checkbox" id="CintiqPro_27">
                             </span>
                         </span>
-                        <span class="hj-form-label-style">
-                            <label for="EmailAddress" class="hj-form-label-title">데모 신청 목적</label>
-                            <input type="text" class="hj-email-input" id="EmailAddress" required>
+                        <span class="hj-form-label-style hj-form-normal-label">
+                            <label for="Purpose" class="hj-form-label-title">데모 신청 목적</label>
+                            <input type="text" class="hj-email-input hj-normal-form-input" id="Purpose" required>
                         </span>
                         <h2>장비 수령지 및 기타</h2>
-                        <span class="hj-form-label-style">
-                            <label for="InquiryTitle" class="hj-form-label-title">수량 희망일</label>
-                            <input type="text" class="hj-email-input" id="InquiryTitle" required>
+                        <span class="hj-form-label-style hj-form-normal-label">
+                            <label for="DayOfHope" class="hj-form-label-title">수령 희망일</label>
+                            <input type="text" class="hj-email-input hj-normal-form-input" id="DayOfHope" required>
                         </span>
-                        <span class="hj-form-label-style">
+                        <span class="hj-form-label-style hj-form-normal-label">
                             <label for="Address" class="hj-form-label-title">수령지 주소</label>
-                            <input type="text" class="hj-email-input" id="Address" required readonly>
+                            <input type="text" class="hj-email-input hj-normal-form-input" id="Address" required readonly>
                         </span>
-                        <span class="hj-form-label-style">
+                        <span class="hj-form-label-style hj-form-normal-label">
                             <label for="DetailAddress" class="hj-form-label-title">상세 주소</label>
-                            <input type="text" class="hj-email-input" id="DetailAddress" required>
+                            <input type="text" class="hj-email-input hj-normal-form-input" id="DetailAddress" required>
                         </span>
-                        <span class="hj-form-label-style">
-                            <label for="InquiryTitle" class="hj-form-label-title">반납 예정일</label>
-                            <input type="text" class="hj-email-input" id="InquiryTitle" required>
+                        <span class="hj-form-label-style hj-form-normal-label">
+                            <label for="ReturnDay" class="hj-form-label-title">반납 예정일</label>
+                            <input type="text" class="hj-email-input hj-normal-form-input" id="ReturnDay" required>
                         </span>
-
                         <div class="hj-promotion-warn">
                             <h2>[ 참고 사항 ] 데모 장비 사용 및 반납관련</h2>
                             <ol>

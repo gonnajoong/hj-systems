@@ -33,10 +33,6 @@
     text-align: left;
 }
 
-.hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap .hj-form-normal-wrap {
-    display: inline-block;
-}
-
 .hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap
 .hj-form-flex-wrap {
     display: flex;
@@ -83,3 +79,38 @@
     text-decoration: underline;
   }
 
+/* 요청서 디자인영역 */
+.hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap .hj-form-normal-wrap {
+    display: inline-block;
+    width: 100%;
+}
+.hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap 
+.hj-form-normal-wrap .hj-form-normal-label {
+    display: flex;
+}
+.hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap 
+.hj-form-normal-wrap .hj-normal-form-input {
+    width: 75%;
+    border: 0px solid;
+    border-bottom: 1px solid #333;
+}
+.hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap 
+.hj-form-normal-wrap .hj-normal-checklist {
+    margin-left: 8px;
+}
+
+.hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap 
+.hj-form-normal-wrap .hj-promotion-warn {
+
+}
+
+.hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap 
+.hj-form-normal-wrap .hj-promotion-warn ol {
+    list-style: inherit;
+}
+
+.hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap 
+.hj-form-normal-wrap .hj-promotion-warn ol li {
+    margin-bottom: 16px;
+}
+/* 요청서 디자인영역 */
