@@ -13,12 +13,7 @@
 
 .hj-form-list-wrap .hj-form-text .hj-promotion-title-image-1 {
     display: inline-block;
-    width: 840px;
-    height: 277px;
-    background-image:url("../../images/banners/promotion_banner.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
+    width: 100%;
 }
 
 .hj-form-list-wrap .hj-form-main-wrap {
@@ -103,17 +98,68 @@
 }
 
 .hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap 
-.hj-form-normal-wrap .hj-promotion-warn {
-
+.hj-form-normal-wrap .hj-promotion-warn strong {
+    font-weight: bold;
 }
 
 .hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap 
-.hj-form-normal-wrap .hj-promotion-warn ol {
-    list-style: inherit;
+.hj-form-normal-wrap .hj-promotion-warn ul {
+    list-style: none;
 }
 
 .hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap 
-.hj-form-normal-wrap .hj-promotion-warn ol li {
+.hj-form-normal-wrap .hj-promotion-warn ul li {
     margin-bottom: 16px;
 }
+
+.hj-date-wrap {
+    position: relative;
+}
+
+.hj-date-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #2b478b;
+    font-size: 12px;
+    color: #2b478b;
+}
 /* 요청서 디자인영역 */
+
+/* tablet */
+@media screen and (max-width: 1200px) {
+    .hj-form-list-wrap {
+        max-width: 100%;
+    }
+
+    .hj-form-list-wrap .hj-form-main-wrap {
+        width: 100%;
+        padding: 0 25px 0 24px;
+        margin-bottom: 200px;
+    }
+
+    .hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap  h2 {
+        text-align: center;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 768px)  {
+    .hj-form-list-wrap {
+        max-width: 100%;
+    }
+
+    .hj-form-list-wrap .hj-form-main-wrap {
+        width: 100%;
+        padding: 0 25px 0 24px;
+        margin-bottom: 200px;
+    }
+
+    .hj-form-list-wrap .hj-form-main-wrap .hj-checklist-wrap  h2 {
+        text-align: center;
+    }
+}

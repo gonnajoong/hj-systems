@@ -32,6 +32,7 @@ $(document).ready(function(){
         var InquiryContents = $("#InquiryContents").val();
         var TermsEssential = $("#terms_essential").is(":checked");
         var ServiceTermsEssential = $("#service_terms_essential").is(":checked");
+        var regex = new RegExp('[a-z0-9]+@[a-z]+\.[a-z]{2,3}');
 
         if(!ConsumerName) {
             alert("이름을 입력해주세요");
@@ -44,10 +45,15 @@ $(document).ready(function(){
         }
         else if(!Contact) {
          alert("연락처를 입력해주세요");
-        //  연락처 양식에 맞는지 가려야 함
+        }
+        else if(!/^010-[0-9]{4}-[0-9]{4}$/.test(PhoneNum)){
+            alert("연락처 양식에 맞게 입력해주세요");
         }
         else if(!EmailAddress) {
         alert("이메일을 입력해주세요");
+        }
+        else if(!regex.test(EmailAddress)){
+        alert("이메일양식을 확인해주세요");
         }
         else if(!Address) {
          alert("주소를 입력해주세요");
