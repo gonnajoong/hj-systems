@@ -46,7 +46,7 @@ $(document).ready(function(){
         else if(!Contact) {
          alert("연락처를 입력해주세요");
         }
-        else if(!/^010-[0-9]{4}-[0-9]{4}$/.test(PhoneNum)){
+        else if(!/^010-[0-9]{4}-[0-9]{4}$/.test(Contact)){
             alert("연락처 양식에 맞게 입력해주세요");
         }
         else if(!EmailAddress) {
