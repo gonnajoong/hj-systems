@@ -132,6 +132,9 @@
 
 /* tablet */
 @media screen and (max-width: 1200px) {
+    .hj-systems-form-image-1 {
+        display: none;
+    }
     .hj-form-list-wrap {
         max-width: 100%;
     }
@@ -149,6 +152,9 @@
 
 /* mobile */
 @media screen and (max-width: 768px)  {
+    .hj-systems-form-image-1 {
+        display: none;
+    }
     .hj-form-list-wrap {
         max-width: 100%;
     }
