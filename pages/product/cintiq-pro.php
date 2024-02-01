@@ -79,23 +79,22 @@
                                 </tr>
                                 <tr>
                                     <th>무게</th>
-                                    <td>1.5kg (스탠드 제외)</td>
+                                    <td>1.9kg (스탠드 제외)</td>
                                     <td colspan="2">7Kg (옵션 스탠드 제외)</td>
                                 </tr>
                                 <tr>
                                     <th>색상</th>
                                     <td>
                                         <ul>
-                                            <li>1,670만 컬러, Adobe RGB (CIE1931) -> 커버 비율 : 85% 면적 비율 : 94%</li>
-                                            <li>Adobe RGB (CIE1976) -> 커버 비율 : 90% 면적 비율 : 94%</li>
+                                            <li>1,670만 색상(8비트), 98% Adobe® RGB (CIE1931)</li>
                                         </ul>
                                     </td>
                                     <td colspan="2">10억 7천만 컬러 (10bit), 99% Adobe RGB 구현</td>
                                 </tr>
                                 <tr>
                                     <th>화각</th>
-                                    <td>176° H / 176° V</td>
-                                    <td colspan="2">176° H / 176° V</td>
+                                    <td>178°(H)/178°(V)</td>
+                                    <td colspan="2">176°(H)/176°(V)</td>
                                 </tr>
                                 <tr>
                                     <th>명암비 / 반응속도</th>
@@ -106,15 +105,14 @@
                                     <th>전력 소비</th>
                                     <td>
                                         <ul>
-                                            <li>최대 전력 소비 : 30W/절전모드 : 3W 이하/최대 절전 모드 : 0.5W 이하</li>
-                                            <li>(USB 미연결시 혹은 OFF 모드)</li>
+                                            <li>전력 소비 최대 소비량: 25W 이하, 절전 시 1.5W 이하, 해제 시 0.3W 이하</li>
                                         </ul>
                                     </td>
                                     <td colspan="2">-</td>
                                 </tr>
                                 <tr>
                                     <th>화면비율 / 밝기</th>
-                                    <td>16:9 / 250cd/㎡</td>
+                                    <td>16:9 / 300cd/㎡</td>
                                     <td colspan="2">16:9 / 350cd/㎡</td>
                                 </tr>
                                 <tr>
@@ -124,7 +122,7 @@
                                 </tr>
                                 <tr>
                                     <th>연결</th>
-                                    <td>USB-C 포트 3개, SDXC 슬롯 1개</td>
+                                    <td>USB-C 1개, HDMI 1개</td>
                                     <td colspan="2">
                                         <ul>
                                             <li>4 x USB 3.0 포트**, 1 x USB C포트, 1 x HDMI 2.0 포트, 1x 디스플레이 포트</li>
@@ -134,7 +132,7 @@
                                 </tr>
                                 <tr>
                                     <th>그래픽 입력</th>
-                                    <td>USB-C또는 Wacom link plus를 사용하는 미니디스플레이 포트, HDMI</td>
+                                    <td>DP Altmode 지원하는 USB-C 포트 또는 HDMI 2.0</td>
                                     <td colspan="2">
                                         <ul>
                                             <li>USB-C 포트 (디스플레이 포트 대체 모드)</li>
@@ -144,7 +142,7 @@
                                 </tr>
                                 <tr>
                                     <th>멀티 터치</th>
-                                    <td>Adobe®Photoshop®이나 Illustrator®등의 대부분 터치 지원 소프트웨어 상에서 패닝, 확대, 회전 가능</td>
+                                    <td>ON/OFF 스위치 조절: Adobe® Photoshop® 및 Illustrator®를 포함한<br>대부분의 응용 프로그램에서 사용할 수 있는 상하좌우 이동, 줌 및 회전</td>
                                     <td>x (지원 안함)</td>
                                     <td>
                                         <ul>
@@ -155,7 +153,7 @@
                                 </tr>
                                 <tr>
                                     <th>펜</th>
-                                    <td>무건전지 방식의 Pro Pen2, 사용자 설정 가능한 사이드 스위치 2개, 펜심과 지우개 부분의 8,192 입력 감지 레벨, 전자기공명방식(EMR)</td>
+                                    <td>무건전지 방식의 프로 펜2, 사용자 설정 가능한 사이드 스위치 2개,<br>펜심과 지우개 부분의 8,192 입력 감지 레벨, 전자기공명방식(EMR)</td>
                                     <td colspan="2">
                                         <ul>
                                             <li>무건전지 방식의 Pro Pen 2, 사용자 설정 가능한 측면 스위치</li>
@@ -165,7 +163,8 @@
                                 </tr>
                                 <tr>
                                     <th>펜 기울기 레벨 / 범위</th>
-                                    <td colspan="3">±60레벨/60°</td>
+                                    <td colspan="1">±60°</td>
+                                    <td colspan="2">±60레벨/60°</td>
                                 </tr>
                                 <tr>
                                     <th>ExpressKey 리모컨 (옵션구매)</th>
@@ -188,7 +187,16 @@
                                     <td>
                                         <ul>
                                             <li>접이식 다리 형태의 내장형 스탠드(20° 경사)</li>
-                                            <li>세가지 각도의 탈부착형 Wacom 스탠드 (옵션 구매)</li>
+                                            <li>Wacom 각도 조절 스탠드 ACK-620-K-ZX(옵션 구매)</li>
+                                        </ul>
+                                    </td>
+                                    <td colspan="2">-</td>
+                                </tr>
+                                <tr>
+                                <th>VESA 마운트</th>
+                                    <td>
+                                        <ul>
+                                            <li>타사 암 또는 스탠드를 부착하기 위한 VESA 마운트 (75 x 75 mm )</li>
                                         </ul>
                                     </td>
                                     <td colspan="2">-</td>
@@ -205,7 +213,7 @@
                                 </tr>
                                 <tr>
                                     <th>인체공학적 설계</th>
-                                    <td>왼손잡이와 오른손 잡이 설정, 내장형 접이식 다리 스탠드 (스탠드 미 사용시 5°, 스탠드 사용시 20° 경사), 3가지 작업 자세가 가능한 Wacom 스탠드 (옵션 구매), 편안하고 인체공학적인 그립감의 Wacom Pro Pen 2</td>
+                                    <td>내장 스탠드 (4° (미사용 시), 20° (사용 시)) - 최적의 사용 각도 제공<br>편안하고 인체공학적인 그립감의 Wacom Pro Pen 2</td>
                                     <td colspan="2">
                                         <ul>
                                             <li>접이식 형태의 스탠드 내장 (기본 5° , 다리 스탠드 펼칠 시 20°)</li>
@@ -215,7 +223,7 @@
                                 </tr>
                                 <tr>
                                     <th>호환성/ 시스템 요구 사항</th>
-                                    <td>Windows®7 이상, Mac OS® X 10.10 이상, Intel® processor, USB-C 포트 (또는 미니 디스플레이 포트, HDMI 포트와 일반 USB 포트), 인터넷 연결</td>
+                                    <td>Windows®7 이상, Mac OS® X 10.14 이상, DP Altmode 지원하는 USB-C 포트 또는<br>HDMI 2.0 이상(UHD) 포트 및 USB-A 포트</td>
                                     <td colspan="2">
                                         <ul>
                                             <li>PC: Windows® 7 이상(최신 서비스팩/ 빌드), Mac OS X® 10.11 이상(최신 업데이트)</li>
@@ -228,10 +236,11 @@
                                     <th>패키지 구성</th>
                                     <td>
                                         <ul>
-                                            <li>Wacom Cintiq Pro 16, Wacom Pro Pen 2, 컬러링, 펜 스탠드, 교체용 펜심 10개</li>
-                                            <li>(표준심 6개, 펠트심 4개), 펜심 제거기, 펜 홀더, AC 어댑터, 전원 케이블</li>
-                                            <li>Wacom Link Plus 어댑터 (USB-C, 미니 디스플레이 포트, HDMI, USB 케이블/커넥터 지원)</li>
-                                            <li>퀵 스타트 가이드, 액정 클리닝을 위한 융</li>
+                                            <li>Wacom 신티크 프로 16, Wacom 프로 펜 2, 교체형 펜심 10개</li>
+                                            <li>(표준심 6개, 펠트심 4개), 분리식 펜 홀더 (교체형 펜심 3개 포함),</li>
+                                            <li>USB-C to USB-C 케이블(1.0m), HDMI 2.0 케이블 (1.8m),</li>
+                                            <li>USB-C to USB 표준 A 케이블 (1.8m), AC 어댑터, 전원 코드(1.0m),</li>
+                                            <li>퀵 가이드, 액정 클리닝을 위한 융</li>
                                         </ul>
                                     </td>
                                     <td colspan="2">
@@ -248,8 +257,9 @@
                                     <th>액세서리</th>
                                     <td>
                                         <ul>
-                                            <li>ExpressKey™ 리모컨, Wacom 스탠드, Wacom 소프트 케이스, Wacom 컬러 매니저</li>
-                                            <li>Wacom Bluetooth® 키보드, Wacom Pro Pen2, 교체용 펜심</li>
+                                            <li>ExpressKey™ 리모컨, Wacom 조절식 스탠드 (ACK-620-K-ZX),</li>
+                                            <li>Wacom Pro 3D, Wacom 프로 펜 슬리, 교체용 펜심,</li>
+                                            <li>이전 세대 펜(Pro, Classic, Art, Airbrush, Grip)</li>
                                         </ul>
                                     </td>
                                     <td colspan="2">
@@ -284,36 +294,35 @@
                                 </tr>
                                 <tr>
                                     <th>모델명</th>
-                                    <td>DTH-1620</td>
+                                    <td>DTH-167</td>
                                 </tr>
                                 <tr>
                                     <th>화면 크기/ 해상도</th>
-                                    <td>39.6m (15.6") / 최대 3,840 x 2,160 Ultra HD</td>
+                                    <td>39.6m (15.6") / 최대 3,840 x 2,160 Ultra HD / 16:9</td>
                                 </tr>
                                 <tr>
                                     <th>작업 영역</th>
-                                    <td>345 x 194mm</td>
+                                    <td>344 x 194mm</td>
                                 </tr>
                                 <tr>
                                     <th>제품 크기</th>
-                                    <td>410 x 265 x 17.5mm</td>
+                                    <td>410 x 266 x 22mm</td>
                                 </tr>
                                 <tr>
                                     <th>무게</th>
-                                    <td>1.5kg (스탠드 제외)</td>
+                                    <td>1.9kg (스탠드 제외)</td>
                                 </tr>
                                 <tr>
                                     <th>색상</th>
                                     <td>
                                         <ul>
-                                            <li>1,670만 컬러, Adobe RGB (CIE1931) -> 커버 비율 : 85% 면적 비율 : 94%</li>
-                                            <li>Adobe RGB (CIE1976) -> 커버 비율 : 90% 면적 비율 : 94%</li>
+                                            <li>1,670만 색상(8비트), 98% Adobe® RGB (CIE1931)</li>
                                         </ul>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>화각</th>
-                                    <td>176° H / 176° V</td>
+                                    <td>178°(H)/178°(V)</td>
                                 </tr>
                                 <tr>
                                     <th>명암비 / 반응속도</th>
@@ -323,14 +332,13 @@
                                     <th>전력 소비</th>
                                     <td>
                                         <ul>
-                                            <li>최대 전력 소비 : 30W/절전모드 : 3W 이하/최대 절전 모드 : 0.5W 이하</li>
-                                            <li>(USB 미연결시 혹은 OFF 모드)</li>
+                                            <li>전력 소비 최대 소비량: 25W 이하, 절전 시 1.5W 이하, 해제 시 0.3W 이하</li>
                                         </ul>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>화면비율 / 밝기</th>
-                                    <td>16:9 / 250cd/㎡</td>
+                                    <td>16:9 / 300cd/㎡</td>
                                 </tr>
                                 <tr>
                                     <th>산업 표준</th>
@@ -338,23 +346,23 @@
                                 </tr>
                                 <tr>
                                     <th>연결</th>
-                                    <td>USB-C 포트 3개, SDXC 슬롯 1개</td>
+                                    <td>USB-C 1개, HDMI 1개</td>
                                 </tr>
                                 <tr>
                                     <th>그래픽 입력</th>
-                                    <td>USB-C또는 Wacom link plus를 사용하는 미니디스플레이 포트, HDMI</td>
+                                    <td>DP Altmode 지원하는 USB-C 포트 또는 HDMI 2.0</td>
                                 </tr>
                                 <tr>
                                     <th>멀티 터치</th>
-                                    <td>Adobe®Photoshop®이나 Illustrator®등의 대부분 터치 지원 소프트웨어 상에서 패닝, 확대, 회전 가능</td>
+                                    <td>ON/OFF 스위치 조절: Adobe® Photoshop® 및 Illustrator®를 포함한<br>대부분의 응용 프로그램에서 사용할 수 있는 상하좌우 이동, 줌 및 회전</td>
                                 </tr>
                                 <tr>
                                     <th>펜</th>
-                                    <td>무건전지 방식의 Pro Pen2, 사용자 설정 가능한 사이드 스위치 2개, 펜심과 지우개 부분의 8,192 입력 감지 레벨, 전자기공명방식(EMR)</td>
+                                    <td>무건전지 방식의 프로 펜2, 사용자 설정 가능한 사이드 스위치 2개,<br>펜심과 지우개 부분의 8,192 입력 감지 레벨, 전자기공명방식(EMR)</td>
                                 </tr>
                                 <tr>
                                     <th>펜 기울기 레벨 / 범위</th>
-                                    <td>±60레벨/60°</td>
+                                    <td>±60°</td>
                                 </tr>
                                 <tr>
                                     <th>ExpressKey 리모컨 (옵션구매)</th>
@@ -370,7 +378,14 @@
                                     <td>
                                         <ul>
                                             <li>접이식 다리 형태의 내장형 스탠드(20° 경사)</li>
-                                            <li>세가지 각도의 탈부착형 Wacom 스탠드 (옵션 구매)</li>
+                                            <li>Wacom 각도 조절 스탠드 ACK-620-K-ZX(옵션 구매)</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <th>VESA 마운트</th>
+                                    <td>
+                                        <ul>
+                                            <li>타사 암 또는 스탠드를 부착하기 위한 VESA 마운트 (75 x 75 mm )</li>
                                         </ul>
                                     </td>
                                 </tr>
@@ -384,20 +399,21 @@
                                 </tr>
                                 <tr>
                                     <th>인체공학적 설계</th>
-                                    <td>왼손잡이와 오른손 잡이 설정, 내장형 접이식 다리 스탠드 (스탠드 미 사용시 5°, 스탠드 사용시 20° 경사), 3가지 작업 자세가 가능한 Wacom 스탠드 (옵션 구매), 편안하고 인체공학적인 그립감의 Wacom Pro Pen 2</td>
+                                    <td>내장 스탠드 (4° (미사용 시), 20° (사용 시)) - 최적의 사용 각도 제공<br>편안하고 인체공학적인 그립감의 Wacom Pro Pen 2</td>
                                 </tr>
                                 <tr>
                                     <th>호환성/ 시스템 요구 사항</th>
-                                    <td>Windows®7 이상, Mac OS® X 10.10 이상, Intel® processor, USB-C 포트 (또는 미니 디스플레이 포트, HDMI 포트와 일반 USB 포트), 인터넷 연결</td>
+                                    <td>Windows®7 이상, Mac OS® X 10.14 이상, DP Altmode 지원하는 USB-C 포트 또는<br>HDMI 2.0 이상(UHD) 포트 및 USB-A 포트</td>
                                 </tr>
                                 <tr>
                                     <th>패키지 구성</th>
                                     <td>
                                         <ul>
-                                            <li>Wacom Cintiq Pro 16, Wacom Pro Pen 2, 컬러링, 펜 스탠드, 교체용 펜심 10개</li>
-                                            <li>(표준심 6개, 펠트심 4개), 펜심 제거기, 펜 홀더, AC 어댑터, 전원 케이블</li>
-                                            <li>Wacom Link Plus 어댑터 (USB-C, 미니 디스플레이 포트, HDMI, USB 케이블/커넥터 지원)</li>
-                                            <li>퀵 스타트 가이드, 액정 클리닝을 위한 융</li>
+                                            <li>Wacom 신티크 프로 16, Wacom 프로 펜 2, 교체형 펜심 10개</li>
+                                            <li>(표준심 6개, 펠트심 4개), 분리식 펜 홀더 (교체형 펜심 3개 포함),</li>
+                                            <li>USB-C to USB-C 케이블(1.0m), HDMI 2.0 케이블 (1.8m),</li>
+                                            <li>USB-C to USB 표준 A 케이블 (1.8m), AC 어댑터, 전원 코드(1.0m),</li>
+                                            <li>퀵 가이드, 액정 클리닝을 위한 융</li>
                                         </ul>
                                     </td>
                                 </tr>
@@ -405,8 +421,9 @@
                                     <th>액세서리</th>
                                     <td>
                                         <ul>
-                                            <li>ExpressKey™ 리모컨, Wacom 스탠드, Wacom 소프트 케이스, Wacom 컬러 매니저</li>
-                                            <li>Wacom Bluetooth® 키보드, Wacom Pro Pen2, 교체용 펜심</li>
+                                            <li>ExpressKey™ 리모컨, Wacom 조절식 스탠드 (ACK-620-K-ZX),</li>
+                                            <li>Wacom Pro 3D, Wacom 프로 펜 슬리, 교체용 펜심,</li>
+                                            <li>이전 세대 펜(Pro, Classic, Art, Airbrush, Grip)</li>
                                         </ul>
                                     </td>
                                 </tr>
