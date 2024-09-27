@@ -63,7 +63,7 @@
                         <ul class="hj-nav-list second-depth">
                             <li class="hj-not-now"><a href="/pages/notice.php?page=1">프로모션</a></li>
                             <li class="hj-not-now"><a href="/pages/promotion/cintiq-pro-exp.php">신티크 프로 체험 양식</a></li>
-                            <li class="hj-not-now"><a href="#">기업 구매 상담</a></li>
+                            <li class="hj-not-now"><a href="/pages/consumer-counseling.php">기업 구매 상담</a></li>
                         </ul>
                     </li>
                     <li class="hj-nav-list">

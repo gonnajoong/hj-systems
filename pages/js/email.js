@@ -133,29 +133,30 @@ $(document).ready(function(){
         }).done(function() {
             // alert('문의내용을 전송 했습니다.');
             // // 데이터베이스에 추가 할 영역
-            $.ajax('../server/api/email/put.php', {
-                type: 'POST',
-                // data: JSON.stringify(data),
-                data:{
-                    "ConsumerName": consumerName,
-                    "CompanyName": companyName,
-                    "Position": position,
-                    "Contact": contact,
-                    "EmailAddress": emailAddress,
-                    "Address": address+" "+detailAddress,
-                    "LiquidTablet": liquidTablet,
-                    "PenTablet": penTablet,
-                    "InquiryTitle": inquiryTitle,
-                    "InquiryContents": inquiryContents,
-                    "TermsEssential": termsEssential,
-                    "ServiceTermsEssential": serviceTermsEssential
-                },
-                contentType: 'application/json'
-            }).done(function(){
-                alert('데이터 베이스 적용 성공');
-            }).fail(function(error){
-                alert('데이터 베이스 적용 실패 :'+error);
-            });
+            // $.ajax('../server/api/email/put.php', {
+            //     type: 'POST',
+            //     // data: JSON.stringify(data),
+            //     data:{
+            //         "ConsumerName": consumerName,
+            //         "CompanyName": companyName,
+            //         "Position": position,
+            //         "Contact": contact,
+            //         "EmailAddress": emailAddress,
+            //         "Address": address+" "+detailAddress,
+            //         "LiquidTablet": liquidTablet,
+            //         "PenTablet": penTablet,
+            //         "InquiryTitle": inquiryTitle,
+            //         "InquiryContents": inquiryContents,
+            //         "TermsEssential": termsEssential,
+            //         "ServiceTermsEssential": serviceTermsEssential
+            //     },
+            //     contentType: 'application/json'
+            // }).done(function(){
+            //     alert('데이터 베이스 적용 성공');
+            // }).fail(function(error){
+            //     alert('데이터 베이스 적용 실패 :'+error);
+            // });
+            alert('메일 전송 성공');
         }).fail(function(error) {
             alert('Oops... ' + JSON.stringify(error));
         });

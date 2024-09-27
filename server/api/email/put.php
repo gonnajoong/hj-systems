@@ -1,4 +1,6 @@
 <?
+echo($_POST['template_params']);
+
 $ConsumerName = $_POST['ConsumerName'];
 $CompanyName = $_POST['CompanyName'];
 $Position = $_POST['Position'];
