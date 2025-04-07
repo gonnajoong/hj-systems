@@ -42,13 +42,13 @@
                             <li class="hj-not-now"><a href="/pages/product/wacom-one-family.php">와콤원 패밀리</a></li>
                             <li class="hj-not-now"><a href="/pages/product/intuos.php">인튜어스</a></li>
                             <li class="hj-not-now"><a href="/pages/product/intuos-pro.php">인튜어스 프로</a></li>
+                            <li class="hj-not-now"><a href="/pages/product/intuos-pro-2025.php">인튜어스 프로(2025년)</a></li>
                         </ul>
                     </li>
                     <li class="hj-nav-list">
                         <span class="hj-fold-wrap">액정타블렛<button class="hj-fold-icon"></button></span>
                         <ul class="hj-nav-list second-depth">
                             <li class="hj-not-now"><a href="/pages/product/tablet-guide.php">액정타블렛 활용사례</a></li>
-                            <li class="hj-not-now"><a href="/pages/product/dtc-133.php">와콤원</a></li>
                             <li class="hj-not-now"><a href="/pages/product/wacom-one-family-display.php">와콤원 패밀리</a></li>
                             <li class="hj-not-now"><a href="/pages/product/cintiq.php">신티크</a></li>
                             <li class="hj-not-now"><a href="/pages/product/cintiq-pro.php">신티크 프로</a></li>
@@ -61,7 +61,7 @@
                     <li class="hj-nav-list">
                         <span class="hj-fold-wrap">프로모션<button class="hj-fold-icon"></button></span>
                         <ul class="hj-nav-list second-depth">
-                            <li class="hj-not-now"><a href="/pages/notice.php?page=1">프로모션</a></li>
+                            <!-- <li class="hj-not-now"><a href="/pages/notice.php?page=1">프로모션</a></li> -->
                             <li class="hj-not-now"><a href="/pages/promotion/cintiq-pro-exp.php">신티크 프로 체험 양식</a></li>
                             <li class="hj-not-now"><a href="/pages/consumer-counseling.php">기업 구매 상담</a></li>
                         </ul>
