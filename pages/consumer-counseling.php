@@ -35,77 +35,9 @@
     <section class="hj-form-list-wrap">
         <div class="hj-form-main-wrap">
             <article class="hj-checklist-wrap">
-                <h2>기업 구매 상담</h2>
-                <div class="hj-form-text">
-                    <p>와콤의 비즈니스 솔루션에 대한 자세한 상담을 원하시면 아래 양식을 기입해주세요.
-                        <br>와콤 전문가가 곧 연락 드리겠습니다.
-                    </p>
-                </div>
-                <h2>고객정보</h2>
-                <div class="hj-form-flex-wrap">
-                    <form method="POST" id="emailForm" class="hj-form-wrap">
-                        <span class="hj-form-label-style">
-                            <label for="ConsumerName" class="hj-form-label-title">이름</label>
-                            <input type="text" class="hj-email-input" id="ConsumerName" required>
-                        </span>
-                        <span class="hj-form-label-style">
-                            <label for="CompanyName" class="hj-form-label-title">기업명</label>
-                            <input type="text" class="hj-email-input" id="CompanyName" required>
-                        </span>
-                        <span class="hj-form-label-style">
-                            <label for="Position" class="hj-form-label-title">직책</label>
-                            <input type="text" class="hj-email-input" id="Position" required>
-                        </span>
-                        <span class="hj-form-label-style">
-                            <label for="Contact" class="hj-form-label-title">연락처</label>
-                            <input type="text" class="hj-email-input" id="Contact" requiredc>
-                        </span>
-                        <span class="hj-form-label-style">
-                            <label for="EmailAddress" class="hj-form-label-title">이메일 주소</label>
-                            <input type="email" class="hj-email-input" id="EmailAddress" required>
-                        </span>
-                        <span class="hj-form-label-style">
-                            <label for="Address" class="hj-form-label-title">주소</label>
-                            <input type="text" class="hj-email-input" id="Address" required readonly>
-                        </span>
-                        <span class="hj-form-label-style">
-                            <label for="DetailAddress" class="hj-form-label-title">상세주소</label>
-                            <input type="text" class="hj-email-input" id="DetailAddress" required>
-                        </span>
-                        <span class="hj-form-label-style">
-                            <label class="hj-form-label-title">관심제품</label>
-                            <span>
-                                <input class="hj-check-box" type="checkbox" id="liquid_tablet"><label for="liquid_tablet">액정 타블렛</label>
-                                <input class="hj-check-box" type="checkbox" id="pen_tablet"><label for="pen_tablet">펜 타블렛</label>
-                            </span>
-                        </span>
-                        <h2>문의 내용</h2>
-                        <span class="hj-form-label-style">
-                            <label for="InquiryTitle" class="hj-form-label-title">제목</label>
-                            <input type="text" class="hj-email-input" id="InquiryTitle" required>
-                        </span>
-                        <span class="hj-form-label-style">
-                            <label for="InquiryContents" class="hj-form-label-title">내용</label>
-                            <textarea name="" id="InquiryContents" cols="30" rows="10" required></textarea>
-                        </span>
-                        <span class="hj-form-label-style">
-                            <span>
-                                <input class="hj-check-box" type="checkbox" id="terms_essential">
-                                <label for="terms_essential">위와 같이 본인의 개인정보를 수집 이용하는 것에 <a  onClick="window.open('./essential/terms-essential.html','개인정보 수집 동의','width=400px,height=800px');return false" class="hj-terms-link" target="_blank">동의</a>  합니다.(필수)</label>
-                            </span>
-                            <br>
-                            <span>
-                                <input class="hj-check-box" type="checkbox" id="service_terms_essential">
-                                <label for="service_terms_essential">광고성 정보 수신 <a onClick="window.open('./essential/service-terms-essential.html','광고성 정보 수신 동의','width=400px,height=800px');return false" class="hj-terms-link" target="_blank">동의</a>(이벤트, 프로모션 등 광고성 정보 안내)(선택)</label>
-                            </span>
-                        </span>
-                        <span class="hj-form-label-style button-box">
-                            <button class="hj-form-submit-button" id="FormSubmitButton" type="submit">신청하기</button>
-                        </span>
-                    </form>
-                <div class="hj-systems-form-image-1"></div>
-                </div>
-
+                <img class="hj-promotion-title-image-1" src="../../images/banners/wacom_promotion_b2b.jpg" alt="promotion_img">
+                <a href="../../doc/wacom_b2b.docx" download><button class="hj-form-submit-button">요청서 다운로드 ( 워드 )</button></a>
+                        <a href="../../doc/wacom_b2b.hwp" download><button class="hj-form-submit-button">요청서 다운로드 ( 한글 )</button></a>
             </article>
         </div>
     </section>
