@@ -53,55 +53,43 @@
                         <table class="hj-product-spec-table">
                                 <tr class="hj-table-main-header hj-table-intuos-pro">
                                     <th>제품명</th>
-                                    <th>Wacom Intuos Pro (소형)</th>
-                                    <th>Wacom Intuos Pro (중형)</th>
                                     <th>Wacom Intuos Pro (대형)</th>
                                     <th>Wacom Intuos Pro Paper Edition (중형)</th>
                                     <th>Wacom Intuos Pro Paper Edition (대형)</th>
                                 </tr>
                                 <tr>
                                     <th>모델명</th>
-                                    <td>PTH-460</td>
-                                    <td>PTH-660</td>
                                     <td>PTH-860</td>
                                     <td>PTH-660P</td>
                                     <td>PTH-860P</td>
                                 </tr>
                                 <tr>
                                     <th>제품 크기</th>
-                                    <td>269 x 170 x 8mm</td>
-                                    <td>338 x 219 x 8mm</td>
                                     <td>430 x 287 x 8mm</td>
                                     <td>338 x 219 x 8mm</td>
                                     <td>430 x 287 x 8mm</td>
                                 </tr>
                                 <tr>
                                     <th>작업영역</th>
-                                    <td>160 x 100mm</td>
-                                    <td>224 x 148mm</td>
                                     <td>311 x 216mm</td>
                                     <td>224 x 148mm</td>
                                     <td>311 x 216mm</td>
                                 </tr>
                                 <tr>
                                     <th>무게</th>
-                                    <td>450g</td>
-                                    <td>700g</td>
                                     <td>1300g</td>
                                     <td>700g</td>
                                     <td>1300g</td>
                                 </tr>
                                 <tr>
                                     <th>종이 사이즈</th>
-                                    <td>페이퍼 모드 지원 안함</td>
-                                    <td>A5(최대 10장)</td>
                                     <td>A4(최대 10장)</td>
                                     <td>A5(최대 10장)</td>
                                     <td>A4(최대 10장)</td>
                                 </tr>
                                 <tr>
                                     <th>제품 구성</th>
-                                    <td colspan="3">
+                                    <td colspan="2">
                                         Wacom Intuos Pro 타블렛, 
                                         Pro Pen2, 펜 스탠드 (표준 펜심 6개, 
                                         펠트 펜심 4개 포함), 펜 컬러 링 4개, 

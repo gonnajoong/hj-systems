@@ -1,0 +1,34 @@
+.dtha-116 {
+    width: 100%;
+    height: 26209px;
+    padding-top: 50px;
+  }
+  
+  .dtha-116-button-01 {
+    width: 890px;
+  }
+  
+  .dtha-116-button-02 {
+    width: 890px;
+  }
+  .dtha-116-button-03 {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+.dtha-116-display-none {
+    display: none;
+}
+
+.dtha-116-table-header {
+    max-width: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .hj-page-in-slide-wrap > li:first-of-type {
+        padding-top: 50px;
+    }
+}
+  

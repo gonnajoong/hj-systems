@@ -41,7 +41,7 @@
                             <li class="hj-not-now"><a href="/pages/product/one-by-wacom.php">원바이와콤</a></li>
                             <li class="hj-not-now"><a href="/pages/product/wacom-one-family.php">와콤원 패밀리</a></li>
                             <li class="hj-not-now"><a href="/pages/product/intuos.php">인튜어스</a></li>
-                            <li class="hj-not-now"><a href="/pages/product/intuos-pro.php">인튜어스 프로</a></li>
+                            <!-- <li class="hj-not-now"><a href="/pages/product/intuos-pro.php">인튜어스 프로</a></li> -->
                             <li class="hj-not-now"><a href="/pages/product/intuos-pro-2025.php">인튜어스 프로(2025년)</a></li>
                         </ul>
                     </li>
@@ -49,10 +49,11 @@
                         <span class="hj-fold-wrap">액정타블렛<button class="hj-fold-icon"></button></span>
                         <ul class="hj-nav-list second-depth">
                             <li class="hj-not-now"><a href="/pages/product/tablet-guide.php">액정타블렛 활용사례</a></li>
-                            <li class="hj-not-now"><a href="/pages/product/wacom-one-family-display.php">와콤원 패밀리</a></li>
+                            <li class="hj-not-now"><a href="/pages/product/wacom-one-family-display.php">와콤원(2025년)</a></li>
                             <li class="hj-not-now"><a href="/pages/product/cintiq.php">신티크</a></li>
-                            <li class="hj-not-now"><a href="/pages/product/cintiq-pro.php">신티크 프로</a></li>
-                            <li class="hj-not-now"><a href="/pages/product/cintiq-pro-family.php">신티크 프로 패밀리</a></li>
+                            <!-- <li class="hj-not-now"><a href="/pages/product/cintiq-pro.php">신티크 프로</a></li> -->
+                            <li class="hj-not-now"><a href="/pages/product/cintiq-pro-family.php">신티크 프로</a></li>
+                            <li class="hj-not-now"><a href="/pages/product/dtha-116.php">무빙크패드 11</a></li>
                         </ul>
                     </li>
                     <li class="hj-nav-list">
