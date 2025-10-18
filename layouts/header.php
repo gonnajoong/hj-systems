@@ -51,6 +51,7 @@
                             <li class="hj-not-now"><a href="/pages/product/tablet-guide.php">액정타블렛 활용사례</a></li>
                             <li class="hj-not-now"><a href="/pages/product/wacom-one-family-display.php">와콤원(2025년)</a></li>
                             <li class="hj-not-now"><a href="/pages/product/cintiq.php">신티크</a></li>
+                            <li class="hj-not-now"><a href="/pages/product/cintiq-2025.php">신티크 (2025년)</a></li>
                             <!-- <li class="hj-not-now"><a href="/pages/product/cintiq-pro.php">신티크 프로</a></li> -->
                             <li class="hj-not-now"><a href="/pages/product/cintiq-pro-family.php">신티크 프로</a></li>
                             <li class="hj-not-now"><a href="/pages/product/dtha-116.php">무빙크패드 11</a></li>
